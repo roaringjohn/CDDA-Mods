@@ -1,0 +1,39 @@
+[
+  {
+    "type" : "item_group",
+    "id" : "NC_AMMO_SHOPKEEP_extra",
+    "items":[
+      ["rucksack", 90]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_AMMO_SHOPKEEP_coat",
+    "items":[
+      ["trenchcoat", 60],
+      ["kevlar", 80]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_AMMO_SHOPKEEP_misc",
+    "items":[
+		["38_special", 15],
+		["38_super", 5],
+		["38_fmj", 5],
+		["3006", 15],
+		["3006fmj", 5],
+		["3006_incendiary", 5],
+		["9mm", 15],
+		["9mmP", 5],
+		["9mmP2", 5],
+		["shot_bird", 15],
+		["shot_00", 5],
+		["shot_slug", 5],
+		["32_acp", 15],
+		["223", 15],
+		["556", 5],
+		["556_incendiary", 5],
+		["40mm_frag", 5],
+		["40mm_incendiary", 3]
+    ]
+  }
+]

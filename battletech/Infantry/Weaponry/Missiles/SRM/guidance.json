@@ -1,0 +1,52 @@
+[
+  {
+    "abstract": "base_srm",
+    "type": "MONSTER",
+    "name": "srm",
+    "default_faction": "factionless",
+    "species": [ "ROBOT" ],
+    "volume": "750 ml",
+    "weight": 1000,
+    "hp": 10,
+    "material": [ "steel" ],
+    "symbol": "e",
+    "aggression": 100,
+    "morale": 100,
+    "luminance": 5,
+    "death_function": [ "EXPLODE" ],
+    "death_drops": "srm_drops",
+    "ranges": [ [ 0, 30, "DEFAULT" ] ],
+    "flags": [ "SEES", "SWARMS", "FLIES", "NOHEAD", "ELECTRONIC", "NO_BREATHE", "INTERIOR_AMMO" ]
+  },
+  {
+    "id": "mon_srm",
+    "copy-from": "base_srm",
+    "type": "MONSTER",
+    "name": "SRM",
+    "description": "srm",
+    "diff": 30,
+    "hp": 5,
+    "speed": 650,
+    "material": [ "steel" ],
+    "symbol": "/",
+    "color": "cyan",
+    "aggression": 100,
+    "morale": 100,
+    "armor_bash": 1,
+    "armor_cut": 6,
+    "starting_ammo": { "srm_missile": 1 },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "move_cost": 0,
+        "gun_type": "internal_srm",
+        "fake_skills": [ [ "gun", 10 ], [ "pistol", 10 ] ],
+        "fake_dex": 14,
+        "range": 2,
+        "max_ammo": 1,
+        "ranges": [ [ 0, 3, "BURST" ] ]
+      }
+    ],
+    "revert_to_itype": "srm_missile"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "MOD_INFO",
+    "mod-type": "SUPPLEMENTAL",
+    "ident": "climate_defying_farming",
+    "name": "Climate Defying Farming",
+    "author": "Maddremor",
+    "description": "Adds different crops that would not grow in New England or are somewhat fantastical.",
+    "category": "items",
+    "path": "",
+    "dependencies": [ "dda" ]
+  }
+]
+

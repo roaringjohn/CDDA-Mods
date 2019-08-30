@@ -1,0 +1,191 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_terrain_mudgolem",
+    "name": "mud golem (dormant)",
+    "description": "It is a mud golem that has been refined. By examining, you can get the body of the mud golem.",
+    "symbol": "'",
+    "color": [ "dark_gray", "dark_gray", "dark_gray", "dark_gray" ],
+    "//": "泥ゴーレム。",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "transforms_into": "t_pit_shallow",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "bot_mudgolem", "base_num": [ 1, 1 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_pit_shallow",
+      "items": [ { "item": "bot_mudgolem", "count": [ 1, 1 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_terrain_woodgolem",
+    "name": "wood golem (dormant)",
+    "description": "It is a wood golem that has been refined. By examining, you can get the body of the wood golem.",
+    "symbol": "'",
+    "color": [ "brown", "brown", "brown", "brown" ],
+    "//": "木ゴーレム。",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "transforms_into": "t_pit_shallow",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "bot_woodgolem", "base_num": [ 1, 1 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_pit_shallow",
+      "items": [ { "item": "bot_woodgolem", "count": [ 1, 1 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_terrain_treegolem",
+    "name": "tree golem (dormant)",
+    "description": "It is a tree golem that has been refined. By examining, you can get the body of the tree golem.",
+    "symbol": "'",
+    "color": [ "brown", "brown", "brown", "brown" ],
+    "//": "大木ゴーレム。",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "transforms_into": "t_pit",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "bot_treegolem", "base_num": [ 1, 1 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_pit",
+      "items": [ { "item": "bot_treegolem", "count": [ 1, 1 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_terrain_fleshgolem",
+    "name": "flesh golem (dormant)",
+    "description": "It is a flesh golem that has been refined. By examining, you can get the body of the flesh golem.",
+    "symbol": "'",
+    "color": [ "yellow", "yellow", "yellow", "yellow" ],
+    "//": "肉ゴーレム。",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "transforms_into": "t_pit_shallow",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "bot_fleshgolem", "base_num": [ 1, 1 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 40,
+      "str_max": 80,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_pit_shallow",
+      "items": [ { "item": "bot_fleshgolem", "count": [ 1, 1 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_terrain_rockgolem",
+    "name": "rock golem (dormant)",
+    "description": "It is a rock golem that has been refined. By examining, you can get the body of the rock golem.",
+    "symbol": "'",
+    "color": [ "dark_gray", "dark_gray", "dark_gray", "dark_gray" ],
+    "//": "岩ゴーレム。",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "transforms_into": "t_pit_shallow",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "bot_rockgolem", "base_num": [ 1, 1 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_pit_shallow",
+      "items": [ { "item": "bot_rockgolem", "count": [ 1, 1 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_terrain_irongolem",
+    "name": "iron golem (dormant)",
+    "description": "It is an iron golem that has been refined. By examining, you can get the body of the iron golem. .",
+    "symbol": "'",
+    "color": [ "c_blue_cyan", "c_blue_cyan", "c_blue_cyan", "c_blue_cyan" ],
+    "//": "鉄ゴーレム。",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "transforms_into": "t_pit_shallow",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "bot_irongolem", "base_num": [ 1, 1 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_pit_shallow",
+      "items": [ { "item": "bot_irongolem", "count": [ 1, 1 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_terrain_lavagolem",
+    "name": "lava golem (dormant)",
+    "description": "It is a lava golem that has been refined. By examining, you can get the body of the lava golem.",
+    "symbol": "'",
+    "color": [ "c_red_magenta", "c_red_magenta", "c_red_magenta", "c_red_magenta" ],
+    "//": "溶岩ゴーレム。",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "transforms_into": "t_pit",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "bot_lavagolem", "base_num": [ 1, 1 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_pit",
+      "items": [ { "item": "bot_lavagolem", "count": [ 1, 1 ] } ]
+    }
+  }
+]

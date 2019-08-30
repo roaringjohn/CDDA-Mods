@@ -1,0 +1,15 @@
+[
+ 
+  {
+    "id": "mirelurk",
+    "type": "harvest",
+    "message": "You tear into thje mirelurk, dismantling the shell in as neat of chunks as possible.",
+    "entries": [
+      { "drop": "meat_mirelurk", "type": "flesh", "mass_ratio": 0.38 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.1 },
+	  { "drop": "claw_mirelurk", "base_num": [ 0, 2 ], "scale_num": [ 0.6, 0.9 ], "max": 2, "type": "offal" }
+    ]
+  }
+ 
+]

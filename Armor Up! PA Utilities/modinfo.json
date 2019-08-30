@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "ArmUpPAUtil",
+    "name": "Armor Up! PA Utilities",
+    "authors": "darktoes",
+    "description": "Sheathes, holsters and scabbards for power armor.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

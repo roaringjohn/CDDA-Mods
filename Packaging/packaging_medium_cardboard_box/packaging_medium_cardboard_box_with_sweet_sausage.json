@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_sweet_sausage",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (sweet sausages)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 32 sweet sausages.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 7440,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_sweet_sausage",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "sweet_sausage",                  32 ]
+            ]
+        ]
+    }
+]

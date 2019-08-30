@@ -1,0 +1,10 @@
+ {
+       "type": "MOD_INFO",
+       "mod_type"    : "SUPPLEMENTAL",
+       "ident"       : "Ore_crops",
+       "name"        : "Ore crops",
+       "description" : "Add crops from which minerals can be taken.",
+       "category"    : "buildings",
+       "dependencies": [ "dda" ],
+       "path"        : ""
+   }

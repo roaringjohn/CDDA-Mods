@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_medium_cardboard_box_with_transponder",
+        "symbol": "]",
+        "color": "brown",
+        "name": "larger cardboard box (transponder circuits)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 transponder circuits.",
+        "price": 200,
+        "material": ["paper"],
+        "weight": 7600,
+        "volume": 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_transponder",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "transponder",                        15 ]
+            ]
+        ]
+    }
+]

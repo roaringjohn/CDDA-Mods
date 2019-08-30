@@ -1,0 +1,12 @@
+{
+  "type": "MOD_INFO",
+  "mod-type": "SUPPLEMENTAL",
+  "ident": "ammo_boxes",
+  "name": "Ammo Boxes",
+  "author": "Maddremor",
+  "description": "Adds cardboard boxes to package ammo.",
+  "path": "",
+  "dependencies": [
+    "dda"
+  ]
+}

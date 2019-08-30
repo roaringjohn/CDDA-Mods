@@ -1,0 +1,10 @@
+{
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "windoor",
+        "name": "Window Door Frame",
+        "description": "Window Door Frame",
+        "path": "",
+        "dependencies": ["dda"],
+		"author": ""
+    }

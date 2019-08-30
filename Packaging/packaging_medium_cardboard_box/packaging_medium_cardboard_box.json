@@ -1,0 +1,38 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_medium_cardboard_box",
+        "symbol": "]",
+        "color": "brown",
+        "name": "larger cardboard box",
+        "description": "A medium sized cardboard box. Used for reduction in volume.",
+        "category": "other",
+        "price": 200,
+        "material": ["paper"],
+        "weight": 400,
+        "volume": 4
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 10000,
+        "reversible": true,
+        "autolearn": true,
+        "qualities": [
+            { "id": "CUT",    "level":1, "amount":1 }
+        ],
+        "components": [
+            [
+                [ "box_small",       6 ]
+            ],
+            [
+                [ "duct_tape",       10 ],
+                [ "medical_tape",    20 ]
+            ]
+        ]
+    }
+]

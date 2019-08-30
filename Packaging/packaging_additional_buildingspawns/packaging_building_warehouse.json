@@ -1,0 +1,88 @@
+[
+    {
+        "type": "mapgen",
+        "om_terrain": [
+            "warehouse"
+        ],
+        "method": "json",
+        "weight": 50,
+        "object": {
+            "rows":
+            [
+                "....S....SSSSSSSSSSSS...",
+                "zzzzSzzzzSSSSSSSSSSSSzzz",
+                ".---3----MMMMMMMMMMMM--.",
+                ".|4                  w|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4 4 4 4 4 4    4 4 4|.",
+                ".|4                  4|.",
+                ".|4   @              4|.",
+                ".|--3---4 4 4    4 4 4|.",
+                ".|11 11|4 4 4    4 4 4|.",
+                ".3     |4 4 4    4 4 4|.",
+                ".O2   9|4 4 4    4 4 4|.",
+                ".|5 7 9|4 4 4    4 4 4|.",
+                "z|5 6 8|4 4 4    4 4 4|z",
+                "z---O------------------z",
+                "z^^zzz^^^zz^^zz^^zzz^^^z",
+                "zzzz..zzzzzzzzzzzz..zzzz"
+            ],
+            "terrain": {
+                "." : ["t_grass", "t_grass", "t_grass", "t_dirt"],
+                "-": "t_wall",
+                "|": "t_wall",
+                "S" : "t_sidewalk",
+                "M": "t_door_metal_locked",
+                "O": ["t_window_boarded", "t_window_taped", "t_window_boarded", "t_wall_wood", "t_window_boarded", "t_curtains", "t_window_boarded"],
+                "w": "t_gates_mech_control",
+                "z": ["t_grass", "t_grass", "t_grass", "t_shrub", "t_dirt"],
+                "^": "t_tree_pine",
+                " ": "t_floor",
+                "1": "t_floor",
+                "2": "t_floor",
+                "3": ["t_door_locked", "t_door_locked_alarm", "t_door_locked", "t_door_locked_peep", "t_door_locked", "t_rdoor_boarded", "t_door_locked", "t_door_boarded_peep", "t_door_locked", "t_door_boarded", "t_door_locked", "t_wall_wood"],
+                "4": "t_floor",
+                "5": "t_floor",
+                "6": "t_floor",
+                "7": "t_floor",
+                "8": "t_floor",
+                "9": "t_floor",
+                "@": "t_floor"
+            },
+            "furniture": {
+                "1" : ["f_crate_o", "f_crate_o", "f_crate_o", "f_crate_o", "f_crate_c"],
+                "2" : "f_sink",
+                "4" : "f_rack",
+                "5" : "f_counter",
+                "6" : "f_chair",
+                "7" : "f_desk",
+                "8" : "f_bookcase",
+                "9" : "f_sofa",
+                "@" : "f_trashcan"
+            },
+            "place_items": [
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 2,  "y": [ 3,14 ],  "repeat": [ 8,20 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 4,  "y": [ 4,12 ],  "repeat": [ 6,15 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 6,  "y": [ 4,12 ],  "repeat": [ 6,15 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 8,  "y": [ 4,12 ],  "repeat": [ 6,15 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 8,  "y": [ 15,20 ], "repeat": [ 4,10 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 10, "y": [ 4,12 ],  "repeat": [ 6,15 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 10, "y": [ 15,20 ], "repeat": [ 4,10 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 12, "y": [ 4,12 ],  "repeat": [ 6,15 ]  },
+                { "item": "packaging_group_medium_cardboard_boxes", "chance": 2, "x": 12, "y": [ 15,20 ], "repeat": [ 4,10 ]  },
+                { "item": "packaging_group_portable_storage_boxes", "chance": 1, "x": 17, "y": [ 4,12 ],  "repeat": [ 6,15 ]  },
+                { "item": "packaging_group_portable_storage_boxes", "chance": 1, "x": 17, "y": [ 15,20 ], "repeat": [ 4,10 ]  },
+                { "item": "packaging_group_portable_storage_boxes", "chance": 1, "x": 19, "y": [ 4,12 ],  "repeat": [ 6,15 ]  },
+                { "item": "packaging_group_portable_storage_boxes", "chance": 1, "x": 19, "y": [ 15,20 ], "repeat": [ 4,10 ]  },
+                { "item": "packaging_group_portable_storage_boxes", "chance": 1, "x": 21, "y": [ 4,20 ],  "repeat": [ 10,25 ] }
+            ]
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "type": "scenario",
+    "name": "Battletech",
+    "description": "Mechs are cool.",
+    "ident": "battletech",
+    "points": 0,
+    "allowed_locs": [ "field", "forest" ],
+    "start_name": "Battletech Infantry",
+    "professions": [
+      "infantryman_bt",
+      "missileman_bt",
+      "double_missileman_bt"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ap_mag",
+    "type": "MAGAZINE",
+    "name": "Auto-Pistol Magazine",
+    "description": "Magazine for an Auto-Pistol.",
+    "weight": 490,
+    "volume": 0.5,
+    "price": 9920,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "auto_pistol",
+    "capacity": 10,
+    "reliability": 7,
+    "reload_time": 90,
+    "flags": [ "MAG_COMPACT" ]
+  }
+]

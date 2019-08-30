@@ -1,0 +1,73 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "gs_60",
+    "name": ".60 big bore",
+    "default": "gs_ammo_heavy"
+  },
+  {
+    "id": "gs_60_casing",
+    "copy-from": "casing",
+    "type": "GENERIC",
+    "name": ".60 casing",
+    "description": "An empty casing from a big bore cartridge.",
+    "weight": 3,
+    "volume": "6ml"
+  },
+  {
+    "id": "gs_ammo_generic",
+    "type": "AMMO",
+    "name": ".60 big bore",
+    "description": "Powerful big bore cartridges designed for gunslinger revolvers.",
+    "weight": 12,
+    "volume": 1,
+    "price": 5000,
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "pink",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "gs_60",
+    "casing": "gs_60_casing",
+    "range": 20,
+    "damage": 60,
+    "pierce": 25,
+    "dispersion": 75,
+    "recoil": 2200,
+    "loudness": 100,
+    "effects": [ "NEVER_MISFIRES", "MUZZLE_SMOKE" ]
+  },
+  {
+    "id": "gs_ammo_light",
+    "copy-from": "gs_ammo_generic",
+    "type": "AMMO",
+    "name": ".60 lightweight",
+    "description": "Lightweight big bore cartridges often used for training purposes.",
+    "casing": "gs_60_casing",
+    "proportional": { "price": 0.5, "damage": 0.5, "dispersion": 1.2, "range": 1.5, "recoil": 0.8, "pierce": 0.5, "loudness": 0.8 },
+    "delete": { "effects": [ "MUZZLE_SMOKE" ] },
+    "extend": { "effects": [ "NOGIB" ] }
+  },
+  {
+    "id": "gs_ammo_inc",
+    "copy-from": "gs_ammo_generic",
+    "type": "AMMO",
+    "name": ".60 cherry PIE",
+    "description": "Pyrotechnically initiated explosive cartridges designed to ignite on a hit.",
+    "count": 20,
+    "proportional": { "dispersion": 0.8, "damage": 0.8, "recoil": 1.2 },
+    "extend": { "effects": [ "COOKOFF", "INCENDIARY" ] }
+  },
+  {
+    "id": "gs_ammo_heavy",
+    "copy-from": "gs_ammo_generic",
+    "type": "AMMO",
+    "name": ".60 showstopper",
+    "description": "Heavyweight big bore cartridges. High damage, low range and loud as thunder.",
+    "count": 20,
+    "pierce": 0,
+    "proportional": { "damage": 1.5, "recoil": 1.5, "range": 0.5, "loudness": 2.0 },
+    "extend": { "effects": [ "EXPLOSIVE_SMALL" ] }
+  }
+]
+

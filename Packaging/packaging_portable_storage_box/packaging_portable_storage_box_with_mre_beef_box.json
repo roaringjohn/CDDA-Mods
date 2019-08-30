@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_portable_storage_box_with_mre_beef_box",
+        "symbol": "]",
+        "color": "brown",
+        "name": "storage box (MREs, Beef)",
+        "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 22 MRE boxes (beef).",
+        "price": 200,
+        "material": ["paper"],
+        "weight": 21800,
+        "volume": 50
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_portable_storage_box_with_mre_beef_box",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_portable_storage_box", 1 ]
+            ],
+            [
+                [ "mre_beef_box",                   22 ]
+            ]
+        ]
+    }
+]

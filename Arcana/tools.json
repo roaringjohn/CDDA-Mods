@@ -1,0 +1,1668 @@
+[
+  {
+    "id": "bot_vortex",
+    "//": "ID retained to avoid any weirdness.",
+    "type": "TOOL",
+    "name": "Archon magic",
+    "description": "Spawns a shadow, used by the Host of the Archon.  This is a bug if you find one of these.",
+    "material": [ "essencemat" ],
+    "symbol": ",",
+    "color": "cyan",
+    "use_action": { "type": "place_monster", "monster_id": "mon_shadow_summoned", "place_randomly": true }
+  },
+  {
+    "id": "stinger_flute",
+    "type": "TOOL",
+    "copy-from": "bone_flute",
+    "name": "stinger flute",
+    "name_plural": "stinger flutes",
+    "description": "A polished flute with five finger holes, carved from the stinger of some exotic monstrosity.  Should be safe to put up to your mouth, probably.",
+    "material": "flesh",
+    "color": "light_gray",
+    "use_action": {
+      "type": "musical_instrument",
+      "volume": 12,
+      "fun": -6,
+      "fun_bonus": 2,
+      "speed_penalty": 10,
+      "description_frequency": 20,
+      "player_descriptions": [
+        "You play a little tune on your flute.",
+        "You play an eerie piece on your flute.",
+        "You play a piece on your flute that sounds downright otherworldly.",
+        "Your flute resounds with the piping of a terrible swarm."
+      ]
+    }
+  },
+  {
+    "id": "charm_bone",
+    "type": "GENERIC",
+    "name": "bone charm",
+    "description": "A small talisman made out of some form of otherworldly bone or ivory, carved with equally unearthly iconography.",
+    "weight": 38,
+    "volume": 0,
+    "price": 500,
+    "material": [ "bone" ],
+    "symbol": ",",
+    "looks_like": "small_relic",
+    "color": "white",
+    "use_action": "MEDITATE"
+  },
+  {
+    "id": "offering_chalice",
+    "type": "TOOL",
+    "name": "offering chalice",
+    "description": "This is a strange chalice made of gold, engraved all over with some unfamiliar text.  It is filled with a thick black liquid that you seem unable to pour out.  You get the feeling that trying to drink it would be a bad idea, but it might be important for ritual purposes.",
+    "weight": 2500,
+    "volume": 4,
+    "price": 161300,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": "gold",
+    "symbol": ";",
+    "looks_like": "small_relic",
+    "color": "yellow",
+    "flags": [ "MAGIC_FOCUS" ],
+    "use_action": [
+      "MEDITATE",
+      {
+        "target": "offering_chalice_active",
+        "msg": "You raise the chalice to your lips...",
+        "active": true,
+        "menu_text": "Drink from the chalice",
+        "type": "transform"
+      }
+    ]
+  },
+  {
+    "id": "offering_chalice_active",
+    "type": "TOOL",
+    "copy-from": "offering_chalice",
+    "name": "offering chalice",
+    "description": "This is a strange chalice made of gold, engraved all over with some unfamiliar text.  Maybe you shouldn't be trying to drink from this...",
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "offering_chalice_used",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "As you drink from the chalice, you feel your breath being drawn from your lungs!",
+      "effects": [ { "id": "offering", "duration": 1 } ]
+    }
+  },
+  {
+    "id": "offering_chalice_used",
+    "type": "TOOL",
+    "copy-from": "offering_chalice",
+    "name": "drained offering chalice",
+    "description": "This is a strange chalice made of gold, engraved all over with some unfamiliar text.  It appears to be empty, but you get the feeling that something remains within it.  If you knew the right ritual, whatever was drawn into it could be extracted.",
+    "use_action": "MEDITATE"
+  },
+  {
+    "id": "blood_athame",
+    "type": "TOOL",
+    "//": "By necessity can't yet define this to use copy-from, as qualities will break it.",
+    "category": "weapons",
+    "name": "silver athame",
+    "description": "An ornate silver dagger, seemingly made for ritual purposes.  It seems sharper than silver has any right to be, and might be used for blood magic.",
+    "weight": 1302,
+    "volume": 3,
+    "price": 23500,
+    "to_hit": 1,
+    "bashing": 3,
+    "cutting": 16,
+    "material": "silver",
+    "symbol": "/",
+    "looks_like": "knife_butcher",
+    "color": "red",
+    "techniques": [ "WBLOCK_1", "RAPID" ],
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 15 ] ],
+    "use_action": [
+      {
+        "target": "blood_athame_active",
+        "msg": "The edge of the athame looks too dull to break the skin, yet some strange urge leads you to test this...",
+        "active": true,
+        "menu_text": "Test the blade's sharpness",
+        "type": "transform"
+      }
+    ],
+    "flags": [ "STAB", "SHEATH_KNIFE" ]
+  },
+  {
+    "id": "blood_athame_active",
+    "type": "TOOL",
+    "//": "By necessity can't yet define this to use copy-from, as qualities will break it.",
+    "category": "weapons",
+    "name": "silver athame",
+    "description": "An ornate silver dagger, seemingly made for ritual purposes.  This seems like a stupid idea...",
+    "weight": 1302,
+    "volume": 3,
+    "price": 23500,
+    "to_hit": 1,
+    "bashing": 3,
+    "cutting": 16,
+    "material": "silver",
+    "symbol": "/",
+    "looks_like": "knife_butcher",
+    "color": "red",
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "blood_athame",
+    "techniques": "RAPID",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "Upon drawing the blade across your palm, wounds open elsewhere on your body!",
+      "effects": [ { "id": "bleed", "duration": 300, "bp": "TORSO" } ]
+    },
+    "flags": [ "STAB", "SHEATH_KNIFE" ]
+  },
+  {
+    "id": "sun_sword",
+    "type": "TOOL",
+    "category": "weapons",
+    "copy-from": "broadsword",
+    "name": "incorruptible sword",
+    "//": "Stats were changed from resembling the medieval mod's arming sword to that of the broadsword, due to changing the recipe to start with a finished weapon.",
+    "description": "This is some sort of broadsword, decorated with a golden cross motif on the blade.  When powered by consecrated magical essence, it has the power to cut through darkness itself.",
+    "material": [ "steel", "gold" ],
+    "ammo": "essence_dull_type",
+    "max_charges": 10,
+    "use_action": [
+      {
+        "target": "sun_sword_on",
+        "msg": "The blade gives off a brilliant glow as you invoke its power!",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The sword needs energy to serve its purpose.",
+        "menu_text": "Awaken the holy blade",
+        "type": "transform"
+      }
+    ],
+    "relative": { "weight": 400, "bashing": 2, "price": 23300 },
+    "extend": { "flags": [ "NO_SALVAGE" ] }
+  },
+  {
+    "id": "sun_sword_on",
+    "type": "TOOL",
+    "copy-from": "sun_sword",
+    "category": "weapons",
+    "name": "incorruptible sword (on)",
+    "name_plural": "incorruptible swords (on)",
+    "//": "Weapons normally come with the vorpal flag, not the technique.  But gaining the technique through normal means likely breaks with transforming weapons.",
+    "description": "This is some sort of broadsword, decorated with a golden cross motif on the blade.  The blade is giving off an intense white light, and searing heat.",
+    "turns_per_charge": 900,
+    "revert_to": "sun_sword",
+    "techniques": [ "WBLOCK_2", "VORPAL" ],
+    "use_action": [
+      { "type": "firestarter", "moves": 30 },
+      { "menu_text": "Turn off", "type": "transform", "msg": "The sword's radiance fades.", "target": "sun_sword" }
+    ],
+    "relative": { "cutting": 5 },
+    "extend": { "flags": [ "FIRE", "LIGHT_240", "CHARGEDIM", "FLAMING" ], "techniques": [ "VORPAL" ] },
+    "delete": { "flags": [ "SHEATH_SWORD" ] }
+  },
+  {
+    "id": "hexenhammer",
+    "type": "TOOL",
+    "copy-from": "warhammer",
+    "name": "hammer of the hunter",
+    "name_plural": "hammers of the hunter",
+    "description": "A warhammer inlaid with silver, engraved with religious invocations in an archaic form of Latin.  Many magical items can be purified with this item.  Using it will channel consecrated essence into a stunning flash, though using it is a double-edged sword.",
+    "material": [ "iron", "silver", "wood" ],
+    "ammo": "essence_dull_type",
+    "max_charges": 1,
+    "use_action": [
+      "MEDITATE",
+      {
+        "target": "hexenhammer_active",
+        "msg": "\"Ave martello!\" The hammer gives off a golden light.",
+        "target_charges": 0,
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "Dull essence shall make the hammer shine.",
+        "menu_text": "Hold the hammer high",
+        "type": "transform"
+      }
+    ],
+    "relative": { "weight": 360, "bashing": 2, "price": 12000 },
+    "extend": { "flags": [ "NO_SALVAGE" ] }
+  },
+  {
+    "id": "hexenhammer_active",
+    "type": "TOOL",
+    "//": "Just in case hammering gets an inbuilt quality, no copy-from.",
+    "name": "glowing hammer of the hunter",
+    "name_plural": "glowing hammers of the hunter",
+    "description": "A warhammer inlaid with silver, engraved with religious invocations in an archaic form of Latin.  It is giving off a bright golden glow, soon to be brighter still.",
+    "weight": 1337,
+    "volume": 5,
+    "price": 52000,
+    "to_hit": 1,
+    "bashing": 20,
+    "cutting": 20,
+    "material": [ "iron", "silver", "wood" ],
+    "symbol": "/",
+    "looks_like": "warhammer",
+    "color": "light_gray",
+    "ammo": "essence_dull_type",
+    "initial_charges": 0,
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "hexenhammer",
+    "techniques": [ "BRUTAL" ],
+    "use_action": { "type": "explosion", "do_flashbang": true, "no_deactivate_msg": "\"Du nicht kÃ¶nnen halt Hammerzeit.\"" },
+    "flags": [ "DURABLE_MELEE", "SPEAR", "NONCONDUCTIVE", "LIGHT_15", "NO_SALVAGE" ]
+  },
+  {
+    "id": "spear_pestilence",
+    "type": "TOOL",
+    "copy-from": "spear_steel",
+    "category": "tools",
+    "name": "spear of pestilence",
+    "name_plural": "spears of pestilence",
+    "description": "A stout steel spear with a wicked sting, decorated with elaborate patterns carved from chitin.  Using it will attempt to summon giant insects.",
+    "material": [ "steel", "wood", "chitin" ],
+    "ammo": "essence_type",
+    "max_charges": 9,
+    "charges_per_use": 3,
+    "artifact_data": { "effects_activated": [ "AEA_BUGS" ] },
+    "use_action": "ARTIFACT",
+    "relative": { "weight": 540, "bashing": 2, "price": 1000 },
+    "extend": { "flags": [ "NO_SALVAGE", "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "summon_kreck",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of trickery",
+    "name_plural": "glyphs of trickery",
+    "description": "A strange silver emblem, engraved with depictions of grotesque creatures.  Using it will call forth a kreck, and bind it to your will.  Hopefully.  It is easy to control.",
+    "use_action": {
+      "target": "summon_kreck_on",
+      "msg": "The glyph of trickery gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_kreck_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of trickery (active)",
+    "name_plural": "glyphs of trickery (active)",
+    "description": "A strange silver emblem, engraved with depictions of grotesque creatures.  Using it will call forth a kreck, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_kreck_summoned",
+      "friendly_msg": "The kreck looks up at you expectantly, as if wondering what sort of shenanigans you're plotting.",
+      "hostile_msg": "The kreck mimics your movements erratically, cavorting about to mock you!",
+      "difficulty": 1,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_blank",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the root",
+    "name_plural": "glyphs of the root",
+    "//": "ID retained to prevent tileset breakage, monster summoned was changed due to blank bodies being outright useless.",
+    "description": "A strange silver emblem, engraved with depictions of alien plantlife.  Using it will call forth a triffid, and bind it to your will.  Hopefully.  It is easy to control.",
+    "use_action": {
+      "target": "summon_blank_on",
+      "msg": "The glyph of the root gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_blank_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the root (active)",
+    "name_plural": "glyphs of the root (active)",
+    "description": "A strange silver emblem, engraved with depictions of alien plantlife.  Using it will call forth a triffid, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_triffid_summoned",
+      "friendly_msg": "The movement of the plant creature is hard to read, but you suspect it is either friendly, or doesn't regard you as a threat.",
+      "hostile_msg": "Even without words or recognizable body language, it quickly becomes apparent that the plant monster is hostile.",
+      "difficulty": 2,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_flaming_eye",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Gehenna",
+    "name_plural": "glyphs of Gehenna",
+    "//": "ID retained to prevent tileset breakage, monster summoned was changed due to flaming eyes being useless if friendly.",
+    "description": "A strange silver emblem, engraved with a mockery of angelic figures.  Using it will call forth a flesh angel, and bind it to your will.  Hopefully.  It is somewhat easy to control.",
+    "use_action": {
+      "target": "summon_flaming_eye_on",
+      "msg": "The glyph of Gehenna gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_flaming_eye_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Gehenna (active)",
+    "name_plural": "glyphs of Gehenna (active)",
+    "description": "A strange silver emblem, engraved with a mockery of angelic figures.  Using it will call forth a flesh angel, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_flesh_angel_summoned",
+      "friendly_msg": "A twisted mimicry of the divine is called forth, bound to your will.",
+      "hostile_msg": "The flesh angel levels a wicked gaze upon you, ignoring your commands.",
+      "difficulty": 3,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_hunting_horror",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Crawling Chaos",
+    "name_plural": "glyphs of Crawling Chaos",
+    "//": "Explaination: In Lovecraft's work, The Crawling Chaos is one of Nyarlathotep's names, and hunting horrors are associated with him.  The success and failure messages below spell it out rather plainly.",
+    "description": "A strange silver emblem, erratically engraved with indecipherable runes.  Using it will call forth a hunting horror, and bind it to your will.  Hopefully.  It is somewhat easy to control.",
+    "use_action": {
+      "target": "summon_hunting_horror_on",
+      "msg": "The glyph of Crawling Chaos gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_hunting_horror_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Crawling Chaos (active)",
+    "name_plural": "glyphs of Crawling Chaos (active)",
+    "description": "A strange silver emblem, erratically engraved with indecipherable runes.  Using it will call forth a hunting horror, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_hunting_horror_summoned",
+      "friendly_msg": "The hunting horror is at your beck and call.  A gift from the Stalker among the Stars?",
+      "hostile_msg": "You feel the gaze of Nyarlathotep upon you.  How foolish of you, to steal the harrier of the Faceless God!",
+      "difficulty": 4,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_dark_wyrm",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the eye",
+    "name_plural": "glyphs of the eye",
+    "//": "Explaination: Petrified eyes are associated with dark wyrms due to the mine finale that features one.",
+    "description": "A strange silver emblem, engraved with a serpentine motif.  Using it will call forth a dark wyrm, and bind it to your will.  It is somewhat difficult to control.",
+    "use_action": {
+      "target": "summon_dark_wyrm_on",
+      "msg": "The glyph of the eye gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_dark_wyrm_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the eye (active)",
+    "name_plural": "glyphs of the eye (active)",
+    "description": "A strange silver emblem, engraved with a serpentine motif.  Using it will call forth a dark wyrm, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_dark_wyrm_summoned",
+      "friendly_msg": "The wyrm springs forth, seeming to regard you passively, or at least ignoring your presence.",
+      "hostile_msg": "The wyrm springs forth, reacting to unfamiliar sounds and scent with a malevolent screech!",
+      "difficulty": 5,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_mi_go",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Yuggoth",
+    "name_plural": "glyphs of Yuggoth",
+    "//": "Explaination: Yuggoth is a fictional planet from Lovecraft's work, stated to have been colonized by the mi-go.",
+    "description": "A strange silver emblem, engraved with depictions of strange chitinous entities.  Using it will call forth a mi-go, and bind it to your will.  Hopefully.  It is somewhat difficult to control.",
+    "use_action": {
+      "target": "summon_mi_go_on",
+      "msg": "The glyph of Yuggoth gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_mi_go_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Yuggoth (active)",
+    "name_plural": "glyphs of Yuggoth (active)",
+    "description": "A strange silver emblem, engraved with depictions of strange chitinous entities.  Using it will call forth a mi-go, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_mi_go_summoned",
+      "friendly_msg": "You recite an incantation, and the mi-go's response is a quiet murmur in some unknown language.  It seems to be friendly.",
+      "hostile_msg": "You begin to recite an incantation, only for the mi-go to parrot your words, mocking your effort to control it!",
+      "difficulty": 6,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_jabberwock",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the golem",
+    "name_plural": "glyphs of the golem",
+    "description": "A strange silver emblem, engraved with reversed writing in an unknown language.  Using it will call forth a jabberwock, and bind it to your will.  Hopefully.  It is difficult to control.",
+    "use_action": {
+      "target": "summon_jabberwock_on",
+      "msg": "The glyph of the golem gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_jabberwock_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the golem (active)",
+    "name_plural": "glyphs of the golem (active)",
+    "description": "A strange silver emblem, engraved with reversed writing in an unknown language.  Using it will call forth a jabberwock, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_jabberwock_summoned",
+      "friendly_msg": "You hear a strange burbling, the creature bound to your will.",
+      "hostile_msg": "Eyes of flame meet your gaze, the creature resists your attempt to control it!",
+      "difficulty": 7,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_flying_polyp",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Pnakotus",
+    "name_plural": "glyphs of Pnakotus",
+    "//": "Explanation: In Lovecraft's works, the Pnakotic Manuscripts were associated with the city of this name, which was overrun by flying polyps in their conflict with the species that built the city.",
+    "description": "A strange silver emblem, engraved with an strange pattern resembling coral.  Using it will call forth a flying polyp, and bind it to your will.  Hopefully.  It is difficult to control.",
+    "use_action": {
+      "target": "summon_flying_polyp_on",
+      "msg": "The glyph of anthozoa gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_flying_polyp_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Pnakotus (active)",
+    "name_plural": "glyphs of Pnakotus (active)",
+    "description": "A strange silver emblem, engraved with an strange pattern resembling coral.  Using it will call forth a flying polyp, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_flying_polyp_summoned",
+      "friendly_msg": "The flying polyp twitches for a moment, before its movement steadies.  It seems to be friendly.",
+      "hostile_msg": "The flying polyp twitches erratically, reacting to your presence with apparent hostility!",
+      "difficulty": 8,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_yugg",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Plouton",
+    "name_plural": "glyphs of Plouton",
+    "//": "Plouton, Latinized as Pluto, is another name for Hades, and reflects the association with wealth the god had by the time the name was in common use.",
+    "description": "A strange silver emblem, engraved with depictions of ancient, cthonian wealth.  Using it will call forth a yugg, and bind it to your will.  Hopefully.  It is very difficult to control.",
+    "use_action": {
+      "target": "summon_yugg_on",
+      "msg": "The glyph of the platyhelminthes gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_yugg_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of Plouton (active)",
+    "name_plural": "glyphs of Plouton (active)",
+    "description": "A strange silver emblem, engraved with depictions of ancient, cthonian wealth.  Using it will call forth a yugg, and bind it to your will.  Hopefully.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_yugg_summoned",
+      "friendly_msg": "With the riches of a dead world as an offering, you bind the yugg to serve you.  You feel like this is the opposite of how it normally works.",
+      "hostile_msg": "An offering of wealth is not enough to placate a servant of Ubb.  The creature turns hostile!",
+      "difficulty": 9,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "summon_shoggoth",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the Elder Things",
+    "name_plural": "glyphs of the Elder Things",
+    "//": "Explaination: The Elder Things in Lovecraft's work were the creators of shoggoths.",
+    "description": "A strange silver emblem, engraved with many strange eye symbols.  Using it will call forth a shoggoth, and bind it to your will.  Hopefully.  It is very difficult to control.",
+    "use_action": {
+      "target": "summon_shoggoth_on",
+      "msg": "The glyph of the Elder Things gives off a faint green glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "summon_shoggoth_on",
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
+    "name": "glyph of the Elder Things (active)",
+    "name_plural": "glyphs of the Elder Things (active)",
+    "description": "A strange silver emblem, engraved with many strange eye symbols.  Using it will call forth a shoggoth, and bind it to your will.  Hopefully.  It is very difficult to control.",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "silver_glyph",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_shoggoth_summoned",
+      "friendly_msg": "You hear a voice in your mind.  \"Tekili ...l-li?\"  Your mind exerts a strange influence upon the shoggoth.",
+      "hostile_msg": "You hear a voice in your mind.  \"Tekeli-li!\"  The shoggoth resists your efforts to control it!",
+      "difficulty": 10,
+      "moves": 60,
+      "place_randomly": true,
+      "skill1": "magic"
+    }
+  },
+  {
+    "id": "bloodaxe",
+    "copy-from": "hatchet",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "veinreaver",
+    "description": "A hatchet with its axehead stained the dull color of dried blood, making it appear rusted despite being in usable condition.  Using it will channel blood essence into a nasty explosion.",
+    "symbol": ";",
+    "color": "brown",
+    "ammo": "essence_blood_type",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "use_action": [
+      {
+        "target": "bloodaxe_act",
+        "msg": "You draw upon the axe's energy, and the axehead glows a bright red!",
+        "target_charges": 5,
+        "active": true,
+        "menu_text": "Activate explosive rune",
+        "type": "transform"
+      }
+    ],
+    "extend": { "flags": [ "NO_SALVAGE" ] }
+  },
+  {
+    "id": "bloodaxe_act",
+    "//": "Can't use copy-from because qualities refuse to be deleted, causing it to try and choop wood instead of exploding.",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "glowing veinreaver",
+    "description": "A hatchet, axehead giving off a wicked red glow.  Throwing it might be a smart idea.",
+    "weight": 907,
+    "volume": 2,
+    "price": 2500,
+    "to_hit": 1,
+    "bashing": 12,
+    "cutting": 6,
+    "thrown_damage": [ { "damage_type": "cold", "amount": 18 } ],
+    "material": [ "steel", "wood" ],
+    "symbol": ";",
+    "looks_like": "hatchet",
+    "color": "brown",
+    "ammo": "essence_blood_type",
+    "initial_charges": 5,
+    "max_charges": 5,
+    "turns_per_charge": 1,
+    "revert_to": "bloodaxe",
+    "use_action": {
+      "type": "explosion",
+      "fields_type": "fd_blood",
+      "fields_radius": 3,
+      "fields_min_density": 3,
+      "fields_max_density": 3,
+      "sound_volume": 1,
+      "sound_msg": "Drip.",
+      "no_deactivate_msg": "You can't dispel the effect.  Might want to try throwing it instead.",
+      "explosion": { "power": 1000, "distance_factor": 0.3 }
+    },
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "LIGHT_8", "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+  {
+    "id": "scroll_sun",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of light",
+    "name_plural": "scrolls of light",
+    "description": "This is a scroll, with odd writing and illustrations of a solar motif on it, representing an otherworldly sun diety.  Using it will grant a surge of adrenaline and brighten your spirits, not to mention brighten the sky.",
+    "use_action": {
+      "target": "scroll_sun_on",
+      "msg": "\"Let purity guide your hand and your heart.\"  You unroll the scroll of light...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_sun_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of light",
+    "name_plural": "scrolls of light",
+    "description": "This is a scroll, with odd writing and illustrations of a solar motif on it, representing an otherworldly sun diety.  Using it will grant a surge of adrenaline and brighten your spirits, not to mention brighten the sky.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "artifact_data": { "effects_activated": [ "AEA_FUN", "AEA_ADRENALINE", "AEA_LIGHT" ] },
+    "use_action": "ARTIFACT"
+  },
+  {
+    "id": "scroll_moon",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of darkness",
+    "name_plural": "scrolls of darkness",
+    "description": "This is a scroll, with odd writing and depictions of the lunar cycles on it, representing an otherworldly lunar diety.  Using it will darken the sky temporarily, and confound nearby enemies.",
+    "use_action": {
+      "target": "scroll_moon_on",
+      "msg": "\"Do not fear the unknown.\"  You unroll the scroll of darkness...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_moon_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of darkness",
+    "name_plural": "scrolls of darkness",
+    "description": "This is a scroll, with odd writing and depictions of the lunar cycles on it, representing an otherworldly lunar diety.  Using it will darken the sky temporarily, and confound nearby enemies",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "artifact_data": {
+      "effects_activated": [
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_CONFUSED",
+        "AEA_DIM"
+      ]
+    },
+    "use_action": "ARTIFACT"
+  },
+  {
+    "id": "scroll_artiface",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of command",
+    "name_plural": "scrolls of command",
+    "description": "This is a scroll, with odd writing and images of solders in formation on it, representing an otherworldly diety of order.  Using it will attempt to bind nearby creatures to your will temporarily, at the expense of pain and momentary paralysis.",
+    "use_action": {
+      "target": "scroll_artiface_on",
+      "msg": "\"By order, we ascend beyond that of animals.\"  You unroll the scroll of command...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_artiface_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of command",
+    "name_plural": "scrolls of command",
+    "description": "This is a scroll, with odd writing and images of solders in formation on it, representing an otherworldly diety of order.  Using it will attempt to bind nearby creatures to your will temporarily, at the expense of pain and momentary paralysis.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "artifact_data": { "effects_activated": [ "AEA_ENTRANCE", "AEA_ENTRANCE", "AEA_PARALYZE", "AEA_PAIN" ] },
+    "use_action": "ARTIFACT"
+  },
+  {
+    "id": "scroll_nature",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of regrowth",
+    "name_plural": "scrolls of regrowth",
+    "description": "This is a scroll, with odd writing and exotic natural scenery depicted on it, representing an otherworldly diety of chaos.  Using it will fill the area with life, causing plants to grow unnaturally and healing you, potentially mutating you as well.",
+    "use_action": {
+      "target": "scroll_nature_on",
+      "msg": "\"Do not deny your instincts.\"  You unroll the scroll of regrowth...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_nature_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of regrowth",
+    "name_plural": "scrolls of regrowth",
+    "description": "This is a scroll, with odd writing and exotic natural scenery depicted on it, representing an otherworldly diety of chaos.  Using it will fill the area with life, causing plants to grow unnaturally and massively healing you, but potentially mutating you as well.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "artifact_data": {
+      "effects_activated": [
+        "AEA_GROWTH",
+        "AEA_MUTATE",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL",
+        "AEA_HEAL"
+      ]
+    },
+    "use_action": "ARTIFACT"
+  },
+  {
+    "id": "scroll_destruction",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of sundering",
+    "name_plural": "scrolls of sundering",
+    "description": "This is a scroll, with odd writing and scenes of endless battle on it, representing an otherworldly war god.  Using it will call forth a horrid noise, toppling nearby structures and harming creatures around you.  It might attract unwanted attention as well.",
+    "use_action": {
+      "target": "scroll_destruction_on",
+      "msg": "\"There is an end to everything.\"  You unroll the scroll of sundering...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_destruction_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of sundering",
+    "name_plural": "scrolls of sundering",
+    "description": "This is a scroll, with odd writing and scenes of endless battle on it, representing an otherworldly war god.  Using it will call forth a horrid noise, toppling nearby structures and harming creatures around you.  It might attract unwanted attention as well.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "artifact_data": {
+      "effects_activated": [
+        "AEA_PULSE",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_HURTALL",
+        "AEA_ATTENTION",
+        "AEA_SCREAM"
+      ]
+    },
+    "use_action": "ARTIFACT"
+  },
+  {
+    "id": "scroll_subversion",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of discord",
+    "name_plural": "scrolls of discord",
+    "description": "This is a scroll, with odd writing and peculiar swirling symbols on it, representing an otherworldly trickster god.  Using it will warp the fabric of space, teleporting you at random.  The trip is a bit nauseating, and you might be followed.",
+    "use_action": {
+      "target": "scroll_subversion_on",
+      "msg": "\"Cast aside the veil of reality.\"  You unroll the scroll of discord...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_subversion_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "scroll of discord",
+    "name_plural": "scrolls of discord",
+    "description": "This is a scroll, with odd writing and peculiar swirling symbols on it, representing an otherworldly trickster god.  Using it will warp the fabric of space, teleporting you at random.  The trip is a bit nauseating, and you might be followed.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "artifact_data": { "effects_activated": [ "AEA_SHADOWS", "AEA_FATIGUE", "AEA_TELEPORT", "AEA_VOMIT" ] },
+    "use_action": "ARTIFACT"
+  },
+  {
+    "id": "scroll_spell_acidspray",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (acid spray)",
+    "name_plural": "spellcraft scrolls (acid spray)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_acidspray_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_acidspray_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (acid spray)",
+    "name_plural": "spellcrafts scroll (acid spray)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "ACIDSPRAY", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_agile",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (agility)",
+    "name_plural": "spellcraft scrolls (agility)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_agile_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_agile_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (agility)",
+    "name_plural": "spellcrafts scroll (agility)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "AGILITY", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_clairvoyance",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (clairvoyance)",
+    "name_plural": "spellcraft scrolls (clairvoyance)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_clairvoyance_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_clairvoyance_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (clairvoyance)",
+    "name_plural": "spellcrafts scroll (clairvoyance)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "CLAIRVOYANCE", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_clarity",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (clarity of blood)",
+    "name_plural": "spellcraft scrolls (clarity of blood)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_clarity_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_clarity_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (clarity of blood)",
+    "name_plural": "spellcrafts scroll (clarity of blood)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "CLARITY", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_confusion",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (confuse monsters)",
+    "name_plural": "spellcraft scrolls (confuse monster)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_confusion_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_confusion_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (confuse monsters)",
+    "name_plural": "spellcrafts scroll (confuse monsters)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "CONFUSE", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_flame_armor",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (flame armor)",
+    "name_plural": "spellcraft scrolls (flame armor)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_flame_armor_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_flame_armor_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (flame armor)",
+    "name_plural": "spellcrafts scroll (flame armor)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "FLAMEARMOR", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_free_action",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (free action)",
+    "name_plural": "spellcraft scrolls (free action)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_free_action_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_free_action_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (free action)",
+    "name_plural": "spellcrafts scroll (free action)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "FREEACTION", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_heal",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (healing)",
+    "name_plural": "spellcraft scrolls (healing)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_heal_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_heal_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (healing)",
+    "name_plural": "spellcrafts scroll (healing)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "HEAL", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_insight",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (insight)",
+    "name_plural": "spellcraft scrolls (insight)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_insight_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_insight_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (insight)",
+    "name_plural": "spellcrafts scroll (insight)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "INSIGHT", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_invis",
+    "copy-from": "scroll_base",
+    "//": "ID retained to avoid breaking stuff.",
+    "type": "TOOL",
+    "name": "spellcraft scroll (serpentine shield)",
+    "name_plural": "spellcraft scrolls (serpentine shield)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_invis_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_invis_on",
+    "copy-from": "scroll_base",
+    "//": "ID retained to avoid breaking stuff.",
+    "type": "TOOL",
+    "name": "spellcraft scroll (serpentine shield)",
+    "name_plural": "spellcrafts scroll (serpentine shield)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "INVIS", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_elecresist",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (lightning ward)",
+    "name_plural": "spellcraft scrolls (lightning ward)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_elecresist_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_elecresist_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (lightning ward)",
+    "name_plural": "spellcrafts scroll (lightning ward)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "ELECRESIST", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_might",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (might)",
+    "name_plural": "spellcraft scrolls (might)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_might_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_might_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (might)",
+    "name_plural": "spellcrafts scroll (might)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "MIGHT", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_plants",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (overgrowth)",
+    "name_plural": "spellcraft scrolls (overgrowth)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_plants_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_plants_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (overgrowth)",
+    "name_plural": "spellcrafts scroll (overgrowth)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "OVERGROWTH", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_lightning",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (shockstorm)",
+    "name_plural": "spellcraft scrolls (shockstorm)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_lightning_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_lightning_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (shockstorm)",
+    "name_plural": "spellcrafts scroll (shockstorm)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "LIGHTNING", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "scroll_spell_cleric",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (ward against evil)",
+    "name_plural": "spellcraft scrolls (ward against evil)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "use_action": {
+      "target": "scroll_spell_cleric_on",
+      "msg": "You unravel the scroll and gaze upon the strange geometries depicted within...",
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "scroll_spell_cleric_on",
+    "copy-from": "scroll_base",
+    "type": "TOOL",
+    "name": "spellcraft scroll (ward against evil)",
+    "name_plural": "spellcrafts scroll (ward against evil)",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to focus on the pattern and burn its structure into your mind, in the hope of mastering its secrets.",
+    "turns_per_charge": 1,
+    "revert_to": "scroll_blank",
+    "use_action": { "type": "mutagen", "mutation_category": "CLERIC", "is_strong": true },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "flame_talisman",
+    "type": "TOOL",
+    "name": "flame talisman",
+    "description": "A crude paper talisman marked with strange patterns, and annointed with a meager sacrifice.  It can be used to rapidly spark a fire, if you're desparate.",
+    "weight": 150,
+    "volume": "100 ml",
+    "material": "paper",
+    "symbol": ",",
+    "color": "cyan",
+    "initial_charges": 15,
+    "max_charges": 15,
+    "charges_per_use": 1,
+    "use_action": { "type": "firestarter", "moves": 5 },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "water_talisman",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "tools",
+    "name": "water talisman",
+    "description": "A crude paper talisman marked with strange patterns, and annointed with a hunter's sacrifice.  It can be used to mend minor wounds, along with providing limited resistance to certain alchemical effects.",
+    "weight": 150,
+    "volume": "100 ml",
+    "material": "paper",
+    "symbol": ",",
+    "color": "cyan",
+    "use_action": {
+      "type": "heal",
+      "limb_power": 5,
+      "head_power": 5,
+      "torso_power": 5,
+      "limb_scaling": 1.0,
+      "head_scaling": 1.0,
+      "torso_scaling": 1.0,
+      "bleed": 0.5,
+      "bite": 0.5,
+      "move_cost": 25,
+      "effects": [ { "id": "talisman_warding", "duration": 600 } ]
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "earth_talisman",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "tools",
+    "name": "earth talisman",
+    "description": "A crude paper talisman marked with strange patterns, and annointed with a peculiar sacrifice.  Using it will conjure and transmutate a structure of strange earth and stone, to serve as a meager shelter in times of desparation.",
+    "weight": 150,
+    "volume": "100 ml",
+    "material": "paper",
+    "symbol": ",",
+    "color": "cyan",
+    "use_action": {
+      "type": "deploy_tent",
+      "radius": 2,
+      "broken_type": "candle_barrier_aftermath",
+      "wall": "f_spires_arcana",
+      "floor": "f_pozdol_arcana",
+      "floor_center": "f_altar_arcana",
+      "door_opened": "f_door_arcana_o",
+      "door_closed": "f_door_arcana_c"
+    },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "candle_warding",
+    "type": "TOOL",
+    "name": "candle of warding",
+    "name_plural": "candle of warding",
+    "description": "A candle with translucent wax, free of any impurities with a soothing aura about it.  It can be used to place a magical barrier, or used to project a faint light.  The barrier this item creates is not indestructable, but it is tough.",
+    "weight": 100,
+    "volume": 1,
+    "price": 1000,
+    "material": "essencemat",
+    "symbol": ",",
+    "color": "white",
+    "use_action": [
+      {
+        "target": "candle_warding_active",
+        "msg": "The candle gives off a faint blue flame.",
+        "menu_text": "Light candle of warding",
+        "type": "transform"
+      },
+      { "type": "deploy_furn", "furn_type": "f_candle_barrier_playermade" }
+    ],
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "candle_warding_active",
+    "type": "TOOL",
+    "name": "candle of warding (on)",
+    "name_plural": "candle of warding (on)",
+    "description": "A candle with translucent wax, free of any impurities with a soothing aura about it.  Its wick is lit with a ghostly blue flame, projecting light without heat.  It can also be used to place a magical barrier, one that's tough but not indestructable.",
+    "weight": 100,
+    "volume": 1,
+    "price": 1000,
+    "material": "essencemat",
+    "symbol": ",",
+    "color": "white",
+    "use_action": [
+      {
+        "target": "candle_warding",
+        "msg": "The candle's wick is extinguished.",
+        "menu_text": "Extinguish candle of warding",
+        "type": "transform"
+      },
+      { "type": "deploy_furn", "furn_type": "f_candle_barrier_playermade" }
+    ],
+    "flags": [ "NO_SALVAGE", "LIGHT_12" ]
+  },
+  {
+    "id": "orb_veil",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "orb of the veil",
+    "name_plural": "orbs of the veil",
+    "description": "A mysterious orb made of a dark, almost glassy stone.  An eye pattern is worked into it, using gold for the irises and a diamond pupil.  It is said to represent a desire to protect the old knowledge and old ways, strengthened by a yearning for further enlightenment.  With enough power, it might impart a great deal of knowledge... at a price.",
+    "weight": 2000,
+    "volume": 4,
+    "price": 10000,
+    "to_hit": -2,
+    "bashing": 6,
+    "material": [ "stone", "gold", "diamond" ],
+    "symbol": "*",
+    "looks_like": "diamond",
+    "color": "dark_gray",
+    "ammo": "essence_pure_type",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "artifact_data": {
+      "effects_activated": [ "AEA_MAP", "AEA_PAIN", "AEA_PAIN", "AEA_PAIN", "AEA_ATTENTION" ],
+      "effects_wielded": [ "AEP_INT_UP", "AEP_PER_UP", "AEP_ATTENTION", "AEP_SCHIZO" ]
+    },
+    "use_action": "ARTIFACT",
+    "flags": [ "NO_SALVAGE", "MAGIC_FOCUS" ]
+  },
+  {
+    "id": "staff_druidic",
+    "type": "TOOL",
+    "name": "druidic staff",
+    "name_plural": "druidic staves",
+    "description": "A short wooden staff decorated with engraved silver, depicting a mixture of exotic natural scenes and various holy symbols.  It is said to represent the instincts deep within the heart, tempered by restraint and reason.  Using it can repair items made of various plant or animal products and stone, but not more refined materials like metal or glass.",
+    "weight": 1310,
+    "volume": 8,
+    "price": 1000,
+    "bashing": 12,
+    "material": [ "wood", "silver" ],
+    "symbol": "/",
+    "looks_like": "cudgel",
+    "color": "light_gray",
+    "ammo": "essence_dull_type",
+    "max_charges": 150,
+    "charges_per_use": 1,
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+        "materials": [ "bone", "chitin", "clay", "cotton", "fur", "leather", "stone", "wood", "wool" ],
+        "skill": "magic",
+        "tool_quality": 20,
+        "cost_scaling": 0,
+        "move_cost": 1000
+      }
+    ],
+    "flags": [ "NO_SALVAGE", "MAGIC_FOCUS" ]
+  },
+  {
+    "id": "moonstone_fang",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "moonstone fang",
+    "description": "A short, curved spike made of a white opalescent gemstone, richly engraved with swirling serpentine imagery.  Wielding it will call forth serpentine shadows to aid you and grant a life-draining touch, but it will sicken body and mind.  Invoking it will harden the body against cold.",
+    "weight": 160,
+    "volume": 6,
+    "price": 25000,
+    "to_hit": 2,
+    "bashing": 3,
+    "cutting": 22,
+    "material": "stone",
+    "symbol": "/",
+    "looks_like": "small_relic",
+    "color": "dark_gray",
+    "ammo": "essence_type",
+    "max_charges": 8,
+    "charges_per_use": 8,
+    "techniques": [ "RAPID", "DEF_DISARM" ],
+    "qualities": [ [ "BUTCHER", 6 ] ],
+    "artifact_data": { "effects_wielded": [ "AEP_SNAKES", "AEP_SAP_LIFE", "AEP_SICK", "AEP_SCHIZO" ] },
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "The carvings in the stone glow blue for a brief moment, and an uncomfortable warmth spreads through your body.",
+      "effects": [ { "id": "cold_ward", "duration": 6000 } ]
+    },
+    "flags": [ "STAB", "SHEATH_KNIFE" ]
+  },
+  {
+    "id": "veilblade",
+    "type": "TOOL",
+    "copy-from": "zweihander",
+    "name": "restored ritual blade",
+    "description": "A two-handed sword richly engraved with exotic runes.  Once corrupted and now restored, it can only serve a fragment of its original purpose.  Fuel it by lingering near wounds in The Veil, or with crystalized essence.",
+    "material": [ "superalloy", "essencemat" ],
+    "color": "light_gray",
+    "ammo": "essence_pure_type",
+    "max_charges": 1,
+    "use_action": [
+      {
+        "target": "veilblade_on",
+        "msg": "Strange glowing runes fill the air as you channel magical power through the blade.",
+        "target_charges": 0,
+        "active": true,
+        "moves": 50,
+        "need_charges": 1,
+        "need_charges_msg": "Return sufficient power to The Beyond, and be rewarded.",
+        "menu_text": "Pierce The Veil",
+        "type": "transform"
+      }
+    ],
+    "relative": { "cutting": -5, "weight": -318, "price": 50000 },
+    "extend": { "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "NO_UNLOAD", "MAGIC_FOCUS" ] },
+    "delete": { "flags": [ "DURABLE_MELEE" ] },
+    "artifact_data": { "charge_type": "ARTC_PORTAL" }
+  },
+  {
+    "id": "veilblade_on",
+    "type": "TOOL",
+    "category": "weapons",
+    "//": "By nessecity, can't copy from the base items that have built-in use actions from their qualities.",
+    "name": "restored ritual blade (on)",
+    "name_plural": "restored ritual blades (on)",
+    "description": "A two-handed sword richly engraved with exotic runes.  He From Beyond The Veil, accept this offering...",
+    "weight": 2858,
+    "volume": 13,
+    "price": 210000,
+    "to_hit": 1,
+    "bashing": 17,
+    "cutting": 100,
+    "material": [ "superalloy", "essencemat" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "veilblade",
+    "use_action": { "type": "mutagen_iv", "mutation_category": "VEIL" },
+    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
+    "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "MAGIC_FOCUS" ]
+  },
+  {
+    "id": "draconic_heart_mutator",
+    "type": "TOOL",
+    "name": "sacramental heart",
+    "description": "A vibrant red chunk of petrified flesh, purified and set in an ornamental mounting like a morbid brooch.  It resonates with unnatural power, as though imbued with the essence of the creature it was cut away from.  Channeling blood essence through it will start you down the path to becoming  something ...else.  A path you can't return from.",
+    "weight": 2500,
+    "volume": 4,
+    "price": 15000,
+    "to_hit": -2,
+    "bashing": 3,
+    "material": [ "stone", "essencemat" ],
+    "symbol": "*",
+    "looks_like": "petrified_eye",
+    "color": "red",
+    "ammo": "essence_blood_type",
+    "max_charges": 10,
+    "charges_per_use": 10,
+    "use_action": { "type": "mutagen_iv", "mutation_category": "DRAGONBLOOD" }
+  },
+  {
+    "id": "stormbringer",
+    "type": "TOOL",
+    "copy-from": "zweihander",
+    "name": "cursed blade",
+    "description": "A two-handed sword, blade made of a dark metal, engraved with exotic runes.  Activating it will grant the wielder a powerful life-draining weapon, but you won't be able to let go of it until it runs out of energy.",
+    "material": [ "hardsteel", "essencemat" ],
+    "color": "dark_gray",
+    "ammo": "essence_blood_type",
+    "max_charges": 9,
+    "use_action": [
+      {
+        "target": "stormbringer_on",
+        "msg": "The runes on the blade glow for a moment, and you feel a strange bloodlust overtake you.",
+        "target_charges": 1200,
+        "active": true,
+        "need_charges": 9,
+        "need_charges_msg": "Nine motes of blood shall awaken the blade.",
+        "menu_text": "Awaken the dark blade",
+        "type": "transform"
+      }
+    ],
+    "relative": { "to_hit": -1, "cutting": -5 },
+    "extend": { "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE" ] },
+    "delete": { "flags": [ "DURABLE_MELEE" ] }
+  },
+  {
+    "id": "stormbringer_on",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "cursed blade (on)",
+    "name_plural": "cursed blades (on)",
+    "//": "Funny as it'd be to add the bad weather effect too, that would be a tad silly.  Also still can't use copy-from.",
+    "description": "A two-handed sword, blade made of a dark metal, engraved with exotic runes.  You feel as if the blade thirsts for blood, refusing to leave your grasp until it is sated.",
+    "ammo": "essence_blood_type",
+    "initial_charges": 7200,
+    "max_charges": 7200,
+    "turns_per_charge": 1,
+    "revert_to": "stormbringer",
+    "revert_msg": "The malevolent energy fades from the cursed blade, returning it to normal.",
+    "artifact_data": { "effects_wielded": [ "AEP_STR_UP", "AEP_SAP_LIFE", "AEP_EVIL", "AEP_SICK" ] },
+    "weight": 3176,
+    "volume": 13,
+    "price": 160000,
+    "to_hit": 1,
+    "bashing": 17,
+    "cutting": 40,
+    "material": [ "hardsteel", "essencemat" ],
+    "symbol": "/",
+    "looks_like": "stormbringer",
+    "color": "dark_gray",
+    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP", "VORPAL" ],
+    "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "NO_UNWIELD" ]
+  }
+]

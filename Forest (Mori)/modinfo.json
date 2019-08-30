@@ -1,0 +1,10 @@
+    {
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "mori",
+        "name": "mori Mod",
+        "description": "The proportion of the forest increases and becomes like New England.",
+	    "dependencies": ["More_Survival_Tools"],
+        "path": "",
+		"author": ""
+    }

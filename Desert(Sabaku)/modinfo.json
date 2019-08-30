@@ -1,0 +1,10 @@
+    {
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "sabaku",
+        "name": "sabaku Mod",
+        "description": "New England becomes a desert. Fixed summer recommended.",
+	    "dependencies": ["More_Survival_Tools"],
+        "path": "",
+		"author": ""
+    }

@@ -1,0 +1,10 @@
+{
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "Make_a_Lot_of_Items_Mod",
+        "name": "Make a Lot of Items",
+        "description": "Make a lot of items",
+        "path": "",
+        "dependencies": ["dda"],
+		"author": ""
+    }

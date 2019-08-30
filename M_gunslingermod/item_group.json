@@ -1,0 +1,23 @@
+[
+  {
+    "type": "item_group",
+    "id": "manual_fabrication",
+    "items": [ [ "recipe_gunslinger", 1 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "novels",
+    "items": [ [ "manual_gunslinger", 1 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "antique_rare",
+    "items": [ [ "recipe_gunslinger", 1 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "antique_guns",
+    "items": [ [ "gs_revolver_sandalwood", 1 ] ]
+  }
+]
+

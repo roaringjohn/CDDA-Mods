@@ -1,0 +1,55 @@
+{
+    "method": "json",
+    "object": {
+        "furniture": {
+            "#": "f_null",
+            ".": "f_null",
+            "_": "f_null",
+            "u": "f_null"
+        },
+            "rows": [
+                "WWWWWWWWWWWWWWWWWWWWWWWW",
+                "WWWWWWWWWWWWWWWWWWWWWWWW",
+                "WWWWWWWWWWWwwwwWWWWWWWWW",
+                "WWWWWWWWwwwwwwwwwWWWWWWW",
+                "WWWWWWwwwwww   wwwwWWWWW",
+                "WWWWww.. w   s   w^wwwWW",
+                "WWww.  .             wWW",
+                "WWwwT^ .  MMMMM     ^wWW",
+                "WWww   .  MmmmM     .wWW",
+                "WWwwT  .  MmCmM s   .wWW",
+                "WWww  .   MmmmM     .wWW",
+                "WWww   s  MM=MM     swWW",
+                "WWww.. .            .wWW",
+                "WWwwww  w   * s   wwwwWW",
+                "WWWwwwwww        wwwwwWW",
+                "WWWWWwwwwww     wwwWWWWW",
+                "WWWWWWwwwwwwwwwwwwWWWWWW",
+                "WWWWWWWWWwwwwwwwwwwWWWWW",
+                "WWWWWWWWWWWWWwwwwwWWWWWW",
+                "WWWWWWWWWWWWWWWWwwWWWWWW",
+                "WWWWWWWWWWWWWWWWWWWWWWWW",
+                "WWWWWWWWWWWWWWWWWWWWWWWW",
+                "WWWWWWWWWWWWWWWWWWWWWWWW",
+                "WWWWWWWWWWWWWWWWWWWWWWWW"
+            ],
+            "terrain": {
+                ".": "t_grass",
+                "*": "t_dirt",
+                " ": "t_dirt",
+                "w": "t_water_sh",
+                "W": "t_water_dp",
+                "s": "t_underbrush",
+                "z": "t_shrub",
+                "^": "t_tree_young",
+                "T": "t_tree",
+                "=": "t_dirt",
+                "M": "t_dirt",
+                "m": "t_dirt",
+                "C": "t_dirt"
+            }
+    },
+    "om_terrain": "field",
+    "type": "mapgen",
+    "weight": 1
+}

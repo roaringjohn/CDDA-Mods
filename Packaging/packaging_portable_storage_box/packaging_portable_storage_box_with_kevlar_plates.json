@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_portable_storage_box_with_kevlar_plates",
+        "symbol": "]",
+        "color": "light_gray",
+        "name": "storage box (kevlar plates)",
+        "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 kevlar plates.",
+        "price": 10000,
+        "material": ["wood", "steel"],
+        "weight": 25400,
+        "volume": 50
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_portable_storage_box_with_kevlar_plates",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 10000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_portable_storage_box", 1 ]
+            ],
+            [
+                [ "kevlar_plate",                   65 ]
+            ]
+        ]
+    }
+]

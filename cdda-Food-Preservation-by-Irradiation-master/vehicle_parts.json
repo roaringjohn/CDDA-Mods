@@ -1,0 +1,24 @@
+[
+  {
+    "id": "irradiate_rig",
+    "type": "vehicle_part",
+    "name": "food irradiator rig",
+    "item": "irradiaterig",
+    "location": "center",
+    "symbol": "&",
+    "broken_symbol": "x",
+    "color": "light_red",
+    "broken_color": "light_red",
+    "difficulty": 3,
+    "durability": 80,
+    "size": 200,
+    "damage_modifier": 10,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 6 ] },
+      { "item": "steel_chunk", "count": [ 3, 6 ] },
+      { "item": "scrap", "count": [ 3, 6 ] },
+      { "item": "survivor_food_irradiator", "prob": 50, "charges": 0 }
+    ],
+    "flags": [ "CARGO", "OBSTACLE", "COVERED", "TOOL_WRENCH" ]
+  }
+]

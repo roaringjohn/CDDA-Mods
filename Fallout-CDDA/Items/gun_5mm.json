@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ak112",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": "AK-112",
+    "description": "An AK-112 5mm Assault Rifle. An old military model, out of use around the time of the cataclysm. Can fire single-shot or burst, using the high velocity 5mm rounds.",
+    "weight": 2710,
+    "volume": 7,
+    "price": 290000,
+    "to_hit": -1,
+    "bashing": 12,
+	    "looks_like": "ak47",
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "5mm",
+    "skill": "rifle",
+    "dispersion": 180,
+    "durability": 9,
+    "burst": 8,
+    "barrel_length": 1,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
+    "magazines": [
+      [ "5mm", [ "5mmmag", "5mmlargemag", "5mmdrummag", "5mmminigunmag" ] ]
+    ],
+    "flags": [ "NEVER_JAMS" ]
+  }
+]

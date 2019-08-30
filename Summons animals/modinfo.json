@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "mod_type": "SUPPLEMENTAL",
+    "ident": "Summons_animals",
+    "name": "Animal Summoner Item",
+    "description": "Add items to summon wildlife",
+    "category": "items",
+    "dependencies": [ "dda" ],
+    "path": ""
+  }
+]

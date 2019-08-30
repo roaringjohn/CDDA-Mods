@@ -1,0 +1,26 @@
+[
+  {
+    "type": "item_group",
+    "id": "farming_seeds",
+    "items": [
+      [ "mf_seed_curry_powder", 60 ],
+      [ "mf_seed_chilly-p", 60 ],
+      [ "mf_seed_cinnamon", 60 ],
+      [ "mf_seed_human_flesh", 60 ],
+      [ "mf_seed_plant_sac", 60 ],
+      [ "mf_seed_veggy", 60 ],
+      [ "mf_seed_coffee_bean", 60 ],
+      [ "mf_seed_honny_comb", 60 ],
+      [ "mf_seed_mycus_fruit", 60 ],
+      [ "mf_seed_bacon", 60 ],
+      [ "mf_seed_raw_beans", 60 ],
+      [ "mf_seed_meat", 60 ],
+      [ "mf_seed_egg_bird", 60 ],
+      [ "mf_seed_dry_rice", 60 ],
+      [ "mf_seed_milk_powder", 60 ],
+      [ "mf_seed_jihelucake", 60 ],
+      [ "mf_seed_deluxe_rice", 60 ],
+      [ "mf_seed_pizza_cheese", 60 ]
+    ]
+  }
+]

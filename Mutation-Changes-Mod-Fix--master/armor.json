@@ -1,0 +1,26 @@
+[
+  {
+    "type": "ARMOR",
+    "id": "gauntlets_larmor",
+    "copy-from": "gauntlets_larmor",
+    "name": "pair of leather armor gauntlets",
+    "name_plural": "pairs of leather armor gauntlets",
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "type": "ARMOR",
+    "id": "gloves_fingerless",
+    "copy-from": "gloves_fingerless",
+    "name": "pair of fingerless gloves",
+    "name_plural": "pairs of fingerless gloves",
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "type": "ARMOR",
+    "id": "gloves_fingerless_mod",
+    "copy-from": "gloves_fingerless_mod",
+    "name": "pair of armored fingerless gloves",
+    "name_plural": "pairs of armored fingerless gloves",
+    "extend": { "flags": [ "OVERSIZE" ] }
+  }
+]

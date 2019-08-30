@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_mintpatties",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (peppermint patty)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 240 peppermint pattys.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 11440,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_mintpatties",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "mintpatties",                    240 ]
+            ]
+        ]
+    }
+]

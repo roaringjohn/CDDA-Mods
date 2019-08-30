@@ -1,0 +1,12 @@
+[
+  {
+    "type"        : "MOD_INFO",
+    "ident"       : "CBM_Arms",
+    "name"        : "CBM Equipment",
+    "authors"     : [""],
+    "description" : "Add various equipment made from CBM.",
+    "category"    : "items",
+    "dependencies": ["dda"],
+    "obsolete"    : false
+  }
+]

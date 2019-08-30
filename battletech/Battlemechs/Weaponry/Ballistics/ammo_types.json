@@ -1,0 +1,23 @@
+[
+    {
+        "type" : "ammunition_type",
+        "id" : "shell_ac2",
+        "name" : "AC/2 Shell",
+        "default" : "shell_ac2"
+    },{
+        "type" : "ammunition_type",
+        "id" : "shell_ac5",
+        "name" : "AC/5 Shell",
+        "default" : "shell_ac5"
+    },{
+        "type" : "ammunition_type",
+        "id" : "shell_ac10",
+        "name" : "AC/10 Shell",
+        "default" : "shell_ac10"
+    },{
+        "type" : "ammunition_type",
+        "id" : "shell_ac20",
+        "name" : "AC/20 Shell",
+        "default" : "shell_ac20"
+    }
+]

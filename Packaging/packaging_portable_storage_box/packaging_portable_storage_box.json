@@ -1,0 +1,110 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_portable_storage_box",
+        "symbol": "]",
+        "color": "light_gray",
+        "name": "storage box",
+        "description": "A makeshift storage box. Used for reduction in volume and easy transportation.",
+        "category": "other",
+        "price": 10000,
+        "material": ["wood", "steel"],
+        "weight": 2000,
+        "volume": 17
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_portable_storage_box",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 30000,
+        "reversible": true,
+        "autolearn": true,
+        "qualities": [
+            { "id": "HAMMER", "level":1, "amount":1 },
+            { "id": "SAW_W",  "level":1, "amount":1 },
+            { "id": "CUT",    "level":1, "amount":1 }
+        ],
+        "tools": [
+            [
+                [ "sewing_kit",      100 ]
+            ]
+        ],
+        "components": [
+            [
+                [ "rag",             10 ],
+                [ "tanned_hide",     2 ],
+                [ "leather",         10 ],
+                [ "tanned_pelt",     2 ],
+                [ "fur",             10 ]
+            ],
+            [
+                [ "rag",             10 ],
+                [ "tanned_hide",     2 ],
+                [ "leather",         10 ],
+                [ "tanned_pelt",     2 ],
+                [ "fur",             10 ]
+            ],
+            [
+                [ "stick",           3 ],
+                [ "pipe",            3 ],
+                [ "bone_human",      3 ],
+                [ "bone_tainted",    3 ],
+                [ "bone",            3 ]
+            ],
+            [
+                [ "stick",           3 ],
+                [ "pipe",            3 ],
+                [ "bone_human",      3 ],
+                [ "bone_tainted",    3 ],
+                [ "bone",            3 ]
+            ],
+            [
+                [ "2x4",             2 ],
+                [ "sheet_metal",     2 ],
+                [ "box_small",       18 ],
+                [ "chitin_piece",    12 ]
+            ],
+            [
+                [ "2x4",             2 ],
+                [ "sheet_metal",     2 ],
+                [ "box_small",       18 ],
+                [ "chitin_piece",    12 ]
+            ],
+            [
+                [ "wire",            10 ],
+                [ "duct_tape",       20 ],
+                [ "medical_tape",    30 ],
+                [ "string_6",        1 ],
+                [ "cable",           10 ],
+                [ "sinew",           20 ],
+                [ "thread",          20 ],
+                [ "yarn",            20 ],
+                [ "plant_fibre",     20 ]
+            ],
+            [
+                [ "wire",            10 ],
+                [ "duct_tape",       20 ],
+                [ "medical_tape",    30 ],
+                [ "string_6",        1 ],
+                [ "cable",           10 ],
+                [ "sinew",           20 ],
+                [ "thread",          20 ],
+                [ "yarn",            20 ],
+                [ "plant_fibre",     20 ]
+            ],
+            [
+                [ "nail",            8 ],
+                [ "superglue",       1 ],
+                [ "bone_glue",       4 ]
+            ],
+            [
+                [ "nail",            8 ],
+                [ "superglue",       1 ],
+                [ "bone_glue",       4 ]
+            ]
+        ]
+    }
+]

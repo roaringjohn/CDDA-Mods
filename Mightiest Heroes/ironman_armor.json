@@ -1,0 +1,27 @@
+{
+        "type" : "ARMOR",
+        "id" : "iron_man_armor",
+        "category" : "armor",
+        "name" : "Mk.CIII Armor",
+        "description" : "A suit of red and gold-painted power armor. Wearing it with the helmet will give you maximum protection.",
+        "weight" : 8500,
+        "environmental_protection" : 15,
+        "color" : "red",
+        "symbol" : "[",
+        "material" : ["superalloy", "steel"],
+        "covers" : ["TORSO", "ARMS", "HANDS", "LEGS", "FEET"],
+        "price" : 300000000,
+        "volume" : 52,
+        "to_hit" : 1,
+        "power_armor" : true,
+        "storage" : 0,
+        "warmth" : 40,
+        "encumbrance" : 11,
+        "bashing" : 1,
+        "flags" : ["WATERPROOF", "STURDY", "ELECTRIC_IMMUNE"],
+        "use_action": {
+            "type": "ups_based_armor",
+            "activate_msg": "Your Iron Man suit activates."
+        },
+        "coverage" : 100,
+        "material_thickness" : 11    }

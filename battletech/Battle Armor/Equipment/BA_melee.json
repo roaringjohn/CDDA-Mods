@@ -1,0 +1,34 @@
+[
+  {
+    "type": "TOOL_ARMOR",
+    "id": "battle_claw",
+    "name": "Battle Claw",
+    "name_plural": "claws",
+    "description": "A specialized three- or four-fingered Battle Armor manipulator designed for close-quarters anti-BattleMech attacks, first introduced by Clan Wolf in 2868. Larger and more powerful than Basic Manipulators, a Battle Claw is primarily designed for brute strength at the expense of dexterity. Snippy Snip.",
+    "to_hit": 3,
+    "color": "light_gray",
+    "symbol": "{",
+    "material": [ "steel" ],
+    "volume": 3,
+    "techniques": [ "WBLOCK_1", "tec_CRUSHER", "tec_POWER_PUNCH" ],
+    "bashing": 12,
+    "cutting": 300,
+    "flags": [ "STAB", "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "TRADER_AVOID" ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -50 ] ]
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "basic_manipulator",
+    "name": "Basic Manipulator",
+    "name_plural": "manipulators",
+    "description": "The Basic Manipulator is the standard manipulator used on battle armor and Exoskeletons. First developed by the Terran Alliance circa 2110, these manipulators are operated by controls in the suit's wrists and utilize Myomers for increased strength, allowing the wearer to securely grab the handholds of an OmniMech.",
+    "to_hit": 3,
+    "color": "light_gray",
+    "symbol": "[",
+    "material": [ "steel" ],
+    "volume": 2,
+    "techniques": [ "WBLOCK_1" ],
+    "bashing": 8,
+    "flags": [ "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "TRADER_AVOID" ]
+  }
+]

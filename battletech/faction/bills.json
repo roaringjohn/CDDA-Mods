@@ -1,0 +1,27 @@
+[ 
+  {
+    "type": "GENERIC",
+    "id": "c_bill",
+    "name": "C-Bill",
+    "description": "The C-Bill originated from early ComStar's Letter of Credit, which detailed the value of ComStar's communication services to the Great Houses and the public. Approved in 2835 the C-Bill was intended as a method of payment for those services, its value based on a fixed amount of ComStar service, transmission time, or delivery distance. ",
+    "weight": 10,
+    "to_hit": 0,
+    "color": "green",
+    "symbol": ",",
+    "material": [ "paper" ],
+    "volume": 0,
+    "price": 10.9
+  },{
+    "type": "GENERIC",
+    "id": "k_bill",
+    "name": "K-Bill",
+    "description": "The K-Bill, or Kurita Bill, originates from whaddaya know, Kurita! Also called the Dragonis Combine, which is cooler.",
+    "weight": 10,
+    "to_hit": 0,
+    "color": "green",
+    "symbol": ",",
+    "material": [ "paper" ],
+    "volume": 0,
+    "price": 8.72
+  }
+]

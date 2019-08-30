@@ -1,0 +1,152 @@
+[
+    {
+        "type" : "overmap_special",
+        "id" : "bandit_field_bm",
+        "overmaps" :
+        [
+            { "point":[0,0,0], "overmap": "bandit_field_bm_north"}
+        ],
+        "locations" : [ "wilderness" ], "//":"what special locations does it spawn",
+        "city_distance" : [-1, 5], "//":"how far from a city it should be",
+        "city_sizes" : [4, 12], "//":"what city sizes should it spawn in",
+        "occurrences" : [0, 0], "//":"how many per overmap"
+    },{
+        "type" : "overmap_special",
+        "id" : "hunter_tent_bm",
+        "overmaps" :
+        [
+            { "point":[0,0,0], "overmap": "hunter_tent_bm_north"}
+        ],
+        "locations" : [ "forest" ], "//":"what special locations does it spawn",
+        "city_distance" : [5, -1], "//":"how far from a city it should be",
+        "city_sizes" : [4, 12], "//":"what city sizes should it spawn in",
+        "occurrences" : [0, 0], "//":"how many per overmap"
+    },{
+        "type" : "overmap_special",
+        "id" : "bandit_field_sabaku",
+        "overmaps" :
+        [
+            { "point":[0,0,0], "overmap": "bandit_field_sabaku_north"}
+        ],
+        "locations" : [ "wilderness" ], "//":"what special locations does it spawn",
+        "city_distance" : [-1, 5], "//":"how far from a city it should be",
+        "city_sizes" : [4, 12], "//":"what city sizes should it spawn in",
+        "occurrences" : [1, 5], "//":"how many per overmap"
+    },{
+        "type" : "overmap_special",
+        "id" : "hunter_tent_sabaku",
+        "overmaps" :
+        [
+            { "point":[0,0,0], "overmap": "hunter_tent_sabaku_north"}
+        ],
+        "locations" : [ "wilderness" ], "//":"what special locations does it spawn",
+        "city_distance" : [5, -1], "//":"how far from a city it should be",
+        "city_sizes" : [4, 12], "//":"what city sizes should it spawn in",
+        "occurrences" : [1, 5], "//":"how many per overmap"
+    },{
+        "type" : "overmap_special",
+	    "copy-from": "campsite",
+        "id" : "campsite",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [15, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [0, 0]
+    },{
+        "type" : "overmap_special",
+	    "copy-from": "campsite_cabin_incomplete",
+        "id" : "campsite_cabin_incomplete",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_cabin_incomplete"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [20, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [0, 0]
+    },{
+        "type" : "overmap_special",
+	    "copy-from": "campsite_field_biker",
+        "id" : "campsite_field_biker",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_field_biker"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [10, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [0, 0]
+    },{
+        "type" : "overmap_special",
+	    "copy-from": "campsite_a",
+        "id" : "campsite_a",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_a"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [10, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [0, 0]
+    },{
+        "type" : "overmap_special",
+	    "copy-from": "campsite_field_biker_destroyed",
+        "id" : "campsite_field_biker_destroyed",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_field_biker_destroyed"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [10, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [0, 0]
+    },{
+        "type" : "overmap_special",
+        "id" : "campsite_sabaku",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_sabaku"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [15, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [1, 5]
+    },{
+        "type" : "overmap_special",
+        "id" : "campsite_cabin_incomplete_sabaku",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_cabin_incomplete_sabaku"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [20, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [1, 3]
+    },{
+        "type" : "overmap_special",
+        "id" : "campsite_field_biker_sabaku",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_field_biker_sabaku"}
+        ],
+        "locations" : [ "field" ],
+        "city_distance" : [10, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [1, 3]
+    },{
+        "type" : "overmap_special",
+        "id" : "campsite_a_sabaku",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_a_sabaku"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [10, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [1, 5]
+    },{
+        "type" : "overmap_special",
+        "id" : "campsite_field_biker_destroyed_sabaku",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "campsite_field_biker_destroyed_sabaku"}
+        ],
+        "locations" : [ "field" ],
+        "city_distance" : [10, -1],
+        "city_sizes" : [4, 12],
+        "occurrences" : [1, 5]
+    }
+]

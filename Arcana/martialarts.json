@@ -1,0 +1,30 @@
+[
+  {
+    "id": "style_silat",
+    "copy-from": "style_silat",
+    "type": "martial_art",
+    "name": "Silat",
+    "extend": { "weapons": ["blood_athame", "moonstone_fang", "staff_druidic", "bloodscourge", "scourge_staff", "spear_pestilence"] }
+  },
+  {
+    "id": "style_fencing",
+    "copy-from": "style_fencing",
+    "type": "martial_art",
+    "name": "Fencing",
+    "extend": { "weapons": ["sun_sword", "sun_sword_on", "staff_druidic"] }
+  },
+  {
+    "id": "style_eskrima",
+    "copy-from": "style_eskrima",
+    "type": "martial_art",
+    "name": "Eskrima",
+    "extend": { "weapons": ["graboid_fang", "dermatik_sting", "monster_fang", "blood_athame", "moonstone_fang", "staff_druidic"] }
+  },
+  {
+    "id": "style_sojutsu",
+    "copy-from": "style_sojutsu",
+    "type": "martial_art",
+    "name": "Sōjutsu",
+    "extend": { "weapons": ["spear_pestilence"] }
+  }
+]

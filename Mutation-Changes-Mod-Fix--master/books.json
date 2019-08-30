@@ -1,0 +1,100 @@
+[
+  {
+    "type": "BOOK",
+    "id": "recipe_creepy",
+    "copy-from": "recipe_creepy",
+    "name": "lab journal-Smythe",
+    "name_plural": "lab journals-Smythe",
+    "max_level": 4,
+    "required_level": 3,
+    "intelligence": 10,
+    "to_hit": -2
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_animal",
+    "copy-from": "recipe_animal",
+    "name": "lab journal-Dionne",
+    "name_plural": "lab journals-Dionne",
+    "max_level": 4,
+    "required_level": 3,
+    "intelligence": 10,
+    "to_hit": -2
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_maiar",
+    "copy-from": "recipe_maiar",
+    "name": "lab journal-x-|xp",
+    "name_plural": "lab journals-x-|xp",
+    "max_level": 4,
+    "required_level": 3,
+    "intelligence": 10,
+    "to_hit": -2
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_serum",
+    "copy-from": "recipe_serum",
+    "name": "Best Practices for Compound Delivery",
+    "name_plural": "Best Practices for Compound Delivery",
+    "max_level": 4,
+    "required_level": 3,
+    "intelligence": 10,
+    "to_hit": -2
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_alpha",
+    "copy-from": "recipe_alpha",
+    "name": "PE050 \"Alpha\": Preliminary Report",
+    "name_plural": "PE050 \"Alpha\": Preliminary Report",
+    "max_level": 5,
+    "required_level": 4,
+    "intelligence": 10,
+    "to_hit": -2
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_elfa",
+    "copy-from": "recipe_elfa",
+    "name": "standpipe maintenance log",
+    "max_level": 3,
+    "required_level": 3,
+    "intelligence": 10,
+    "to_hit": -2
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_chimera",
+    "copy-from": "recipe_chimera",
+    "name": "PE065 \"Chimera\": Best Practices",
+    "name_plural": "PE065 \"Chimera\": Best Practices",
+    "max_level": 4,
+    "required_level": 3,
+    "intelligence": 10,
+    "to_hit": -2
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_medicalmut",
+    "copy-from": "recipe_medicalmut",
+    "name": "PE023 \"Medical\": Application and Findings",
+    "name_plural": "PE023 \"Medical\": Application and Findings",
+    "max_level": 4,
+    "to_hit": -2,
+    "intelligence": 10,
+    "required_level": 3
+  },
+  {
+    "type": "BOOK",
+    "id": "recipe_raptor",
+    "copy-from": "recipe_raptor",
+    "name": "PE070 \"Raptor\": Proposal",
+    "name_plural": "PE070 \"Raptor\": Proposal",
+    "max_level": 4,
+    "required_level": 3,
+    "intelligence": 10,
+    "to_hit": -2
+  }
+]

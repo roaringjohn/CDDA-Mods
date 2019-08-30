@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_portable_storage_box_with_splinter",
+        "symbol": "]",
+        "color": "light_gray",
+        "name": "storage box (splintered wood)",
+        "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 pieces of splintered wood.",
+        "price": 10000,
+        "material": ["wood", "steel"],
+        "weight": 31445,
+        "volume": 50
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_portable_storage_box_with_splinter",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 10000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_portable_storage_box", 1 ]
+            ],
+            [
+                [ "splinter",                       65 ]
+            ]
+        ]
+    }
+]

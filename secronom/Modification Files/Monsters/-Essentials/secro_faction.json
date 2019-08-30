@@ -1,0 +1,11 @@
+[
+	 {
+        "type" : "MONSTER_FACTION",
+        "name" : "saddler",
+        "neutral" : [ "bot" ]
+    },
+	{
+        "type" : "MONSTER_FACTION",
+        "name" : "ayenel"
+    }
+]

@@ -1,0 +1,90 @@
+[
+ {
+    "id": "mon_zombie_lick",
+    "type": "MONSTER",
+    "name": "licker zombie",
+    "description": "A mouthless zombie, with slender long tongue coming out of it. Its small body makes it supremely agile, and will crawl to and try to subdue anything until its target befalls from its claws.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "HUMAN" ],
+    "volume": "30000 ml",
+    "weight": 40750,
+	"harvest": "zombie",
+    "hp": 70,
+    "speed": 120,
+    "material": [ "flesh" ],
+    "symbol": "z",
+    "color": "pink",
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 4,
+    "melee_dice": 0,
+    "melee_dice_sides": 2,
+    "melee_cut": 4,
+    "armor_cut": 4,
+    "armor_bash": 2,
+    "armor_stab": 4,
+    "dodge": 4,
+    "special_attacks": [
+      [ "scratch", 6 ],
+      [ "GRAB", 10 ],
+      [ "LUNGE", 20 ],
+      { "type": "leap", "allow_no_target": false, "cooldown": 10, "max_range": 5 }
+    ],
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [
+        [ "default_zombie_clothes", 100 ],
+        [ "child_items", 65 ]
+      ]
+    },
+    "death_function": [ "NORMAL" ],
+	"upgrades":
+     {
+      "half_life": 14,
+      "into": "mon_zombie_mlick"
+     },
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "FILTHY", "POISON", "NO_BREATHE", "REVIVES", "BONES", "GROUP_MORALE" ]
+ },
+ {
+    "id": "mon_zombie_mlick",
+    "type": "MONSTER",
+    "name": "licker zombie",
+    "description": "An ever dominant licker mutant with much more distinction to its terrific appearance. Its skin sheds into a fleshy physique, claws arose awkwardly and its tongue grew much longer.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "HUMAN" ],
+    "volume": "30000 ml",
+    "weight": 40750,
+	"harvest": "zombie",
+    "hp": 90,
+    "speed": 130,
+    "material": [ "flesh" ],
+    "symbol": "z",
+    "color": "pink_red",
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 5,
+    "melee_dice": 0,
+    "melee_dice_sides": 2,
+    "melee_cut": 6,
+    "armor_cut": 6,
+    "armor_bash": 4,
+    "armor_stab": 6,
+    "dodge": 5,
+    "special_attacks": [
+      [ "scratch", 4 ],
+      [ "GRAB", 6 ],
+      [ "LUNGE", 14 ],
+      { "type": "leap", "allow_no_target": false, "cooldown": 10, "max_range": 7 }
+    ],
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [
+        [ "default_zombie_clothes", 100 ],
+        [ "child_items", 65 ]
+      ]
+    },
+    "death_function": [ "NORMAL" ],
+	
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "FILTHY", "REVIVES", "BONES", "GROUP_MORALE" ]
+ }
+]

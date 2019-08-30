@@ -1,0 +1,26 @@
+[
+    {
+    "type":"monstergroup",
+    "name" : "GROUP_LAB",
+    "default" : "mon_zombie_scientist",
+    "monsters" : [
+      { "monster" : "mon_skitterbot", "freq" : 85, "cost_multiplier" : 0, "pack_size" : [2,3] },
+      { "monster" : "mon_seeker_bot", "freq" : 50, "cost_multiplier" : 5}, 
+      { "monster" : "mon_hunter_bot", "freq" : 50, "cost_multiplier" : 0, "pack_size" : [3,4] },
+      { "monster" : "mon_pursuer_bot", "freq" : 50, "cost_multiplier" : 0},
+      { "monster" : "mon_chaser_bot", "freq" : 50, "cost_multiplier" : 5}
+	  
+    ]
+  },{
+    "type":"monstergroup",
+    "name" : "GROUP_ICE_LAB",
+    "default" : "mon_zombie_scientist",
+    "monsters" : [
+      { "monster" : "mon_seeker_bot", "freq" : 50, "cost_multiplier" : 5}, 
+      { "monster" : "mon_hunter_bot", "freq" : 50, "cost_multiplier" : 0, "pack_size" : [3,4] },
+      { "monster" : "mon_pursuer_bot", "freq" : 50, "cost_multiplier" : 0},
+      { "monster" : "mon_chaser_bot", "freq" : 50, "cost_multiplier" : 5}
+    ]
+  }
+]
+

@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_medium_cardboard_box_with_e_scrap",
+        "symbol": "]",
+        "color": "brown",
+        "name": "larger cardboard box (electronic scrap)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 90 units electronic scrap.",
+        "price": 200,
+        "material": ["paper"],
+        "weight": 1660,
+        "volume": 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_e_scrap",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "e_scrap",                        90 ]
+            ]
+        ]
+    }
+]

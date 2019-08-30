@@ -1,0 +1,13 @@
+{
+  "type": "MOD_INFO",
+  "mod-type": "SUPPLEMENTAL",
+  "ident": "mad_cyber",
+  "name": "Mad Cyber Science",
+  "author": "Maddremor",
+  "description": "More bionics",
+  "path": "",
+  "dependencies": [
+    "dda"
+  ]
+}
+

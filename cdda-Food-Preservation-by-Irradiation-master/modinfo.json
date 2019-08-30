@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "irradiate-food",
+    "name": "Food preservation via ionizing radiation",
+    "authors": [ "ProfoundDarkness" ],
+    "description": "Adds a buildable tool subject food in a plastic bag to ionizing radiation to keep foods 'farm fresh' for decades.",
+    "dependencies": [ "dda" ]
+  }
+]

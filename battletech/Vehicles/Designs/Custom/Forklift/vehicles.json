@@ -1,0 +1,32 @@
+[
+    {
+        "type" : "vehicle",
+        "id" : "bt_forklift",
+        "name" : "Forklift",
+        "blueprint" : [
+            ["x"],
+            ["x"],
+            ["x"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "xlframe_vertical_2"},
+            {"x": 0, "y": 0, "part": "wheel_steerable"},
+            {"x": -1, "y": 0, "part": "frame_cross"},
+            {"x": -1, "y": 0, "part": "wheel_steerable"},
+            {"x": 1, "y": 0, "part": "frame_cross"},
+            {"x": 1, "y": 0, "part": "reclining_seat"},
+            {"x": 1, "y": 0, "part": "roof"},
+            {"x": 1, "y": 0, "part": "tank"},
+            {"x": 1, "y": 0, "part": "battery_car"},
+            {"x": 1, "y": 0, "part": "controls"},
+            {"x": 1, "y": 0, "part": "wheel_steerable"},
+            {"x": 1, "y": 0, "part": "engine_v12"},
+            {"x": 1, "y": 0, "part": "alternator_truck"},
+            {"x": 0, "y": 0, "part": "cargo_space"},
+            {"x": -1, "y": 0, "part": "cargo_space"}
+        ],
+        "items" : [
+            {"x": 0, "y": 0, "chance": 40, "items": ["jack", "primitive_armor_slab", "toolbox"]}
+        ]
+    }
+]

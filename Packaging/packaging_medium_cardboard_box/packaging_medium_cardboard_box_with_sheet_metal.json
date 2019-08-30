@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_medium_cardboard_box_with_sheet_metal",
+        "symbol": "]",
+        "color": "brown",
+        "name": "larger cardboard box (sheet metal)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 4 units sheet metal.",
+        "price": 200,
+        "material": ["paper"],
+        "weight": 4400,
+        "volume": 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_sheet_metal",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "sheet_metal",                    4 ]
+            ]
+        ]
+    }
+]

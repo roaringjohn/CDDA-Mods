@@ -1,0 +1,362 @@
+[
+  {
+    "id": "curious_structure",
+    "type": "overmap_terrain",
+    "name": "curious structure",
+    "sym": 67,
+    "color": "dark_gray",
+    "see_cost": 5,
+    "extras": "field"
+  },
+  {
+    "id": "curious_structure_roof",
+    "type": "overmap_terrain",
+    "name": "curious structure roof",
+    "sym": 67,
+    "color": "dark_gray",
+    "see_cost": 5
+  },
+  {
+    "id": "curious_structure_b",
+    "type": "overmap_terrain",
+    "name": "curious underground structure",
+    "sym": 67,
+    "color": "dark_gray",
+    "see_cost": 5,
+    "extras": "build"
+  },
+  {
+    "id": "curious_structure_b2",
+    "type": "overmap_terrain",
+    "name": "eerie cavern",
+    "sym": 67,
+    "color": "red",
+    "see_cost": 5,
+    "extras": "build"
+  },
+  {
+    "id": "strange_grove",
+    "type": "overmap_terrain",
+    "name": "strange grove",
+    "sym": 84,
+    "color": "i_green",
+    "see_cost": 5
+  },
+  {
+    "id": "grove_ruins",
+    "type": "overmap_terrain",
+    "name": "underground ruin",
+    "sym": 84,
+    "color": "green",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_site",
+    "type": "overmap_terrain",
+    "name": "impact site",
+    "sym": 67,
+    "color": "light_red",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_platforms_left",
+    "type": "overmap_terrain",
+    "name": "floating temple",
+    "sym": 84,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_platforms_center",
+    "type": "overmap_terrain",
+    "name": "floating temple",
+    "sym": 84,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_platforms_right",
+    "type": "overmap_terrain",
+    "name": "floating temple",
+    "sym": 84,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_temple_left",
+    "type": "overmap_terrain",
+    "name": "floating temple",
+    "sym": 84,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_temple_center",
+    "type": "overmap_terrain",
+    "name": "floating temple",
+    "sym": 84,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_temple_right",
+    "type": "overmap_terrain",
+    "name": "floating temple",
+    "sym": 84,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "impact_roof_left",
+    "type": "overmap_terrain",
+    "name": "open air",
+    "sym": 46,
+    "color": "blue",
+    "rotate": false,
+    "line_drawing": false,
+    "see_cost": 0,
+    "mondensity": 0,
+    "allow_road": false,
+    "sidewalk": false,
+    "known_up": false,
+    "known_down": false,
+    "extras": "none"
+  },
+  {
+    "id": "impact_roof_center",
+    "type": "overmap_terrain",
+    "name": "open air",
+    "sym": 46,
+    "color": "blue",
+    "rotate": false,
+    "line_drawing": false,
+    "see_cost": 0,
+    "mondensity": 0,
+    "allow_road": false,
+    "sidewalk": false,
+    "known_up": false,
+    "known_down": false,
+    "extras": "none"
+  },
+  {
+    "id": "impact_roof_right",
+    "type": "overmap_terrain",
+    "name": "open air",
+    "sym": 46,
+    "color": "blue",
+    "rotate": false,
+    "line_drawing": false,
+    "see_cost": 0,
+    "mondensity": 0,
+    "allow_road": false,
+    "sidewalk": false,
+    "known_up": false,
+    "known_down": false,
+    "extras": "none"
+  },
+  {
+    "id": "island_temple_roof",
+    "type": "overmap_terrain",
+    "name": "peculiar shrine roof",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_1",
+    "type": "overmap_terrain",
+    "name": "peculiar shrine",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_2",
+    "type": "overmap_terrain",
+    "name": "peculiar shrine",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_3",
+    "type": "overmap_terrain",
+    "name": "peculiar shrine",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_4",
+    "type": "overmap_terrain",
+    "name": "peculiar shrine",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_b_1",
+    "type": "overmap_terrain",
+    "name": "underground temple",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_b_2",
+    "type": "overmap_terrain",
+    "name": "underground temple",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_b_3",
+    "type": "overmap_terrain",
+    "name": "underground temple",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "island_temple_b_4",
+    "type": "overmap_terrain",
+    "name": "underground temple",
+    "sym": 84,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "shrine_anomaly",
+    "type": "overmap_terrain",
+    "name": "ruined shrine",
+    "sym": 83,
+    "color": "light_gray",
+    "see_cost": 5,
+    "extras": "field"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "arcanist_basement",
+    "copy-from": "generic_city_house_basement"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "new_anomaly_1",
+    "name": "recent anomaly",
+    "sym": 46,
+    "color": "magenta",
+    "see_cost": 2,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "new_anomaly_2",
+    "name": "recent anomaly",
+    "sym": 46,
+    "color": "magenta",
+    "see_cost": 2,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "arcana_hermitage_1",
+    "name": "odd house",
+    "sym": 118,
+    "color": "i_ltgreen",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "arcana_hermitage_2",
+    "name": "odd house",
+    "sym": 118,
+    "color": "i_ltgreen",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cf_church_1",
+    "name": "back lot",
+    "sym": "O",
+    "color": "brown",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cf_church_2",
+    "name": "back lot",
+    "sym": "O",
+    "color": "brown",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cf_church_3",
+    "name": "dirt lot",
+    "sym": "O",
+    "color": "brown",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "cf_church_4",
+    "type": "overmap_terrain",
+    "name": "rural church",
+    "sym": "C",
+    "color": "light_red",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cf_church_1_roof",
+    "name": "open air",
+    "sym": ".",
+    "color": "blue",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cf_church_2_roof",
+    "name": "open air",
+    "sym": ".",
+    "color": "blue",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cf_church_3_roof",
+    "name": "open air",
+    "sym": ".",
+    "color": "blue",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "cf_church_4_roof",
+    "type": "overmap_terrain",
+    "name": "rural church roof",
+    "sym": "C",
+    "color": "light_red",
+    "see_cost": 5,
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "sanguine_holdout_1",
+    "name": "cabin",
+    "sym": "C",
+    "color": "i_green",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "sanguine_holdout_b1",
+    "name": "cabin basement",
+    "sym": "C",
+    "color": "i_green",
+    "see_cost": 5
+  }
+]

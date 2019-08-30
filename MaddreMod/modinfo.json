@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "mod-type": "SUPPLEMENTAL",
+    "ident": "maddremod",
+    "name": "MaddreMod",
+    "author": "Maddremor",
+    "description": "Test Message Please Ignore",
+    "path": "",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "ITEM_BLACKLIST",
+    "items": [ "toolbox" ]
+  }
+]
+

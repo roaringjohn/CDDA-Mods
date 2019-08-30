@@ -1,0 +1,13 @@
+[
+   {
+      "type": "region_overlay",
+      "id": "MORI_overlay",                      "//": "identifier, when region_map is in it will determine alternatives ('desert' etc)",
+      "regions": [ "all" ],
+      "num_forests": 2500,                   "//": "# of forest chunks",
+      "forest_size_min": 0,                "//": "size range of forest chunk",
+      "forest_size_max": 10,                "//": "note: 32400 tiles in omap, 250*minmax = 3750-10000 default_oters become forests",
+      "swamp_maxsize": 4,                   "//": "SWAMPINESS // Affects the size of a swamp",
+      "swamp_river_influence": 5,           "//": "voodoo magic sauce: more increases swampyness of forests around rivers",
+      "swamp_spread_chance": 8500
+   }
+]

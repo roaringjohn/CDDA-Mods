@@ -1,0 +1,24 @@
+[
+  {
+      "type"  : "item_group",
+      "id"    : "farming_seeds",
+      "items" : [
+                 ["mf_seed_copper", 60],
+                 ["mf_seed_iron", 60],
+                 ["mf_seed_silver", 60],
+                 ["mf_seed_gold", 60],
+                 ["mf_seed_aluminum", 60],
+                 ["mf_seed_lead", 60],
+                 ["mf_seed_saltpeter", 60],
+                 ["mf_seed_coal", 60],
+                 ["mf_seed_sulfur", 60],
+                 ["mf_seed_tin", 60],
+                 ["mf_seed_diamond", 60],
+                 ["mf_seed_gunpowder", 60],
+                 ["mf_seed_chromium_oxide", 60],
+                 ["mf_seed_chem_hexamine", 60],
+                 ["mf_seed_chem_zinc_powder", 60],
+                 ["mf_seed_magnesium", 60]
+                ]
+  }
+]

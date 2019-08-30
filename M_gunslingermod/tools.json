@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gunslinger_kit",
+    "type": "TOOL",
+    "name": "gunslinger's kit",
+    "description": "A gunslinger's kit used for firearm repair and ammunition construction.  Powered via wood gasification, the kit requires tinder loaded to function.",
+    "weight": 800,
+    "volume": 8,
+    "price": 11000,
+    "to_hit": -2,
+    "bashing": 4,
+    "material": [ "steel" ],
+    "symbol": "+",
+    "color": "gray",
+    "ammo": "tinder",
+    "max_charges": 20,
+    "flags": [ "NO_UNLOAD", "TRADER_AVOID" ],
+    "charges_per_use": 1,
+    "qualities": [ [ "PULL", 1 ] ],
+    "use_action": [ { "type": "GUN_REPAIR", "moves": 20 }, { "type": "firestarter", "moves": 15 } ]
+  }
+]

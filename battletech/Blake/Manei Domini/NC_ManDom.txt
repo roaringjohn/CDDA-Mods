@@ -1,0 +1,7 @@
+[
+  {
+    "type": "item_group",
+    "id": "Manei_1",
+    "items": [ [ "cloak", 5 ] ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "mutation_category",
+    "id": "TORTOISE",
+    "name": "Tortoise",
+    "threshold_mut": "THRESH_TORTOISE",
+    "mutagen_message": "You feel like everything is happening too quickly.",
+    "iv_message": "Everything slows down for just a moment.",
+    "memorial_message": "Became tortoisey enough for the tortoise club."
+  }
+]

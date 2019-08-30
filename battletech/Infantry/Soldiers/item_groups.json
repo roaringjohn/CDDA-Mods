@@ -1,0 +1,15 @@
+[
+  {
+    "id": "branth_infantry",
+    "type": "item_group",
+    "items": [
+      [ "elephant_gun", 15 ]
+    ]
+  },{
+    "id": "branth_infantry_boss",
+    "type": "item_group",
+    "items": [
+      [ "elephant_gun", 30 ]
+    ]
+  }
+]

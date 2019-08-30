@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tinder",
+    "name": "tinder",
+    "default": "tinder",
+    "type": "ammunition_type"
+  },
+  {
+    "id": "tinder",
+    "type": "AMMO",
+    "category": "other",
+    "name": "tinder",
+    "name_plural": "tinder",
+    "description": "Flammable material, finely divided for easy combustion.",
+    "weight": 10,
+    "volume": 1,
+    "price": 0,
+    "bashing": 1,
+    "material": "wood",
+    "symbol": "=",
+    "color": "brown",
+    "count": 50,
+    "ammo_type": "tinder",
+    "range": 0,
+    "damage": 0,
+    "dispersion": 0,
+    "effects": [ "NEVER_MISFIRES" ]
+  },
+  {
+    "type": "recipe",
+    "result": "tinder",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": 1000,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [
+        [ "stick", 1 ],
+        [ "2x4", 1 ],
+        [ "splinter", 2 ],
+        [ "pine_bough", 1 ],
+        [ "rag", 1 ],
+        [ "paper", 5 ],
+        [ "rolling_paper", 30 ],
+        [ "wrapper", 5 ],
+        [ "withered", 2 ],
+        [ "cattail_stalk", 1 ],
+        [ "birchbark", 1 ],
+        [ "willowbark", 1 ]
+      ]
+    ]
+  }
+]

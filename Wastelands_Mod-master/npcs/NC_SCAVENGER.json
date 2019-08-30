@@ -1,0 +1,65 @@
+[
+  {
+    "type" : "item_group",
+    "id" : "NC_SCAVENGER_gloves",
+    "items":[
+      ["null", 30],
+      ["gloves_leather", 20],
+      ["gloves_work", 20],
+      ["gloves_fingerless", 50],
+      ["gloves_fingerless_mod", 20]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_SCAVENGER_archery",
+    "items":[
+      ["shortbow", 25],
+      ["crossbow", 55]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_SCAVENGER_pistols",
+    "items":[
+      ["doublekill", 5],
+      ["null", 95]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_SCAVENGER_rifle",
+    "items":[
+      ["longshot", 5],
+      ["null", 95]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_SCAVENGER_misc",
+    "items":[
+      ["water_clean", 90],
+      ["water_mineral", 5],
+      ["cola", 70],
+      ["creamsoda", 60],
+      ["lemonlime", 60],
+      ["orangesoda", 60],
+      ["crispycran", 40],
+      ["colamdew", 60],
+      ["choc_drink", 30],
+      ["jerky", 55],
+      ["cracklins", 25],
+      ["salted_fish", 35],
+      ["porkstick", 55],
+      ["ravioli", 25],
+      ["can_beans", 40],
+      ["can_corn", 35],
+      ["can_spam", 30],
+      ["salt", 10],
+      ["seasoning_salt", 5],
+      ["vinegar", 10],
+      ["jar_veggy_pickled", 30],
+      ["con_milk", 20],
+      ["jar_fish_pickled", 26],
+      ["lutefisk", 1],
+      ["pemmican", 10],
+      ["jar_meat_pickled", 20]
+    ]
+  }
+]

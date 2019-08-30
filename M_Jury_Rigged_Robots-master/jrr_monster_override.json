@@ -1,0 +1,21 @@
+[
+{
+    "id" : "mon_secubot",
+    "copy-from": "mon_secubot",
+    "type" : "MONSTER",
+    "death_function":"BROKEN",
+    "flags":["SEES", "HEARS", "BASHES", "ATTACKMON", "ELECTRONIC", "NO_BREATHE", "PATH_AVOID_DANGER_1", "LOUDMOVES"]
+},{
+    "id" : "mon_hazmatbot",
+    "copy-from": "mon_hazmatbot",
+    "type" : "MONSTER",
+    "name": "HAZMAT bot",
+    "aggression":0,
+    "death_function":"BROKEN"
+},{
+    "id" : "mon_chickenbot",
+    "copy-from": "mon_hazmatbot",
+    "type" : "MONSTER",
+    "death_function":"BROKEN"
+ }
+ ]

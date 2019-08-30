@@ -1,0 +1,89 @@
+[
+  {
+    "id": "rac2",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "RAC/2",
+    "item": "rotary_autocannon_2",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "rotary_autocannon_2", "count": [ 0, 1 ] } ]
+  },
+  {
+    "id": "ac2",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "AC/2",
+    "item": "autocannon_2",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "autocannon_2", "count": [ 0, 1 ] } ]
+  },
+  {
+    "id": "ac5",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "AC/5",
+    "item": "autocannon_5",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "autocannon_5", "count": [ 0, 1 ] } ]
+  },
+  {
+    "id": "rac5",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "RAC/5",
+    "item": "rotary_autocannon_5",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "rotary_autocannon_5", "count": [ 0, 1 ] } ]
+  },
+  {
+    "id": "ac10",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "AC/10",
+    "item": "autocannon_10",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "autocannon_10", "count": [ 0, 1 ] } ]
+  },
+  {
+    "id": "rac10",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "RAC/10",
+    "item": "rotary_autocannon_10",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "rotary_autocannon_10", "count": [ 0, 1 ] } ]
+  },
+  {
+    "id": "ac20",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "AC/20",
+    "item": "autocannon_20",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "autocannon_20", "count": [ 0, 1 ] } ]
+  },
+  {
+    "id": "rac20",
+    "copy-from": "turret_autocannon",
+    "type": "vehicle_part",
+    "name": "RAC/20",
+    "item": "rotary_autocannon_20",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "rotary_autocannon_20", "count": [ 0, 1 ] } ]
+  },
+  {
+    "abstract": "turret_autocannon",
+    "type": "vehicle_part",
+    "symbol": "/",
+    "broken_symbol": "+",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "durability": 222,
+    "damage_modifier": 80,
+    "location": "on_roof",
+    "description": ".",
+    "flags": [ "TURRET", "TOOL_NONE" ]
+  }
+]

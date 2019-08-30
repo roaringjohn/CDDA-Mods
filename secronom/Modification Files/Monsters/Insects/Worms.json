@@ -1,0 +1,87 @@
+[
+ {
+    "id": "mon_zombieworm_noxeater",
+    "type": "MONSTER",
+    "name": "noxious eater",
+    "description": "A large, flabby worm, with hundreds of dreadful teeth aligned inside its little mouth. It has grown fond of eating rotten flesh, and seemingly inhabits crowded cities.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "WORM" ],
+    "volume": "30000 ml",
+    "weight": 40750,
+	"harvest": "zombie",
+    "hp": 40,
+    "speed": 60,
+    "material": [ "flesh" ],
+    "symbol": "w",
+    "color": "pink",
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_cut": 2,
+    "dodge": 1,
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 12,
+        "accuracy": 4,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.5 },
+          { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.3 }
+        ]
+      }
+    ],
+    "death_function": [ "NORMAL" ],
+	"anger_triggers": [ "HURT" ],
+	"upgrades":
+     {
+      "half_life": 6,
+      "into": "mon_zombieworm_gravedigger"
+     },
+    "flags": [ "DIGS", "CAN_DIG", "HEARS", "GOODHEARING", "WARM" ]
+ },
+ {
+	"//": "In general, you might see this alarming at first. Ready yourself before provoking such monster.",
+    "id": "mon_zombieworm_gravedigger",
+    "type": "MONSTER",
+    "name": "grave digger",
+    "description": "A huge, blood-red worm with its thick skin formed like a tough rubber. Under its quad-interloping fangs hinder thousands of ravenous teeth and a single strike of its bite could sink through the toughest of armor.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "WORM" ],
+    "volume": "875000 ml",
+    "weight": 200000,
+	"harvest": "zombie",
+    "hp": 525,
+    "speed": 35,
+	"//": "Very slow",
+    "material": [ "flesh" ],
+    "symbol": "W",
+    "color": "red",
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 8,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 6,
+    "dodge": 1,
+	"armor_bash": 4,
+    "armor_cut": 6,
+	"armor_stab": 6,
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 27,
+        "accuracy": 8,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 30, "armor_multiplier": 0.5 },
+          { "damage_type": "bash", "amount": 30, "armor_multiplier": 0.3 }
+        ]
+      }
+    ],
+	"//": "So yeah... It could kill you with few bites and penetrates through power armors, so be careful",
+	"anger_triggers": [ "HURT" ],
+    "death_function": [ "NORMAL" ],
+    "flags": [ "DIGS", "CAN_DIG", "HEARS", "GOODHEARING", "WARM", "PLASTIC" ]
+ }
+]

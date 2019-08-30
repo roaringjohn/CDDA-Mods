@@ -1,0 +1,221 @@
+[
+ {
+"//": "These zombie type has slow attack speed.",
+"id": "mon_zombie_blade",
+"type": "MONSTER",
+"name": "blade zombie",
+"description": "A normal corpse, with one of its arms mutated into a bone blade. Its not that sharp to slice a skin, but enough to leave a bruise.",
+"default_faction": "zombie",
+"species": [ "ZOMBIE" ],
+"harvest": "zombie",
+"volume": "62500 ml",
+"weight": 81500,
+"hp": 85,
+"speed": 95,
+"material": [ "flesh" ],
+"symbol": "f",
+"attack_cost": 150,
+    
+"color": "light_green",
+    
+"aggression": 100,
+    
+"morale": 100,
+    
+"melee_skill": 4,
+    
+"melee_dice": 3,
+    
+"melee_dice_sides": 4,
+    
+"melee_cut": 0,
+    
+"dodge": 1,
+    
+"melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 5
+      }
+    ],
+    
+"armor_bash": 2,
+    
+"armor_cut": 4,
+
+"armor_acid": 1,
+
+"armor_fire": 1,
+
+"special_attacks": [
+    [ "swordbash", 15 ],
+    [ "swordbashtrip", 22 ]
+    ],
+    
+"upgrades": {
+      "half_life": 12,
+      
+"into_group": "GROUP_BLADED_UPGRADE"
+    },
+    
+"death_drops": "default_zombie_death_drops",
+    
+"death_function": [ "NORMAL"],
+    
+"flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "BONES" ]
+  },
+  
+  
+  
+  
+{   
+"id": "mon_zombie_sharpblade",
+    
+"type": "MONSTER",
+    
+"name": "sharpened blade zombie",
+    
+"description": "A corpse induced in rotten smell, with noticable bone sword that glitters when struck by a source of light.",
+    
+"default_faction": "zombie",
+    
+"species": [ "ZOMBIE" ],
+    
+"volume": "62500 ml",
+    "weight": 81500,
+    
+"hp": 130,
+"harvest": "zombie",
+    
+"speed": 90,
+    
+"material": [ "flesh" ],
+    
+"symbol": "f",
+    
+"color": "green",
+    
+"aggression": 100,
+    
+"attack_cost": 150,
+    
+"morale": 100,
+    
+"melee_skill": 6,
+    
+"melee_dice": 1,
+    
+"melee_dice_sides": 6,
+    
+"melee_cut": 4,
+    
+"melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 8
+      }
+    ],
+    
+"dodge": 1,
+    
+"armor_bash": 4,
+    
+"armor_cut": 4,
+    
+"armor_acid": 1,
+    
+"armor_fire": 2,
+    
+"vision_day": 30,
+    
+"vision_night": 10,
+    
+"special_attacks": [
+      [ "swordslashshp", 12 ],
+      [ "swordslashtrip", 26 ]
+    ],
+    
+"death_drops": "default_zombie_death_drops",
+    
+"death_function": [ "NORMAL"],
+    
+"flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "BONES", "BLEED"]
+  },
+  
+{
+    "id": "mon_zombie_serratedblade",
+    
+"type": "MONSTER",
+    
+"name": "serrated blade zombie",
+    
+"description": "It drags its putrid sword around, apparently the weight of this weapon burdens the pitiful deceased.",
+    "default_faction": "zombie",
+    
+"species": [ "ZOMBIE" ],
+    
+"volume": "62500 ml",
+    "weight": 81500,
+    
+"hp": 125,
+    
+"speed": 80,
+"harvest": "zombie",
+    
+"material": [ "flesh" ],
+    
+"symbol": "f",
+    
+"color": "green",
+    
+"aggression": 100,
+    
+"morale": 100,
+    
+"melee_skill": 6,
+    
+"melee_dice": 1,
+    
+"attack_cost": 150,
+    
+"melee_dice_sides": 6,
+"melee_cut": 4,
+    
+"melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 5
+      },
+      
+{
+        "damage_type": "stab",
+        "amount": 6
+      }
+    ],
+    
+"dodge": 1,
+    
+"armor_bash": 4,
+    
+"armor_cut": 4,
+    
+"armor_acid": 1,
+    
+"armor_fire": 2,
+    
+"vision_day": 30,
+    
+"vision_night": 10,
+    
+"special_attacks": [
+      [ "swordslashsrt", 14 ],
+      [ "swordslashtrip", 26 ]
+    ],
+    
+"death_drops": "default_zombie_death_drops",
+    
+"death_function": [ "NORMAL"],
+    
+"flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "BONES", "BLEED"]
+  }
+]

@@ -1,0 +1,12 @@
+   {
+     "type": "MOD_INFO",
+     "mod_type": "SUPPLEMENTAL",
+     "ident": "Flour_mod",
+     "name": "Flour mod",
+     "description": "Add a recipe for flour or something. If you feel like it, please.",
+     "authors": ["Hio"],
+     "maintainers": ["hirmiura"],
+     "category": "items",
+     "dependencies": ["dda", "Daizu_mod"],
+     "path": ""
+   }

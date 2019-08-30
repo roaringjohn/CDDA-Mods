@@ -1,0 +1,76 @@
+[
+ {
+    "id": "mon_zombie_grubby_s",
+    "type": "MONSTER",
+    "name": "grubby zombie",
+    "description": "Bloated anatomy, foul shrouding stench, and giant worm-filled pus is unpredictably unpleasant to look at. Much horrible is, the parasites living inside it bursts out upon sensing a lively host.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+	"harvest": "zombie",
+    "hp": 70,
+    "speed": 65,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "yellow_cyan",
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 1,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "melee_cut": 2,
+    "armor_cut": 2,
+    "armor_bash": 4,
+    "armor_stab": 4,
+    "vision_day": 20,
+    "starting_ammo": { "pus_wormstomach": 20, "pus_wormmove": 20, "pus_wormint": 20, "pus_wormpain": 20 },
+    "path_settings": { "max_dist": 20 },
+    "special_attacks": [
+      [ "SHRIEK", 30 ],
+      [ "GRENADIER", 25 ]
+    ],
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL" ],
+    "upgrades":
+     {
+      "half_life": 14,
+      "into": "mon_zombie_slimy_s"
+     },
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "FILTHY", "POISON", "NO_BREATHE", "REVIVES", "BONES", "GROUP_MORALE" ]
+  },
+  {
+    "id": "mon_zombie_slimy_s",
+    "type": "MONSTER",
+    "name": "slimy zombie",
+    "description": "Fortified by blobs and worms infused inside its skinless body, this zombie can still drift on its feet, as you see how severe these parasites affect the undead host. With slimy liquid dripping from its holes, the parasites can \"swim\" faster through it.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "HUMAN" ],
+	"harvest": "zombie",
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 75,
+    "speed": 70,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "cyan_yellow",
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 1,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "melee_cut": 1,
+    "armor_cut": 3,
+    "armor_bash": 5,
+    "armor_stab": 4,
+    "vision_day": 25,
+    "starting_ammo": { "pus_wormstomach": 20, "pus_wormmove": 20, "pus_wormint": 20, "pus_wormpain": 20 },
+    "path_settings": { "max_dist": 20 },
+    "special_attacks": [
+      [ "GRENADIER", 15 ]
+    ],
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "FILTHY", "GROUP_MORALE" ]
+  }
+]

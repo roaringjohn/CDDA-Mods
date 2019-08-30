@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_noodles_fast",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (fast noodles)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 units fast noodles.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 850,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_noodles_fast",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "noodles_fast",                   15 ]
+            ]
+        ]
+    }
+]

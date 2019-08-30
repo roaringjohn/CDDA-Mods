@@ -1,0 +1,23 @@
+[
+  {
+    "type": "recipe",
+    "result": "tanning_pelt",
+    "id": "brain_tanning",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "skills_required": [ "cooking", 2 ],
+    "difficulty": 3,
+    "time": 56000,
+    "batch_time_factors": [ 40, 10 ],
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "COOK", "level": 2 },
+      { "id": "BOIL", "level": 1 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
+    "components": [ [ [ "water_clean", 2 ], [ "water", 2 ] ], [ [ "eggs_bird", 8, "LIST" ] ], [ [ "cured_pelt", 1 ] ] ]
+  }
+]

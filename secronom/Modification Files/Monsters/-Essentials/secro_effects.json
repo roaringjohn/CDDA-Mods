@@ -1,0 +1,181 @@
+[
+ {
+ "type": "effect_type",
+ "id": "unify_bloodslow",
+ "max_intensity": 5,
+ "int_add_val": 1,
+ "max_duration": 120,
+ "int_decay_step": -1,
+ "int_decay_tick": 120,
+ "rating": "bad",
+ "name": [
+        "Bloodcoated"
+    ],
+ "desc": [
+        "slightly slowed.",
+        "drastically slowed.",
+        "moderately slowed.",
+        "severely slowed.",
+        "extremely slowed."
+    ],
+ "reduced_desc": ["Your blood coat dries a bit."],
+ "apply_message": "You've been blood coated!",
+ "remove_message": "Bloodcoat leaves your body!",
+ "base_mods" : {
+        "speed_mod": [-3],
+        "dex_mod": [-0.5]
+    },
+    "scaling_mods": {
+        "speed_mod": [-3],
+        "dex_mod": [-1]
+    }
+ },
+ {
+ "type": "effect_type",
+ "id": "unity_bloodslow",
+ "max_intensity": 20,
+ "int_add_val": 1,
+ "max_duration": 30,
+ "int_decay_step": -1,
+ "int_decay_tick": 30,
+ "rating": "bad",
+ "name": [
+        "Bloodbathed"
+    ],
+ "desc": [
+        "slightly slowed.",
+        "slightly slowed.",
+        "slightly slowed.",
+        "slightly slowed.",
+        "drastically slowed.",
+        "drastically slowed.",
+        "drastically slowed.",
+        "drastically slowed.",
+        "moderately slowed.",
+        "moderately slowed.",
+        "moderately slowed.",
+        "moderately slowed.",
+        "severely slowed.",
+        "severely slowed.",
+        "severely slowed.",
+        "severely slowed.",
+        "extremely slowed.",
+        "extremely slowed.",
+        "extremely slowed.",
+        "extremely slowed."
+    ],
+ "reduced_desc": ["Your thick blood coat dries a bit."],
+ "apply_message": "You've been blood coated!",
+ "remove_message": "Thick bloodcoat leaves your body!",
+ "base_mods" : {
+        "speed_mod": [-1],
+        "dex_mod": [-0.5]
+    },
+    "scaling_mods": {
+        "speed_mod": [-1],
+        "dex_mod": [-0.2]
+    }
+ },
+ {
+    "type": "effect_type",
+    "id": "parasiteworm_pain",
+    "name": [ "Parasitic Influence" ],
+    "apply_message": "You feel your veins itch!",
+    "desc": [ "parasites are causing you pain!" ],
+    "miss_messages": [[ "You feel bad inside.", 2]],
+    "decay_messages": [["The parasites were weakened!", "good"]],
+    "remove_message": "Your natural defenses neutralized the parasites!",
+    "int_add_val": 1,
+    "max_intensity": 3,
+    "int_decay_step": -1,
+    "int_decay_tick": 300,
+    "max_duration": 600,
+    "rating": "bad",
+    "resist_traits": [ "POISRESIST" ],
+    "pain_sizing": true,
+    "main_parts_only": true,
+    "base_mods": {
+      "pain_min": [3],
+      "pain_chance": [50, 500]
+    },
+    "scaling_mods": {
+      "pain_min": [1],
+      "pain_chance": [1, 2]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "parasiteworm_move",
+    "name": [ "Parasitic Influence" ],
+    "apply_message": "You feel your veins itch!",
+    "desc": [ "parasites are affecting your motor reflexes!" ],
+    "miss_messages": [[ "You feel bad inside.", 2]],
+    "decay_messages": [["The parasites were weakened!", "good"]],
+    "remove_message": "Your natural defenses neutralized the parasites!",
+    "int_add_val": 1,
+    "max_intensity": 3,
+    "int_decay_step": -1,
+    "int_decay_tick": 300,
+    "max_duration": 600,
+    "rating": "bad",
+    "resist_traits": [ "POISRESIST" ],
+    "base_mods": {
+    "dex_mod": [-1],
+      "speed_mod": [-3]
+    },
+    "scaling_mods": {
+    "dex_mod": [-1.5],
+      "speed_mod": [-1]
+    }
+    },
+  {
+    "type": "effect_type",
+    "id": "parasiteworm_int",
+    "name": [ "Parasitic Influence" ],
+    "apply_message": "You feel your veins itch!",
+    "desc": [ "parasites are affecting your thinking capabilities!" ],
+    "miss_messages": [[ "You feel bad inside.", 2]],
+    "decay_messages": [["The parasites were weakened!", "good"]],
+    "remove_message": "Your natural defenses neutralized the parasites!",
+    "int_add_val": 1,
+    "max_intensity": 3,
+    "int_decay_step": -1,
+    "int_decay_tick": 300,
+    "max_duration": 600,
+    "rating": "bad",
+    "resist_traits": [ "POISRESIST" ],
+    "base_mods": {
+      "int_mod": [-3, -2]
+    },
+    "scaling_mods": {
+      "int_mod": [-2, -1]
+    }
+    },
+    {
+    "type": "effect_type",
+    "id": "parasiteworm_stomach",
+    "name": [ "Parasitic Influence" ],
+    "apply_message": "You feel your veins itch!",
+    "desc": [ "parasites hasten both hunger and thirst!" ],
+    "miss_messages": [[ "You feel bad inside.", 2]],
+    "decay_messages": [["The parasites were weakened!", "good"]],
+    "remove_message": "Your natural defenses neutralized the parasites!",
+    "int_add_val": 1,
+    "max_intensity": 3,
+    "int_decay_step": -1,
+    "int_decay_tick": 150,
+    "max_duration": 300,
+    "rating": "bad",
+    "resist_traits": [ "POISRESIST" ],
+    "base_mods": {
+      "hunger_min": [2, 1],
+      "hunger_chance": [50, 150],
+      "thirst_min": [3, 1],
+      "thirst_chance": [80, 240]
+    },
+    "scaling_mods": {
+      "hunger_chance": [1],
+      "thirst_chance": [2]
+    }
+    }
+]

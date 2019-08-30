@@ -1,0 +1,63 @@
+[
+  {
+    "abstract": "fusion_engine_abstract",
+    "type": "vehicle_part",
+    "name": "Fusion Engine",
+    "item": "fusion_engine_standard",
+    "difficulty": 12,
+    "location": "engine_block",
+    "description": "This fusion engine is capable of powering 'Mechs, Aerospace Fighters, and other vehicles.",
+    "noise_factor": 2,
+    "m2c": 90,
+    "power": 130000,
+    "fuel_type": "h_cell",
+    "symbol": "H",
+    "color": "yellow",
+    "breaks_into": [ { "item": "scrap", "count": [ 0, 5 ] }, { "item": "h_cell", "count": [ 0, 1 ] } ],
+    "broken_symbol": "!",
+    "durability": 100,
+    "broken_color": "red",
+    "flags": [
+      "ENGINE",
+      "TOOL_WRENCH",
+      "E_HIGHER_SKILL",
+      "E_HEATER",
+      "DIFFICULTY_REMOVE",
+      "E_ALTERNATOR",
+      "INITIAL_PART",
+      "OBSTACLE",
+      "OPAQUE",
+      "PERPETUAL"
+    ]
+  },
+  {
+    "id": "fusion_engine_test_1",
+    "copy-from": "fusion_engine_abstract",
+    "type": "vehicle_part",
+    "name": "fusion engine test 1",
+    "item": "fusion_engine_test_1",
+    "looks_like": "motor_small",
+    "difficulty": 1,
+    "durability": 80,
+    "power": 13000,
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "plastic_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 2 ] },
+      { "item": "cable", "charges": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "fusion_engine_test_1",
+    "name": "fusion engine standard",
+    "description": "A fusion engine.  Useful, for it's energy output.",
+    "weight": 800000,
+    "color": "light_cyan",
+    "symbol": "∞",
+    "material": [ "steel", "plastic" ],
+    "volume": 1,
+    "category": "veh_parts",
+    "price": 2000
+  }
+]

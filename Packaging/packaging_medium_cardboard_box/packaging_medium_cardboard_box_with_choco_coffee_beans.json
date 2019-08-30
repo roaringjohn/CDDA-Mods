@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_choco_coffee_beans",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (chocolate-covered coffee beans)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 240 units chocolate-covered coffee beans.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 13840,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_choco_coffee_beans",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "choco_coffee_beans",             240 ]
+            ]
+        ]
+    }
+]

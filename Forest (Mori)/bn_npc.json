@@ -1,0 +1,13 @@
+[
+  {
+    "type" : "npc",
+    "id" : "lone_hunter",
+    "comment" : "Appears in the refugee center as a trader.",
+    "name+" : ", Hunter",
+    "class" : "NC_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_STRANGER_WARY",
+    "faction" : "hunter_guild"
+  }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_irradiated_raspberries",
+        "symbol": "]",
+        "color": "brown",
+        "name": "larger cardboard box (irradiated raspberries)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 units irradiated raspberries.",
+        "price": 200,
+        "material": ["paper"],
+        "weight": 3790,
+        "volume": 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_irradiated_raspberries",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "irradiated_raspberries",         15 ]
+            ]
+        ]
+    }
+]

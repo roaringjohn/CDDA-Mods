@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_medical_gauze",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (medical gauze)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 60 units of medical gauze.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 5800,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_medical_gauze",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "medical_gauze",                  60 ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "mon_zombie_unify",
+    "type": "MONSTER",
+    "name": "unifier zombie",
+    "description": "A severely mutated rugged corpse managed to multiply its filthy blood into a thick substance, visually seen on its bloated, red veins. An amalgous, fleshy material beats from both hands.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+	"harvest": "zombie",
+    "hp": 155,
+    "speed": 100,
+    "material": [ "flesh" ],
+    "attack_effs": [
+        {
+            "id": "unify_bloodslow",
+            "duration": 60,
+            "chance": 25
+        }
+    ],
+    "symbol": "Z",
+    "color": "magenta",
+    "aggression": 10,
+    "morale": 50,
+    "melee_skill": 2,
+    "melee_dice": 4,
+    "melee_dice_sides": 2,
+    "melee_cut": 0,
+    "armor_bash": 2,
+    "armor_cut": 3,
+    "armor_stab": 2,
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED" ],
+    "fear_triggers": [ "HURT" ],
+    "upgrades":
+     {
+      "half_life": 14,
+      "into": "mon_zombie_unity"
+     },
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "FILTHY", "GROUP_MORALE" ]
+  },
+  {
+	"//": "Guns will take this down easily.",
+    "id": "mon_zombie_unity",
+    "type": "MONSTER",
+    "name": "unity zombie",
+    "description": "From head down to its feet, this corpse's blood veins rapidly excretes thick blood that forms an external layer, both used for aggression and defensiveness. But the thing that catches your attention is the amalgous beating object around its torso.",
+    "default_faction": "zombie",
+	"harvest": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 205,
+    "speed": 75,
+    "material": [ "flesh" ],
+    "attack_effs": [
+        {
+            "id": "unity_bloodslow",
+            "duration": 120
+        }
+    ],
+    "symbol": "Z",
+    "color": "pink",
+    "aggression": 10,
+    "morale": 50,
+    "melee_skill": 4,
+    "melee_dice": 4,
+    "melee_dice_sides": 2,
+    "melee_cut": 0,
+    "armor_cut": 5,
+    "armor_bash": 10,
+    "armor_stab": 5,
+    "attack_cost": 250,
+    "starting_ammo": { "blood_vessel_move": 20 },
+    "//": "slow attack speed, so don't worry.",
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED" ],
+    "fear_triggers": [ "HURT" ],
+	 "special_attacks": [
+      [ "GRENADIER", 15 ]
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "FILTHY", "GROUP_MORALE", "PLASTIC" ]
+  },
+  {
+    "id": "mon_zombie_bloodvessel",
+    "type": "MONSTER",
+    "name": "blood vessel",
+    "description": "An animate substance completely made out of blood, too viscous to move in limited speed.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 20,
+    "speed": 50,
+    "material": [ "flesh" ],
+    "attack_effs": [
+        {
+            "id": "unity_bloodslow",
+            "duration": 120
+        }
+    ],
+    "attack_cost": 300,
+	"harvest": "exempt",
+    "symbol": "&",
+    "color": "red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 2,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 0,
+    "armor_bash": 20,
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "ACIDPROOF", "NO_BREATHE", "PLASTIC", "REGENERATES_10" ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "type" : "speech",
+        "speaker" : "mon_protectron",
+        "sound" : "\"Violence will not be tolerated.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron",
+        "sound" : "\"A lawful use of deadly force is in progress. Citizens are advised to steer clear.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron",
+        "sound" : "\"Protect and serve.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_construction",
+        "sound" : "\"This workplace has gone ZERO days without an accident.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_construction",
+        "sound" : "\"please put on your hard-hat.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fire",
+        "sound" : "\"Stay safe civilian.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fire",
+        "sound" : "\"Report any fire hazards to your local- *BZZZT* -Law enforcement.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_wattz",
+        "sound" : "\"Looking for a Sidearm? Wattz has you covered.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_wattz",
+        "sound" : "\"Wattz lasers are garunteed to be at least twice as powerful as the rival brands.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_wattz",
+        "sound" : "\"Wattz Consumer Electronics promises quality over all else.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_takahashi",
+        "sound" : "\"Nan-ni shimasho-ka?\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_subway",
+        "sound" : "\"Present your subway token- *BZZZT* ERROR! DATA CORRUPTED.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fisto",
+        "sound" : "\"Please assume the position.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fisto",
+        "sound" : "\"Fist me daddy!\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fisto",
+        "sound" : "\"Let me fist you.\"",
+        "volume" : 40
+    }
+]

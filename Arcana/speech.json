@@ -1,0 +1,104 @@
+[
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Give yourself in service to me...\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"You shall be enlightened in death.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Interloper, you defile this place.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Yours is just one of a thousand worlds destined to burn.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"You will pay for your insolence!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Open your eyes, mortal.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"This body will not suffice, no...\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Cast aside the veil, and behold the truth.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Cast aside...cast aside...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Submit...\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"Soon, I will claim what is rightfully mine.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "\"This body may die, but I am eternal.\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_archon",
+    "sound": "chanting in an unearthly language!",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_mi_go",
+    "sound": "\"Ecce, sanguinem magum!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_mi_go",
+    "sound": "\"Impium profligatum!\"",
+    "volume": 40
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_mi_go",
+    "sound": "\"Subire mortem tuam...\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_mi_go",
+    "sound": "\"...sub malleo deorum!\"",
+    "volume": 50
+  }
+]

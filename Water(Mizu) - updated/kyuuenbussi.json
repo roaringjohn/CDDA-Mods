@@ -1,0 +1,45 @@
+{
+    "method": "json",
+    "object": {
+        "furniture": {
+            "w": "f_null",
+            "#": "f_crate_c"
+        },
+        "rows": [
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwww#wwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww",
+            "wwwwwwwwwwwwwwwwwwwwwwww"
+        ],
+        "terrain": {
+            "#": "t_water_dp",
+            "w": "t_water_dp"
+        },
+      "place_loot": [
+        {"group": "cannedfood_mizu", "chance": 100, "x":  13, "y": 12, "repeat": [5,10]},
+        {"group": "college_lake_mizu", "chance": 100, "x":  13, "y": 12, "repeat": [3,5]}]
+	},
+    "om_terrain": "field",
+    "type": "mapgen",
+    "weight": 5
+}

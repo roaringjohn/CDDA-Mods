@@ -1,0 +1,18 @@
+[
+    {
+        "type" : "ammunition_type",
+        "id" : "hf_block",
+        "name" : "Heavy Polymer-Composite Flechette Block",
+        "default" : "hf_block"
+    },{
+        "type" : "ammunition_type",
+        "id" : "if_block",
+        "name" : "Hypergolic Polymer-Composite Flechette Block",
+        "default" : "if_block"
+    },{
+        "type" : "ammunition_type",
+        "id" : "fl_block",
+        "name" : "Polymer-Composite Flechette Block",
+        "default" : "fl_block"
+    }
+]

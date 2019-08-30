@@ -1,0 +1,39 @@
+[
+ {
+    "id": "secro_unifyblood_explode",
+    "type": "emit",
+    "field": "fd_blood",
+    "density": 3,
+    "quantity": 100,
+    "chance": 100
+  },
+ {
+    "id": "secro_transluncent_acid",
+    "type": "emit",
+    "field": "fd_acid",
+    "density": 1,
+    "quantity": 10,
+    "chance": 30
+  },
+  {
+    "id": "secro_zoth",
+    "type": "emit",
+    "field": "fd_toxic_gas",
+    "density": 2,
+    "quantity": 10,
+    "chance": 60
+  },
+  {
+    "id": "emit_shockerbot_crakle",
+    "type": "emit",
+    "field": "fd_electricity",
+    "qty": 1
+  },
+  {
+    "id": "secro_secromissile_fire",
+    "type": "emit",
+    "field": "fd_fire",
+    "quantity": 1,
+    "chance": 1
+  }
+]

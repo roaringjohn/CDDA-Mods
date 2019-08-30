@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_marshmallow",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (marshmallows)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 120 marshmallows.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 880,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_marshmallow",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "marshmallow",                    120 ]
+            ]
+        ]
+    }
+]

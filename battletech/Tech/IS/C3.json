@@ -1,0 +1,29 @@
+[
+    {
+    "type": "GENERIC",
+    "id": "C3_master",
+    "copy-from": "electronics_controls",
+    "name": "'Command. Control. Communicate.' console",
+    "description": "A vehicle instrument panel with various gauges and switches.  Useful for crafting.",
+    "weight": 1311,
+    "to_hit": -4,
+    "material": [ "plastic" ],
+    "volume": 6,
+    "price": 4000
+  },
+  {
+    "type": "vehicle_part",
+    "id": "C3_master",
+    "name": "C3 Command Unit",
+    "symbol": "^",
+    "color": "grey",
+    "broken_symbol": "%",
+    "broken_color": "red",
+    "damage_modifier": 10,
+    "durability": 200,
+    "item": "C3_master",
+    "difficulty": 3,
+    "flags": [ "CONTROLS", "CTRL_ELECTRONIC", "REMOTE_CONTROLS" ],
+    "breaks_into": [ { "item": "motor_small" }, { "item": "steel_chunk", "count": [ 1, 3 ] }, { "item": "scrap", "count": [ 1, 3 ] } ]
+  }
+]

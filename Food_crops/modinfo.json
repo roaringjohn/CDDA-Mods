@@ -1,0 +1,12 @@
+{
+  "type": "MOD_INFO",
+  "mod_type": "SUPPLEMENTAL",
+  "ident": "Food_crops",
+  "name": "Food crops",
+  "description": "Add crops from which food can be taken.",
+  "category": "buildings",
+  "dependencies": [
+    "dda"
+  ],
+  "path": ""
+}

@@ -1,0 +1,12 @@
+{
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "battle_maid",
+        "name": "Battle Maid Redux",
+        "description": "Translated and tweaked version of the original Battle Maid mod.",
+        "author": "Vermilion",
+		"dependencies": ["boats"],
+		"path": ""
+        
+		
+    }

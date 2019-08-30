@@ -1,0 +1,63 @@
+[
+  {
+    "id": "satchel_leather",
+    "type": "ARMOR",
+    "name": "leather satchel",
+    "description": "Worn from years of following marks across the wastelands.",
+    "weight": 500,
+    "volume": 2,
+    "price": 1000,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "cotton", "leather" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "TORSO" ],
+    "coverage": 25,
+    "encumbrance": 4,
+    "storage": 25,
+    "material_thickness": 2,
+    "flags": [ "BELTED", "WATER_FRIENDLY", "TRADER_AVOID" ]
+  },
+  {
+    "id": "bandolier_holster",
+    "type": "ARMOR",
+    "name": "bandolier holster",
+    "description": "An oversized pistol holster made for a gunslinger, capable of storing ammunition close to hand.",
+    "weight": 350,
+    "volume": 1,
+    "price": 1000,
+    "rigid": false,
+    "material": "leather",
+    "symbol": "[",
+    "color": "light_brown",
+    "covers": [ "LEG_EITHER" ],
+    "coverage": 10,
+    "encumbrance": 3,
+    "material_thickness": 1,
+    "use_action": [
+      { "type": "holster", "min_volume": 3, "max_volume": 4, "draw_cost": 10, "skills": [ "pistol" ] },
+      { "type": "bandolier", "capacity": 5, "ammo": [ "gs_60" ] }
+    ],
+    "flags": [ "BELTED", "WATER_FRIENDLY", "OVERSIZE", "STURDY" ]
+  },
+  {
+    "id": "boots_gunslinger",
+    "copy-from": "boots_western",
+    "type": "ARMOR",
+    "name": "pair of worn leather boots",
+    "name_plural": "pairs of worn leather boots",
+    "description": "Worn and dusty leather boots, tooled with intricate patterning.  One boot has a sheath made to conceal a small knife.",
+    "coverage": 95,
+    "extend": { "flags": [ "TRADER_AVOID" ] },
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Sheath knife",
+      "holster_msg": "You sheath your %s",
+      "max_volume": 2,
+      "draw_cost": 5,
+      "flags": [ "SHEATH_KNIFE" ]
+    }
+  }
+]
+

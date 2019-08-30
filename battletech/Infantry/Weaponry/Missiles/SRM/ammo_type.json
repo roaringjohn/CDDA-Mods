@@ -1,0 +1,6 @@
+[{
+  "type": "ammunition_type",
+  "id": "srm",
+  "name": "short-range missile",
+  "default": "srm_missile"
+}]

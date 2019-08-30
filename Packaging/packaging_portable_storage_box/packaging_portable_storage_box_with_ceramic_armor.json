@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_portable_storage_box_with_ceramic_armor",
+        "symbol": "]",
+        "color": "light_gray",
+        "name": "storage box (ceramic armor plates)",
+        "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 33 ceramic armor plates.",
+        "price": 10000,
+        "material": ["wood", "steel"],
+        "weight": 13946,
+        "volume": 50
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_portable_storage_box_with_ceramic_armor",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 10000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_portable_storage_box", 1 ]
+            ],
+            [
+                [ "ceramic_armor",                  33 ]
+            ]
+        ]
+    }
+]

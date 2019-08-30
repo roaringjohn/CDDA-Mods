@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tihar_vo",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "light_gray",
+    "name": "Rifle (stone / pneumatic assault rifle)",
+    "description": "Large pneumatic rifle with spiral stones. Although not quiet, the killing power is extremely high.",
+    "price": 240000,
+    "material": ["steel", "wood"],
+    "flags": ["STR_RELOAD", "RELOAD_ONE"],
+    "skill": "rifle",
+    "ammo": "h_projectile",
+    "weight": 6210,
+    "volume": 15,
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": 25,
+    "range": 20,
+    "dispersion": 75,
+    "sight_dispersion": 150,
+    "aim_speed" : 5,
+    "recoil": 50,
+    "durability": 7,
+    "clip_size": 1,
+    "reload": 500,
+    "loudness" : 15,
+    "valid_mod_locations": [[ "accessories", 2 ],[ "grip", 1 ],[ "sights", 1 ],[ "stock", 1 ]]
+  }
+]

@@ -1,0 +1,954 @@
+[
+	{
+		"id": "mon_insect_abominableleech",
+		"type": "MONSTER",
+		"name": "abominable leech",
+		"description": "A leech with green and yellow segmented colors, it drips concentrated toxin as it slither along the way.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 15,
+		"size": "TINY",
+		"hp": 60,
+		"speed": 95,
+		"material": [
+			"iflesh"
+		],
+		"symbol": "~",
+		"bodytype": "snake",
+		"color": "light_green",
+		"morale": 100,
+		"melee_skill": 2,
+		"melee_dice": 2,
+		"melee_dice_sides": 2,
+		"melee_cut": 4,
+		"dodge": 1,
+		"death_drops": "leech",
+		"harvest": "zombie_meatslug",
+		"armor_cut": 2,
+		"armor_bash": 4,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"upgrades": {
+			"half_life": 12,
+			"into_group": "GROUP_LEECH_ABOMIUPGRADE"
+		},
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_acidicleech",
+		"type": "MONSTER",
+		"name": "acidic leech",
+		"description": "Its mouth doesn't stop drooping yellowish chemical stuff into the terrain it passes by. This leech's flesh has completely adopted to handle the extreme hazards cause by acid, and became a part to its internal organs. Due to thinned skin layer, it is fragile to physical harm, but overprotected by burning blood.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 25,
+		"size": "MEDIUM",
+		"hp": 140,
+		"speed": 85,
+		"material": [
+			"iflesh"
+		],
+		"symbol": "$",
+		"bodytype": "snake",
+		"color": "yellow_green",
+		"morale": 100,
+		"death_drops": "leech",
+		"harvest": "zombie_meatslug",
+		"melee_skill": 3,
+		"melee_dice": 2,
+		"melee_dice_sides": 5,
+		"melee_cut": 6,
+		"armor_cut": 3,
+		"armor_bash": 7,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"HURT",
+			"FRIEND_DIED"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"ACID",
+			"NORMAL"
+		],
+		"special_attacks": [
+			[
+				"crunch",
+				20
+			],
+			[
+				"sucking",
+				15
+			],
+			[
+				"ACID",
+				30
+			]
+		],
+		"special_when_hit": [
+			"ACIDSPLASH",
+			100
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"ACIDPROOF",
+			"ACID_BLOOD",
+			"ACIDTRAIL",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_bigleech",
+		"type": "MONSTER",
+		"name": "big leech",
+		"description": "A larger, segmented worm. The bite it makes can suck out liters of blood if remains intact for minutes.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 10,
+		"size": "SMALL",
+		"hp": 45,
+		"speed": 95,
+		"material": [
+			"flesh"
+		],
+		"symbol": "~",
+		"bodytype": "snake",
+		"color": "red",
+		"morale": 100,
+		"harvest": "meatslug",
+		"melee_skill": 2,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 3,
+		"dodge": 1,
+		"armor_cut": 1,
+		"armor_bash": 3,
+		"starting_ammo": {
+			"leechblood": 1000,
+			"leechsharptooth": 100,
+			"leechtooth": 100
+		},
+		"upgrades": {
+			"half_life": 12,
+			"into_group": "GROUP_LEECH_UPGRADE"
+		},
+		"anger_triggers": [
+			"PLAYER_WEAK",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"death_drops": "leech",
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_bloatedleech",
+		"type": "MONSTER",
+		"name": "bloated leech",
+		"description": "A large worm with a nearly transparent, bloated hump in its back, filled with pressurized poison gas. It slithers faster than most and definitely, it will explode when touched.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 15,
+		"size": "SMALL",
+		"hp": 15,
+		"speed": 145,
+		"material": [
+			"iflesh"
+		],
+		"symbol": "~",
+		"death_drops": "leech",
+		"bodytype": "snake",
+		"color": "light_green_green",
+		"morale": 100,
+		"harvest": "exempt",
+		"melee_skill": 1,
+		"melee_dice": 1,
+		"melee_dice_sides": 1,
+		"melee_cut": 1,
+		"dodge": 1,
+		"armor_cut": 1,
+		"armor_bash": 1,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"GAS"
+		],
+		"special_attacks": [
+			[
+				"SUICIDE",
+				5
+			]
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_devourerleech",
+		"type": "MONSTER",
+		"name": "devourer leech",
+		"description": "It excrete blood from its body continuously as it slithers very slow. This enormous leech has hundreds of teeth and slabs of elastic skin makes it hideous physically.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 50,
+		"size": "HUGE",
+		"hp": 435,
+		"speed": 55,
+		"material": [
+			"flesh"
+		],
+		"symbol": "S",
+		"bodytype": "snake",
+		"color": "white_red",
+		"morale": 100,
+		"melee_skill": 5,
+		"melee_dice": 6,
+		"melee_dice_sides": 8,
+		"melee_cut": 8,
+		"armor_cut": 12,
+		"harvest": "meatslug",
+		"armor_bash": 14,
+		"anger_triggers": [
+			"HURT",
+			"FRIEND_DIED",
+			"PLAYER_CLOSE"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"special_attacks": [
+			[
+				"crunch",
+				20
+			],
+			[
+				"devour",
+				50
+			],
+			[
+				"bodyslam",
+				15
+			]
+		],
+		"death_drops": "devourerleech",
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_bloodsurgeleech",
+		"type": "MONSTER",
+		"name": "blood surge leech",
+		"description": "A man-sized, monoeye leech with a bubbling blood residue under its mouth and a saggy skin lies under it. If left unnoticed, it can shoot with pressurize power!",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 26,
+		"size": "MEDIUM",
+		"hp": 114,
+		"speed": 90,
+		"material": [
+			"iflesh"
+		],
+		"symbol": "$",
+		"bodytype": "snake",
+		"death_drops": "leech",
+		"color": "red_cyan",
+		"aggression": 25,
+		"morale": 100,
+		"melee_skill": 3,
+		"melee_dice": 3,
+		"melee_dice_sides": 5,
+		"melee_cut": 2,
+		"armor_cut": 7,
+		"armor_bash": 10,
+		"vision_day": 25,
+		"path_settings": {
+			"max_dist": 4
+		},
+		"starting_ammo": {
+			"leechblood": 1000
+		},
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"harvest": "meatslug",
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 3,
+				"move_cost": 255,
+				"gun_type": "bloodsurgeleechmouth",
+				"ammo_type": "leechblood",
+				"fake_skills": [
+					[
+						"gun",
+						3
+					],
+					[
+						"smg",
+						2
+					]
+				],
+				"fake_str": 12,
+				"fake_dex": 8,
+				"fake_per": 10,
+				"max_ammo": 1000,
+				"ranges": [
+					[
+						1,
+						3,
+						"DEFAULT"
+					]
+				],
+				"targeting_cost": 100,
+				"targeting_sound": "bubbling liquid",
+				"targeting_volume": 25,
+				"description": "The blood surge leech showers its blood!",
+				"no_ammo_sound": "nothing but a joke."
+			}
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SEES",
+			"PRIORITIZE_TARGETS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_insect_dreadfulleech",
+		"type": "MONSTER",
+		"name": "dreadful leech",
+		"description": "A leech with devilish, blade fangs potruding from its mouth. Its thirst for vampire blood caused it to mutate to even more dreadful look, and even more troubles!",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 20,
+		"size": "SMALL",
+		"hp": 85,
+		"speed": 115,
+		"material": [
+			"flesh"
+		],
+		"symbol": "~",
+		"bodytype": "snake",
+		"color": "dark_gray",
+		"death_drops": "leech",
+		"morale": 100,
+		"melee_skill": 5,
+		"melee_dice": 3,
+		"melee_dice_sides": 5,
+		"melee_cut": 9,
+		"dodge": 3,
+		"armor_cut": 4,
+		"armor_bash": 6,
+		"harvest": "meatslug",
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"special_attacks": [
+			[
+				"crunch",
+				20
+			],
+			[
+				"hemorrhage",
+				30
+			],
+			[
+				"spinbite",
+				50
+			]
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_eyedleech",
+		"type": "MONSTER",
+		"name": "eyed leech",
+		"description": "A small leech with a distinctive large, monoeye above its mouth. Being compatible to precisely shoot its own teeth makes it deadly once ignored.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 15,
+		"size": "TINY",
+		"hp": 52,
+		"speed": 100,
+		"material": [
+			"iflesh"
+		],
+		"symbol": "~",
+		"bodytype": "snake",
+		"color": "brown",
+		"death_drops": "leech",
+		"aggression": 25,
+		"morale": 100,
+		"melee_skill": 2,
+		"melee_dice": 3,
+		"melee_dice_sides": 2,
+		"melee_cut": 2,
+		"dodge": 1,
+		"armor_cut": 3,
+		"armor_bash": 3,
+		"vision_day": 25,
+		"path_settings": {
+			"max_dist": 6
+		},
+		"upgrades": {
+			"half_life": 12,
+			"into_group": "GROUP_LEECH_EYEDUPGRADE"
+		},
+		"harvest": "meatslug",
+		"starting_ammo": {
+			"leechtooth": 100
+		},
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 3,
+				"move_cost": 125,
+				"gun_type": "eyedleechmouth",
+				"ammo_type": "leechtooth",
+				"fake_skills": [
+					[
+						"gun",
+						1
+					],
+					[
+						"pistol",
+						1
+					]
+				],
+				"fake_dex": 8,
+				"fake_per": 8,
+				"max_ammo": 100,
+				"ranges": [
+					[
+						1,
+						10,
+						"DEFAULT"
+					]
+				],
+				"targeting_cost": 120,
+				"targeting_sound": "snapped tooth",
+				"targeting_volume": 25,
+				"description": "The eyed leech spew its tooth!",
+				"no_ammo_sound": "nothing but a joke."
+			}
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SEES",
+			"PRIORITIZE_TARGETS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_insect_hugeleech",
+		"type": "MONSTER",
+		"name": "huge leech",
+		"description": "While it lives, the vastly accumulated blood it has sucked from anything has changed its appearance. This human sized parasite doesn't drink blood anymore... They are eaten as whole instead. Aside that, its hide can deflect almost any inferior projectiles.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 20,
+		"size": "MEDIUM",
+		"hp": 145,
+		"speed": 95,
+		"material": [
+			"flesh"
+		],
+		"symbol": "$",
+		"color": "red",
+		"death_drops": "leech",
+		"bodytype": "snake",
+		"morale": 100,
+		"melee_skill": 3,
+		"melee_dice": 2,
+		"melee_dice_sides": 5,
+		"melee_cut": 6,
+		"dodge": 1,
+		"armor_cut": 9,
+		"armor_bash": 11,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"upgrades": {
+			"half_life": 12,
+			"into_group": "GROUP_LEECH_HUGEUPGRADE"
+		},
+		"harvest": "meatslug",
+		"death_function": [
+			"NORMAL"
+		],
+		"special_attacks": [
+			[
+				"crunch",
+				20
+			],
+			[
+				"sucking",
+				15
+			]
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_leech",
+		"type": "MONSTER",
+		"name": "leech",
+		"description": "A segmented, small worm technically a pest for living things. When biting, it extracts a liquid from its mouth that disables blood clotting, which can be deadly for a limited time.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 5,
+		"size": "TINY",
+		"hp": 20,
+		"speed": 100,
+		"material": [
+			"flesh"
+		],
+		"symbol": "~",
+		"bodytype": "snake",
+		"color": "pink",
+		"morale": 100,
+		"melee_skill": 2,
+		"melee_dice": 1,
+		"melee_dice_sides": 3,
+		"melee_cut": 2,
+		"dodge": 1,
+		"armor_cut": 1,
+		"armor_bash": 2,
+		"harvest": "meatslug",
+		"starting_ammo": [
+			{
+				"leechblood": 1000
+			},
+			{
+				"leechsharptooth": 100
+			},
+			{
+				"leechtooth": 100
+			}
+		],
+		"upgrades": {
+			"half_life": 12,
+			"into_group": "GROUP_LEECH_UPGRADE"
+		},
+		"anger_triggers": [
+			"PLAYER_WEAK",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"death_drops": "leech",
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_sharpshooterleech",
+		"type": "MONSTER",
+		"name": "sharpshooter leech",
+		"description": "Small, but deadly! The mutation in its iris has changed its presicion and shoots further with sharper teeth ammunition inside its mouth. It takes more time from afar to guarantee a succesful hit.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"harvest": "meatslug",
+		"diff": 29,
+		"size": "SMALL",
+		"hp": 70,
+		"speed": 105,
+		"material": [
+			"iflesh"
+		],
+		"symbol": "~",
+		"bodytype": "snake",
+		"color": "brown_cyan",
+		"aggression": 100,
+		"morale": 25,
+		"melee_skill": 1,
+		"death_drops": "leech",
+		"melee_dice": 3,
+		"melee_dice_sides": 5,
+		"melee_cut": 2,
+		"armor_cut": 3,
+		"armor_bash": 3,
+		"vision_day": 35,
+		"path_settings": {
+			"max_dist": 11
+		},
+		"starting_ammo": {
+			"leechsharptooth": 100
+		},
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"special_attacks": [
+			{
+				"type": "gun",
+				"cooldown": 5,
+				"move_cost": 175,
+				"gun_type": "sharpshooterleechmouth",
+				"ammo_type": "leechsharptooth",
+				"fake_skills": [
+					[
+						"gun",
+						3
+					],
+					[
+						"rifle",
+						2
+					]
+				],
+				"fake_dex": 9,
+				"fake_per": 9,
+				"max_ammo": 100,
+				"ranges": [
+					[
+						1,
+						13,
+						"DEFAULT"
+					]
+				],
+				"targeting_cost": 175,
+				"targeting_sound": "snapped tooth",
+				"targeting_volume": 25,
+				"description": "The sharpshooter leech spew it tooth!",
+				"no_ammo_sound": "nothing but a joke."
+			}
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SEES",
+			"PRIORITIZE_TARGETS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_2"
+		]
+	},
+	{
+		"id": "mon_insect_spikyleech",
+		"type": "MONSTER",
+		"name": "spiky leech",
+		"description": "This overgrown leech possesses tremendous amount of short bone spikes overlapping around its flabby skin. Much slower, tougher and deadlier than before.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 30,
+		"size": "MEDIUM",
+		"hp": 245,
+		"speed": 75,
+		"material": [
+			"flesh"
+		],
+		"bodytype": "snake",
+		"symbol": "$",
+		"color": "dark_gray_white",
+		"morale": 100,
+		"melee_skill": 5,
+		"melee_dice": 5,
+		"melee_dice_sides": 6,
+		"death_drops": "leech",
+		"melee_cut": 9,
+		"harvest": "meatslug",
+		"armor_cut": 12,
+		"armor_bash": 16,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"special_attacks": [
+			[
+				"crunch",
+				20
+			],
+			[
+				"sucking",
+				15
+			],
+			[
+				"spikeroll",
+				30
+			]
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"BONES",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_vampireleech",
+		"type": "MONSTER",
+		"name": "vampire leech",
+		"description": "This large leech somehow gained a power from a vampire blood, and caused it to mutate a longer teeth lining. The sucking power that it does will drain you in a pinch.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 20,
+		"size": "SMALL",
+		"hp": 65,
+		"speed": 105,
+		"material": [
+			"flesh"
+		],
+		"symbol": "~",
+		"color": "light_gray",
+		"bodytype": "snake",
+		"morale": 100,
+		"melee_skill": 3,
+		"death_drops": "leech",
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 5,
+		"dodge": 2,
+		"armor_cut": 3,
+		"armor_bash": 5,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"death_function": [
+			"NORMAL"
+		],
+		"upgrades": {
+			"half_life": 12,
+			"into_group": "GROUP_LEECH_VAMPUPGRADE"
+		},
+		"harvest": "meatslug",
+		"special_attacks": [
+			[
+				"crunch",
+				20
+			],
+			[
+				"hemorrhage",
+				30
+			]
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"PATH_AVOID_DANGER_1"
+		]
+	},
+	{
+		"id": "mon_insect_venomleech",
+		"type": "MONSTER",
+		"name": "venomous leech",
+		"description": "A larger, darker abominable leech with wider mouth and drips highly concentrated toxin as it sway.",
+		"default_faction": "leech",
+		"species": [
+			"INSECT",
+			"LEECH"
+		],
+		"diff": 15,
+		"size": "SMALL",
+		"hp": 85,
+		"speed": 100,
+		"material": [
+			"iflesh"
+		],
+		"symbol": "~",
+		"bodytype": "snake",
+		"color": "light_green_magenta",
+		"morale": 100,
+		"melee_skill": 4,
+		"melee_dice": 3,
+		"death_drops": "leech",
+		"melee_dice_sides": 2,
+		"melee_cut": 8,
+		"dodge": 1,
+		"armor_cut": 3,
+		"armor_bash": 3,
+		"anger_triggers": [
+			"PLAYER_CLOSE",
+			"FRIEND_DIED",
+			"HURT"
+		],
+		"fear_triggers": [
+			"FIRE"
+		],
+		"harvest": "zombie_meatslug",
+		"death_function": [
+			"NORMAL"
+		],
+		"special_attacks": [
+			[
+				"leechvenomousinject",
+				10
+			]
+		],
+		"flags": [
+			"SMELLS",
+			"HEARS",
+			"SWIMS",
+			"BLEED",
+			"VENOM",
+			"PATH_AVOID_DANGER_1"
+		]
+	}
+]

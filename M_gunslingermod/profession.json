@@ -1,0 +1,42 @@
+[
+  {
+    "type": "profession",
+    "ident": "prof_gunslinger",
+    "name": "Gunslinger",
+    "description": "Once the last of the order of gunslingers, the highest authority in All-World, now resigned to walking this dead turn of the wheel.",
+    "points": 5,
+    "skills": [
+      { "level": 1, "name": "fabrication" },
+      { "level": 1, "name": "speech" },
+      { "level": 2, "name": "traps" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "gun" },
+      { "level": 4, "name": "pistol" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "cowboy_hat",
+          "bandana",
+          "waistcoat",
+          "duster_leather",
+          "bandolier_holster",
+          "satchel_leather",
+          "gloves_fingerless_mod",
+          "gunslinger_kit",
+          "gs_birdskull"
+        ],
+        "entries": [
+          { "item": "gs_revolver_sandalwood", "ammo-item": "gs_ammo_light", "charges": 5 },
+          { "item": "switchblade", "container-item": "boots_gunslinger" },
+          { "item": "gs_ammo_light", "charges": 40 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "boy_shorts", "bra" ]
+    },
+    "traits": [ "PROF_MARTIAL_ARTS_gunslinger" ]
+  }
+]
+

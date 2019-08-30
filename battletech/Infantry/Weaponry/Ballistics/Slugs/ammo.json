@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ap_clip",
+    "type": "AMMO",
+    "name": "Auto-Pistol Ammo",
+    "description": "Ammo for Auto-Pistol.",
+    "volume": 0.5,
+    "price": 500000,
+    "material": [ "plastic", "powder" ],
+    "symbol": "=",
+    "color": "grey",
+    "count": 10,
+    "stack_size": 10,
+    "ammo_type": "auto_pistol",
+    "recoil": 20,
+    "effects": [ "COOKOFF" ]
+  },{
+    "id": "elephant_bullet",
+    "type": "AMMO",
+    "name": "Elephant Gun Shell",
+    "description": "EGS.",
+    "volume": 0.1,
+    "price": 500000,
+    "material": [ "plastic", "powder" ],
+    "symbol": "=",
+    "weight": 20,
+    "color": "grey",
+    "count": 2,
+    "stack_size": 2,
+    "ammo_type": "elephant_bullet",
+    "recoil": 89,
+    "effects": [ "COOKOFF" ]
+  }
+]
+

@@ -1,0 +1,243 @@
+[
+ {
+    "id": "mon_zombie_mouth",
+    
+"type": "MONSTER",
+    
+"name": "mouthswell zombie",
+    
+"description": "A human body, distinct to its big, thick and morbidly deformed jaws, dribbling in black ooze.",
+    
+"default_faction": "zombie",
+    
+"species": [ "ZOMBIE" ],
+    
+"volume": "62500 ml",
+    "weight": 81500,
+    
+"hp": 70,
+    
+"speed": 100,
+"harvest": "zombie",
+    
+"material": [ "flesh" ],
+    
+"symbol": "P",
+    
+"color": "light_green",
+    
+"aggression": 100,
+    
+"morale": 100,
+    
+"melee_skill": 4,
+    
+"melee_dice": 1,
+    
+"melee_dice_sides": 4,
+    
+"melee_cut": 3,
+    
+"attack_cost": 125,
+    
+"melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 2
+      },
+      
+{
+        "damage_type": "stab",
+        "amount": 4
+      }
+    ],
+    
+"armor_bash": 3,
+    
+"armor_cut": 2,
+    
+"armor_acid": 1,
+    
+"armor_fire": 1,
+    
+"special_attacks": [
+      { "type": "bite", "cooldown": 10,
+        
+"damage_max_instance": [
+          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.7 }
+        ]
+      }
+    ],
+    "upgrades": {
+      "half_life": 12,
+      "into_group": "GROUP_MOUTH_UPGRADE"
+    },
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL"],
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "BONES" ]
+  },
+  {
+    "id": "mon_zombie_bellymouth",
+    "type": "MONSTER",
+    "name": "bellymouth zombie",
+    "description": "This fat zombie's intestinal organs mutated, rupturing its tummy and turns out as a large, fleshy jawed mouth.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 125,
+    "speed": 90,
+	"harvest": "zombie",
+    "material": [ "flesh" ],
+    "symbol": "b",
+    "color": "light_green",
+    "aggression": 100,
+    "attack_cost": 150,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 3,
+    "melee_dice_sides": 5,
+    "melee_cut": 3,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 8
+      },
+      {
+        "damage_type": "stab",
+        "amount": 5
+      }
+    ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 3, "min_mul": 0.3,
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 4, "armor_multiplier": 0.4 },
+          { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.6 }
+        ]
+      }
+    ],
+    "armor_bash": 7,
+    "armor_cut": 3,
+    "armor_acid": 1,
+    "armor_fire": 1,
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL"],
+	"upgrades": {
+      "half_life": 12,
+      "into_group": "GROUP_MOUTH_UPGRADEX"
+    },
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "BONES" ]
+  },
+  {
+    "id": "mon_zombie_omouth",
+    "type": "MONSTER",
+    "name": "roundelmouth zombie",
+    "description": "Gruesome sharp teeth circulate its entire mouthface, \nbig enough to accomodate much space, \ntill the eyes sink without a trace.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 110,
+    "speed": 95,
+    "material": [ "flesh" ],
+    "symbol": "P",
+    "color": "green",
+	"harvest": "zombie",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_dice_sides": 5,
+    "melee_cut": 5,
+    "dodge": 1,
+    "attack_cost": 150,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 4
+      },
+      {
+        "damage_type": "cut",
+        "amount": 8
+      },
+      {
+        "damage_type": "stab",
+        "amount": 2
+      }
+    ],
+    "armor_bash": 5,
+    "armor_cut": 3,
+    "armor_acid": 1,
+    "armor_fire": 1,
+    "special_attacks": [
+      { "type": "bite", "cooldown": 15, "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 7, "armor_multiplier": 0.6 },
+          { "damage_type": "stab", "amount": 7, "armor_multiplier": 0.6 }
+        ]
+      }
+    ],
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL"],
+	"upgrades": {
+      "half_life": 12,
+      "into_group": "GROUP_MOUTH_UPGRADEX"
+    },
+    "flags": [ "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "BONES" ]
+  },
+{
+    "id": "mon_zombie_suctionmouth",
+    "type": "MONSTER",
+    "name": "sucker",
+    "description": "A large, ravenous zed, prevailing an elongated mouth viciously altered similar to lamprey's. With its rough, thick skin developed to endure extreme physical impacts, it focuses on gnawing at its hapless target.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "92500 ml",
+    "weight": 120000,
+    "hp": 405,
+    "speed": 80,
+    "material": [ "flesh" ],
+    "symbol": "P",
+    "color": "red_green",
+	"harvest": "zombie",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 4,
+    "dodge": 1,
+    "attack_cost": 200,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 8
+      },
+      {
+        "damage_type": "cut",
+        "amount": 10
+      },
+      {
+        "damage_type": "stab",
+        "amount": 8
+      }
+    ],
+    "armor_bash": 8,
+    "armor_cut": 12,
+    "armor_acid": 2,
+    "armor_fire": 2,
+    "special_attacks": [
+      { "type": "bite", "cooldown": 13, "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.2 },
+		  { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.4 },
+          { "damage_type": "stab", "amount": 20, "armor_multiplier": 0.6 }
+        ]
+      }
+    ],
+	"//": "Perfectly strong biter!",
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL"],
+    "flags": [ "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "BONES" ]
+  }  
+]

@@ -1,0 +1,777 @@
+[
+  {
+    "type": "recipe",
+    "result": "meronpan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 20000,
+    "batch_time_factors": [ 50, 4 ],
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "irradiated_melon", 4 ], [ "melon", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_meronpan_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "irradiated_melon", 4 ], [ "melon", 2 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "currypan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 20000,
+    "batch_time_factors": [ 50, 4 ],
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "cooking_oil", 1 ] ],
+      [ [ "curry_powder", 1 ] ],
+      [ [ "meat", 1 ], [ "rehydrated_meat", 2 ], [ "dry_meat", 2 ], [ "meat_canned", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_currypan_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "cooking_oil", 1 ] ],
+      [ [ "curry_powder", 1 ] ],
+      [ [ "meat", 1 ], [ "rehydrated_meat", 2 ], [ "dry_meat", 2 ], [ "meat_canned", 2 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "raisinpan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 20000,
+    "batch_time_factors": [ 50, 4 ],
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "grapes", 4 ], [ "irradiated_grapes", 4 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_raisinpan_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "grapes", 4 ], [ "irradiated_grapes", 4 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "chocopan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 20000,
+    "batch_time_factors": [ 50, 4 ],
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "chocolate", 1 ], [ "candy2", 2 ], [ "choc_drink", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_chocopan_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "yeast", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "chocolate", 1 ], [ "candy2", 2 ], [ "choc_drink", 2 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "creampan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 20000,
+    "batch_time_factors": [ 50, 4 ],
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
+    "components": [ [ [ "flour", 2 ] ], [ [ "yeast", 1 ] ], [ [ "creamsoda", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_creampan_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREAD",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [ [ [ "flour", 2 ] ], [ [ "yeast", 1 ] ], [ [ "creamsoda", 1 ] ], [ [ "bag_plastic", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "latkes",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 30000,
+    "batch_time_factors": [ 50, 4 ],
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "chips", 3 ], [ "chips2", 3 ], [ "chips3", 3 ], [ "irradiated_potato", 3 ], [ "potato", 3 ] ],
+      [ [ "onion", 2 ], [ "irradiated_onion", 2 ] ],
+      [ [ "powder_eggs", 10 ], [ "egg_bird", 2 ], [ "egg_reptile", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_latkes_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 30000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "chips", 3 ], [ "chips2", 3 ], [ "chips3", 3 ], [ "irradiated_potato", 3 ], [ "potato", 3 ] ],
+      [ [ "onion", 2 ], [ "irradiated_onion", 2 ] ],
+      [ [ "powder_eggs", 10 ], [ "egg_bird", 2 ], [ "egg_reptile", 2 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "pie_apple",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": 25000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "apple", 2 ], [ "apple_canned", 1 ], [ "irradiated_apple", 2 ] ],
+      [ [ "sugar", 2 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_pie_apple_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": 25000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "apple", 2 ], [ "apple_canned", 1 ], [ "irradiated_apple", 2 ] ],
+      [ [ "sugar", 2 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "egg_tart",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 12000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "powder_eggs", 10 ], [ "egg_bird", 2 ], [ "egg_reptile", 2 ] ],
+      [ [ "sugar", 2 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "hamburg",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 10 ], [ "char_smoker", 1 ], [ "toolset", 10 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "meat", 3 ], [ "rehydrated_meat", 6 ], [ "meat_canned", 6 ], [ "can_chicken", 6 ], [ "hamburg_pate", 1 ] ],
+      [
+        [ "broccoli", 2 ],
+        [ "irradiated_broccoli", 2 ],
+        [ "tomato", 2 ],
+        [ "irradiated_tomato", 2 ],
+        [ "zucchini", 2 ],
+        [ "irradiated_zucchini", 2 ],
+        [ "celery", 2 ],
+        [ "irradiated_celery", 2 ],
+        [ "potato", 2 ],
+        [ "irradiated_potato", 2 ],
+        [ "onion", 2 ],
+        [ "irradiated_onion", 2 ],
+        [ "carrot", 12 ],
+        [ "irradiated_carrot", 12 ],
+        [ "veggy", 2 ],
+        [ "dry_veggy", 2 ],
+        [ "rehydrated_veggy", 2 ],
+        [ "veggy_wild", 2 ],
+        [ "plant_sac", 6 ],
+        [ "dandelion_cooked", 2 ],
+        [ "wild_herbs", 40 ]
+      ],
+      [
+        [ "ketchup", 1 ],
+        [ "mustard", 1 ],
+        [ "horseradish", 1 ],
+        [ "mayonnaise", 1 ],
+        [ "bacon", 2 ],
+        [ "seasoning_salt", 15 ],
+        [ "soysauce", 1 ],
+        [ "sauerkraut", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "cheeseburg",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 10 ], [ "char_smoker", 1 ], [ "toolset", 10 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "meat", 3 ], [ "rehydrated_meat", 6 ], [ "meat_canned", 6 ], [ "can_chicken", 6 ], [ "hamburg_pate", 1 ] ],
+      [
+        [ "broccoli", 2 ],
+        [ "irradiated_broccoli", 2 ],
+        [ "tomato", 2 ],
+        [ "irradiated_tomato", 2 ],
+        [ "zucchini", 2 ],
+        [ "irradiated_zucchini", 2 ],
+        [ "celery", 2 ],
+        [ "irradiated_celery", 2 ],
+        [ "potato", 2 ],
+        [ "irradiated_potato", 2 ],
+        [ "onion", 2 ],
+        [ "irradiated_onion", 2 ],
+        [ "carrot", 12 ],
+        [ "irradiated_carrot", 12 ],
+        [ "veggy", 2 ],
+        [ "dry_veggy", 2 ],
+        [ "rehydrated_veggy", 2 ],
+        [ "veggy_wild", 2 ],
+        [ "plant_sac", 6 ],
+        [ "dandelion_cooked", 2 ],
+        [ "wild_herbs", 40 ]
+      ],
+      [ [ "cheese", 1 ], [ "cheese_hard", 1 ], [ "can_cheese", 1 ] ],
+      [
+        [ "ketchup", 1 ],
+        [ "mustard", 1 ],
+        [ "horseradish", 1 ],
+        [ "mayonnaise", 1 ],
+        [ "bacon", 2 ],
+        [ "seasoning_salt", 15 ],
+        [ "soysauce", 1 ],
+        [ "sauerkraut", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_hamburg_pate_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 10 ], [ "char_smoker", 1 ], [ "toolset", 10 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [ [ [ "meat", 3 ], [ "rehydrated_meat", 6 ], [ "meat_canned", 6 ], [ "can_chicken", 6 ], [ "hamburg_pate", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "worcester_sauce",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 8,
+    "time": 90000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1, "amount": 1 },
+      { "id": "COOK", "level": 3, "amount": 1 },
+      { "id": "HAMMER", "level": 1, "amount": 1 },
+      { "id": "BOIL", "level": 2, "amount": 1 }
+    ],
+    "tools": [ [ [ "hotplate", 10 ], [ "char_smoker", 1 ], [ "toolset", 10 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "onion", 1 ], [ "irradiated_onion", 1 ] ],
+      [ [ "celery", 1 ], [ "irradiated_celery", 1 ], [ "carrot", 1 ], [ "irradiated_carrot", 1 ] ],
+      [ [ "apple", 1 ], [ "apple_canned", 1 ], [ "irradiated_apple", 1 ] ],
+      [ [ "dry_mushroom", 1 ], [ "mushroom", 1 ] ],
+      [ [ "seasoning_salt", 5 ], [ "salt", 1 ] ],
+      [ [ "soysauce", 1 ] ],
+      [ [ "sugar", 1 ] ],
+      [ [ "garlic", 1 ] ],
+      [ [ "pepper", 5 ] ],
+      [ [ "vinegar", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "okonomiyaki",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 10000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 10 ] ] ],
+    "components": [
+      [ [ "flour", 2 ] ],
+      [ [ "cabbage", 1 ], [ "irradiated_cabbage", 1 ] ],
+      [ [ "powder_eggs", 10 ], [ "egg_bird", 2 ], [ "egg_reptile", 2 ] ],
+      [
+        [ "meat", 1 ],
+        [ "meat_smoked", 1 ],
+        [ "dry_meat", 1 ],
+        [ "rehydrated_meat", 1 ],
+        [ "meat_canned", 1 ],
+        [ "can_chicken", 1 ],
+        [ "fish", 1 ],
+        [ "fish_smoked", 1 ],
+        [ "dry_fish", 1 ],
+        [ "rehydrated_fish", 1 ],
+        [ "fish_canned", 1 ],
+        [ "can_salmon", 1 ],
+        [ "can_tuna", 1 ],
+        [ "sausage", 2 ],
+        [ "bacon", 2 ]
+      ],
+      [ [ "mayonnaise", 1 ] ],
+      [ [ "worcester_sauce", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "okonomiyakipan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": 4000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "components": [
+      [ [ "okonomiyaki", 1 ] ],
+      [ [ "flatbread", 2 ], [ "bread", 2 ], [ "cornbread", 2 ], [ "wastebread", 2 ], [ "hardtack", 4 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_okonomiyakipan_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": 4000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ] ],
+    "components": [
+      [ [ "okonomiyaki", 1 ] ],
+      [ [ "flatbread", 2 ], [ "bread", 2 ], [ "cornbread", 2 ], [ "wastebread", 2 ], [ "hardtack", 4 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "yakisoba",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": 10000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 10 ] ] ],
+    "components": [
+      [ [ "spaghetti_raw", 1 ], [ "macaroni_raw", 1 ], [ "noodles_fast", 1 ] ],
+      [ [ "cabbage", 1 ], [ "irradiated_cabbage", 1 ] ],
+      [ [ "onion", 1 ], [ "irradiated_onion", 1 ], [ "carrot", 6 ], [ "irradiated_carrot", 6 ] ],
+      [
+        [ "meat", 1 ],
+        [ "meat_smoked", 1 ],
+        [ "dry_meat", 1 ],
+        [ "rehydrated_meat", 1 ],
+        [ "meat_canned", 1 ],
+        [ "can_chicken", 1 ],
+        [ "fish", 1 ],
+        [ "fish_smoked", 1 ],
+        [ "dry_fish", 1 ],
+        [ "rehydrated_fish", 1 ],
+        [ "fish_canned", 1 ],
+        [ "can_salmon", 1 ],
+        [ "can_tuna", 1 ],
+        [ "sausage", 2 ],
+        [ "bacon", 2 ]
+      ],
+      [ [ "mayonnaise", 1 ] ],
+      [ [ "worcester_sauce", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "yakisobapan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": 4000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "components": [
+      [ [ "yakisoba", 1 ] ],
+      [ [ "flatbread", 2 ], [ "bread", 2 ], [ "cornbread", 2 ], [ "wastebread", 2 ], [ "hardtack", 4 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_yakisobapan_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": 4000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ] ],
+    "components": [
+      [ [ "yakisoba", 1 ] ],
+      [ [ "flatbread", 2 ], [ "bread", 2 ], [ "cornbread", 2 ], [ "wastebread", 2 ], [ "hardtack", 4 ] ],
+      [ [ "bag_plastic", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "spaghetti_carbonara",
+    "id_suffix": "from_egg",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "cookbook_italian", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "spaghetti_raw", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "seasoning_italian", 5 ], [ "sauce_red", 1 ], [ "wild_herbs", 10 ] ],
+      [ [ "powder_eggs", 10 ], [ "egg_bird", 2 ], [ "egg_reptile", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "spaghetti_carbonara",
+    "id_suffix": "from_carbonara",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 3000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "cookbook_italian", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ] ],
+    "components": [ [ [ "spaghetti_raw", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "carbonara", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_carbonara_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "bag_plastic", 1 ] ],
+      [ [ "seasoning_italian", 5 ], [ "sauce_red", 1 ], [ "wild_herbs", 10 ] ],
+      [ [ "powder_eggs", 10 ], [ "egg_bird", 2 ], [ "egg_reptile", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "spaghetti_vongole",
+    "id_suffix": "from_clam",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "cookbook_italian", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "spaghetti_raw", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "seasoning_italian", 5 ], [ "sauce_red", 1 ], [ "wild_herbs", 10 ] ],
+      [ [ "can_clams", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "spaghetti_vongole",
+    "id_suffix": "from_vongole",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 3000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "cookbook_italian", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ] ],
+    "components": [ [ [ "spaghetti_raw", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "vongole", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_vongole_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "bag_plastic", 1 ] ],
+      [ [ "seasoning_italian", 5 ], [ "sauce_red", 1 ], [ "wild_herbs", 10 ] ],
+      [ [ "can_clams", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "spaghetti_meatballs_soup",
+    "id_suffix": "from_meat",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "cookbook_italian", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "spaghetti_raw", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "seasoning_italian", 5 ], [ "sauce_red", 1 ], [ "wild_herbs", 10 ] ],
+      [ [ "meat", 3 ], [ "rehydrated_meat", 6 ], [ "dry_meat", 6 ], [ "meat_canned", 6 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "spaghetti_meatballs_soup",
+    "id_suffix": "from_meatballs_soup",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 3000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "cookbook_italian", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ] ],
+    "components": [ [ [ "spaghetti_raw", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "meatballs_soup", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "bag_meatballs_soup_vac",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 3, "amount": 1 } ],
+    "tools": [
+      [ [ "hotplate", 6 ], [ "char_smoker", 1 ], [ "toolset", 6 ], [ "fire", -1 ] ],
+      [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
+    ],
+    "components": [
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "bag_plastic", 1 ] ],
+      [ [ "seasoning_italian", 5 ], [ "sauce_red", 1 ], [ "wild_herbs", 10 ] ],
+      [ [ "meat", 3 ], [ "rehydrated_meat", 6 ], [ "dry_meat", 6 ], [ "meat_canned", 6 ] ]
+    ]
+  }
+]

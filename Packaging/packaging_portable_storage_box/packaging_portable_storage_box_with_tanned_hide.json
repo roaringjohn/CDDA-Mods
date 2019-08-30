@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_portable_storage_box_with_tanned_hide",
+        "symbol": "]",
+        "color": "light_gray",
+        "name": "storage box (tanned hides)",
+        "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 11 tanned hides.",
+        "price": 10000,
+        "material": ["wood", "steel"],
+        "weight": 8600,
+        "volume": 50
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_portable_storage_box_with_tanned_hide",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 10000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_portable_storage_box", 1 ]
+            ],
+            [
+                [ "tanned_hide",                    11 ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "type" : "vehicle",
+        "id" : "bicycle_tm",
+        "name" : "Road Bikes",
+        "blueprint" : "o#o",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "superalloy_frame_tm"},
+            {"x": 0, "y": 0, "part": "saddle"},
+            {"x": 0, "y": 0, "part": "foot_pedals_tm"},
+            {"x": 1, "y": 0, "part": "superalloy_frame_tm"},
+            {"x": 1, "y": 0, "part": "wheel_bicycle_steerable"},
+            {"x": -1, "y": 0, "part": "superalloy_frame_tm"},
+            {"x": -1, "y": 0, "part": "wheel_bicycle"}
+        ]
+    }
+]

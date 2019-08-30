@@ -1,0 +1,11 @@
+
+{
+    "type": "MOD_INFO",
+    "mod_type": "SUPPLEMENTAL",
+    "ident": "wastelands",
+    "name": "Wasteland Mod",
+    "description": "Blood and decay in the wasteland.",
+	"author": "Kane",
+    "category": "rebalance",
+    "path": ""
+}

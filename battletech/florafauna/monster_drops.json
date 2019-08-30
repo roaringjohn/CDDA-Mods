@@ -1,0 +1,17 @@
+[
+  {
+    "id": "aerial_branth_infantry_drop",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "branth_infantry", "prob": 40 }
+    ]
+  },{
+    "id": "burning_branth_boss_drop",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "branth_infantry", "prob": 40 }
+    ]
+  }
+]

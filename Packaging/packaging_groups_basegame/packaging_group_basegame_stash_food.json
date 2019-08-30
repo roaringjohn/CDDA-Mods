@@ -1,0 +1,38 @@
+[
+    {
+        "type" : "item_group",
+        "id" : "stash_food",
+        "items":[
+            ["water_clean", 90],
+            ["water_mineral", 5],
+            ["cola", 70],
+            ["creamsoda", 60],
+            ["lemonlime", 60],
+            ["orangesoda", 60],
+            ["crispycran", 40],
+            ["colamdew", 60],
+            ["choc_drink", 30],
+            ["jerky", 55],
+            ["cracklins", 25],
+            ["salted_fish", 35],
+            ["porkstick", 55],
+            ["ravioli", 25],
+            ["cheese_hard", 15],
+            ["can_beans", 40],
+            ["can_corn", 35],
+            ["cooked_pumpkin", 20],
+            ["can_spam", 30],
+            ["salt", 10],
+            ["seasoning_salt", 5],
+            ["vinegar", 10],
+            {"item": "veggy_pickled", "prob":  30, "charges": 2, "container-item": "jar_glass_sealed"},
+            ["jar_sauerkraut_pickled", 20],
+            ["con_milk", 20],
+            {"item": "fish_pickled", "prob":  26, "charges": 2, "container-item": "jar_glass_sealed"},
+            ["lutefisk", 1],
+            ["pemmican", 10],
+            {"item": "meat_pickled", "prob":  20, "charges": 2, "container-item": "jar_glass_sealed"},
+            { "group": "packaging_group_medium_cardboard_boxes_food", "prob": 2 }
+        ]
+    }
+]

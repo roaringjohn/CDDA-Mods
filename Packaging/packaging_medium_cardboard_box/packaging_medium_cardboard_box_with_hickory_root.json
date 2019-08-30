@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_hickory_root",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (hickory roots)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 8 hickory roots.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 4400,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_hickory_root",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "hickory_root",                   4400 ]
+            ]
+        ]
+    }
+]

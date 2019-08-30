@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Wrecked_Battle_Vehicle_Storage_right",
+    "type": "overmap_terrain",
+    "name": "Salvage Vehicle Storage A",
+    "sym": 67,
+    "color": "dark_gray",
+    "see_cost": 5,
+    "extras": "field",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "Wrecked_Battle_Vehicle_Storage_left",
+    "type": "overmap_terrain",
+    "name": "Salvage Vehicle Storage B",
+    "sym": 67,
+    "color": "dark_gray",
+    "see_cost": 5,
+    "extras": "field",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "Upper_Sanctum",
+    "type": "overmap_terrain",
+    "name": "curious underground structure",
+    "sym": 67,
+    "color": "dark_gray",
+    "see_cost": 5,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  }
+]

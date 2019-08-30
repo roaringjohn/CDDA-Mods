@@ -1,0 +1,108 @@
+[
+{
+    "//": "This is an insect, an alien variation of them. Its just an additional variation of ant-like faction, though they are not currently implemented in-game.",
+    "id": "mon_insect_saddler_brood",
+    "type": "MONSTER",
+    "name": "saddler broodmother",
+    "description": "Fiendish giant saddler with numerous green, hairy spindy legs covering its bottom. Underneath it produces a heavy, eerie sound, much like from the baby saddlers not given birth... Yet.",
+    "default_faction": "saddler",
+    "species": [ "INSECT" ],
+    "volume": "92500 ml",
+    "weight": 120000,
+    "hp": 170,
+    "speed": 80,
+    "material": [ "iflesh" ],
+	"harvest": "meatslug",
+    "symbol": "H",
+    "color": "magenta_green",
+    "aggression": 5,
+    "morale": 100,
+    "melee_skill": 8,
+    "melee_dice": 4,
+    "melee_dice_sides": 4,
+    "melee_cut": 2,
+    "reproduction": {
+     "baby_monster": "mon_insect_saddler_baby",
+     "baby_count": 10,
+     "baby_timer": 1
+     },
+    "melee_damage": [
+      {
+        "damage_type": "acid",
+        "amount": 6
+      }
+    ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
+    "placate_triggers": [ "MEAT" ],
+    "armor_bash": 5,
+    "armor_cut": 3,
+    "armor_acid": 2,
+    "armor_fire": 1,
+    "special_attacks": [ [ "GRENADIER", 20 ], [ "GRENADIER_ELITE", 35 ] ],
+    "death_function": [ "NORMAL", "ACID" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "BASHES", "POISON", "ACID_BLOOD", "ACIDPROOF", "BONES" ]
+  },
+  {
+    "id": "mon_insect_saddler_baby",
+    "type": "MONSTER",
+    "name": "baby saddler",
+    "description": "Cute, with its tiny, harmless legs twitches and frequently stumbles to the ground.",
+    "default_faction": "saddler",
+    "species": [ "INSECT" ],
+    "volume": "750 ml",
+    "weight": 1000,
+    "hp": 5,
+    "speed": 90,
+    "material": [ "iflesh" ],
+	"harvest": "meatslug",
+    "symbol": "h",
+    "color": "light_green",
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
+    "placate_triggers": [ "MEAT" ],
+    "aggression": 0,
+    "morale": 0,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "upgrades": {
+      "age_grow": 6,
+      "half_life": 1,
+      "into": "mon_insect_saddler"
+    },
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "BASHES", "POISON", "ACID_BLOOD", "ACIDPROOF", "LARVA" ]
+  },
+  {
+    "id": "mon_insect_saddler",
+    "type": "MONSTER",
+    "name": "saddler",
+    "description": "This saddler's current age is now capable to create its own acid, with swift limbs allow for quicker assaults!",
+    "default_faction": "saddler",
+    "species": [ "INSECT" ],
+    "volume": "750 ml",
+    "weight": 1000,
+	"harvest": "meatslug",
+    "hp": 20,
+    "speed": 115,
+    "material": [ "iflesh" ],
+    "symbol": "h",
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
+    "placate_triggers": [ "MEAT" ],
+    "color": "green",
+    "aggression": 5,
+    "morale": 5,
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "melee_damage": [
+      {
+        "damage_type": "acid",
+        "amount": 1
+      }
+    ],
+    "death_function": [ "NORMAL", "ACID" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "BASHES", "POISON", "ACID_BLOOD", "ACIDPROOF" ]
+  }
+]

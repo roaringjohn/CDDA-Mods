@@ -1,0 +1,462 @@
+[
+  {
+    "type": "effect_type",
+    "id": "offering",
+    "name": [ "Offering" ],
+    "resist_effect": "talisman_warding",
+    "desc": [ "Something is sapping the life from your body." ],
+    "miss_messages": [ [ "Your will to fight fades for a moment.", 2 ] ],
+    "rating": "bad",
+    "pain_sizing": true,
+    "hurt_sizing": true,
+    "main_parts_only": true,
+    "base_mods": {
+      "pain_min": [ 5, 4 ],
+      "pain_chance": [ 1, 1 ],
+      "hurt_min": [ 10, 8 ],
+      "hurt_max": [ 20, 15 ],
+      "hurt_chance": [ 1, 1 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "potion_numbness",
+    "name": [ "Intense Numbness" ],
+    "resist_effect": "talisman_warding",
+    "desc": [ "Your body feels incredibly numb and sluggish." ],
+    "remove_message": "The numbness fades.",
+    "//": "Only Mycus Adrenaline in this case can really shake off the sluggishness.",
+    "removes_effects": [ "shakes", "formication", "jetinjector", "stimpack", "adrenaline", "meth" ],
+    "decay_messages": [ [ "The numbing effect of your potion is starting to fade.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 15,
+    "int_dur_factor": "1 m",
+    "base_mods": { "pkill_tick": [ 40 ], "pkill_min": [ 25 ], "pkill_max_val": [ 50 ], "speed_mod": [ -15, -10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "potion_strength",
+    "name": [ "Strengthed" ],
+    "resist_effect": "talisman_warding",
+    "desc": [ "You feel mighty, like you could take on the world." ],
+    "remove_message": "The unnatural strength leaves your body.",
+    "decay_messages": [ [ "The strengening effect of your potion is starting to fade.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 15,
+    "int_dur_factor": "1 m",
+    "base_mods": {
+      "pain_chance": [ 12, 24 ],
+      "pain_min": [ 1 ],
+      "pain_max_val": [ 10, 5 ],
+      "str_mod": [ 3 ],
+      "dex_mod": [ -1 ],
+      "int_mod": [ -1 ],
+      "per_mod": [ -1 ],
+      "speed_mod": [ 5 ],
+      "stamina_min": [ 40 ],
+      "stamina_chance": [ 6, 12 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "potion_speed",
+    "name": [ "Speedy" ],
+    "desc": [ "Your heart feels like it's beating dangerously fast, you can't even think about rest." ],
+    "resist_effect": "talisman_warding",
+    "remove_message": "Your heartbeat slows back down to a normal pace.",
+    "//": "Hinders relaxing, but paralysis and similar effects are too strong to prevent.",
+    "removes_effects": [ "relax_gas", "lack_sleep", "sleep" ],
+    "decay_messages": [ [ "The quickening effect of your potion is starting to fade.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 15,
+    "int_dur_factor": "1 m",
+    "base_mods": {
+      "pain_chance": [ 12, 24 ],
+      "pain_min": [ 1 ],
+      "pain_max_val": [ 10, 5 ],
+      "str_mod": [ -2 ],
+      "dex_mod": [ 2 ],
+      "int_mod": [ -2 ],
+      "per_mod": [ 2 ],
+      "speed_mod": [ 25 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "potion_healing",
+    "name": [ "Elixir" ],
+    "resist_effect": "talisman_warding",
+    "desc": [ "Not immortality, but it still feels nice." ],
+    "remove_message": "The healing effect fades.",
+    "removes_effects": [ "infected", "fungus", "bleed", "common_cold", "flu", "tetanus" ],
+    "decay_messages": [ [ "The soothing effect of your potion is starting to fade.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 15,
+    "int_dur_factor": "1 m",
+    "base_mods": { "pkill_tick": [ 18 ], "pkill_min": [ 5 ], "pkill_max_val": [ 25 ], "speed_mod": [ -10, -5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "potion_vulnerary",
+    "name": [ "Vulnerary" ],
+    "resist_effect": "talisman_warding",
+    "desc": [ "You can feel a soothing sensation lingering after applying salve to your wounds." ],
+    "remove_message": "The vulnerary's after-effects fade.",
+    "removes_effects": [ "spores" ],
+    "decay_messages": [ [ "The after-effects of the vulnerary are fading.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 10,
+    "int_dur_factor": "1 m",
+    "base_mods": { "pkill_tick": [ 30 ], "pkill_min": [ 5 ], "pkill_max_val": [ 30 ], "speed_mod": [ -12, -6 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "potion_incense",
+    "name": [ "Incense" ],
+    "resist_effect": "talisman_warding",
+    "desc": [ "Your mind feels energized, warding off fatigue." ],
+    "remove_message": "The incense's effect fades.",
+    "decay_messages": [ [ "The effects of the incense are fading.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 30,
+    "int_dur_factor": "1 m",
+    "base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ], "int_mod": [ -1, 0 ], "per_mod": [ -1, 0 ], "fatigue_min": [ -1 ], "fatigue_tick": [ 6 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "revenant_hunger",
+    "name": [ "Revenant Hunger" ],
+    "desc": [ "Immunity to food poisoning and parasites, increased hunger gain.  Does not purge pre-existing conditions." ],
+    "resist_effect": "talisman_warding",
+    "remove_message": "Your craving for rotten food subsides.",
+    "blocks_effects": [ "poison", "badpoison", "foodpoison", "paralyzepoison", "bloodworms", "paincysts", "brainworms", "tapeworm" ],
+    "decay_messages": [ [ "Your craving for rotten food is starting to wane.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 30,
+    "int_dur_factor": "1 m",
+    "base_mods": { "hunger_min": [ 1 ], "hunger_chance": [ 18, 36 ], "fatigue_min": [ 1 ], "fatigue_chance": [ 36, 72 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "cold_ward",
+    "name": [ "Ward Against Cold" ],
+    "desc": [ "Protection against the effects of cold." ],
+    "remove_message": "For a moment you feel a terrible chill in the air, as the ward against cold fades.",
+    "removes_effects": [ "cold", "frostbite", "frostbite_recovery" ],
+    "decay_messages": [ [ "Your ward against cold is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "free_action",
+    "name": [ "Free Action" ],
+    "desc": [ "Protection against paralytic and other hindering effects." ],
+    "remove_message": "You feel the otherworldly tension in your muscles leave your body, as the ward against paralytic effects fades.",
+    "removes_effects": [
+      "downed",
+      "winded",
+      "stunned",
+      "dazed",
+      "bouldering",
+      "paralyzepoison",
+      "webbed",
+      "slimed",
+      "sap",
+      "crushed",
+      "relax_gas",
+      "grabbed"
+    ],
+    "decay_messages": [ [ "Your spell of free action is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "heat_ward",
+    "name": [ "Ward Against Heat" ],
+    "desc": [ "Protection against most effects of heat." ],
+    "remove_message": "You feel a strange tingling sensation, as the ward against heat fades.",
+    "removes_effects": [ "onfire", "smoke", "hot", "blisters" ],
+    "decay_messages": [ [ "The ward against heat is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "blood_clarity",
+    "name": [ "Clarity of Blood" ],
+    "desc": [ "Protection against parasitic and corruptive threats, such as the Mycus." ],
+    "remove_message": "The soothing sensation coursing through your veins fades, as the protective magic dissipates.",
+    "removes_effects": [ "spores", "fungus", "dermatik", "formication", "tapeworm", "bloodworms", "brainworms", "paincysts" ],
+    "decay_messages": [ [ "Your clarity of blood spell is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "acid_ward",
+    "name": [ "Ward Against Corrosion" ],
+    "desc": [ "Protection against lingering acid effects." ],
+    "remove_message": "You feel a tingling sensation over your skin, as the protective magic fades.",
+    "removes_effects": [ "corroding" ],
+    "decay_messages": [ [ "Your ward against corrosion  is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "poison_ward",
+    "name": [ "Ward Against Poison" ],
+    "desc": [ "Protection against toxic gas and venom." ],
+    "remove_message": "You feel a momenary weakness as the protective magic fades.",
+    "removes_effects": [ "stung", "poison", "badpoison", "paralyzepoison", "teargas" ],
+    "max_duration": 1000,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "cleric_warding",
+    "name": [ "Ward Against Evil" ],
+    "desc": [ "Protects against various anomalous effects." ],
+    "remove_message": "The magical protection fades.",
+    "removes_effects": [ "darkness", "rat", "evil", "attention", "teleglow", "amigara" ],
+    "decay_messages": [ [ "Your ward against evil is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "spell_might",
+    "name": [ "Might" ],
+    "desc": [ "The fabric of The Veil is woven into your frame  Your strength is augmented by magic." ],
+    "remove_message": "You feel weakened as your magically-induced strength leaves you.",
+    "decay_messages": [ [ "Your spell of might is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m",
+    "base_mods": { "str_mod": [ 8 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "spell_agility",
+    "name": [ "Agility" ],
+    "desc": [ "The winds of distant realms are at your back.  Your dexterity and speed are augmented by magic." ],
+    "remove_message": "You feel sluggish as your magically-induced agility leaves you.",
+    "decay_messages": [ [ "Your spell of agility is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m",
+    "base_mods": { "dex_mod": [ 8 ], "speed_mod": [ 30 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "spell_insight",
+    "name": [ "Insight" ],
+    "desc": [ "The eyes of The Beyond shall guide you.  Your perception is augmented by magic." ],
+    "remove_message": "You feel deadened as your magically-induced perception leaves you.",
+    "decay_messages": [ [ "Your spell of insight is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 100,
+    "int_dur_factor": "1 m",
+    "base_mods": { "per_mod": [ 8 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "talisman_warding",
+    "name": [ "Alchemical Ward" ],
+    "desc": [ "Temporary resistance to the side effects of certain potion effects." ],
+    "remove_message": "The taliman's effect fades.",
+    "decay_messages": [ [ "The water talisman's blessing is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 30,
+    "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "dragonblood_clarity",
+    "name": [ "Revenant Blood" ],
+    "desc": [ "Immunity to food poisoning, parasites, and fungus.  Increased hunger and thirst gain." ],
+    "resist_effect": "talisman_warding",
+    "remove_message": "The protective effect of your sanguine mark fades, leaving a momentary itch in your veins.",
+    "blocks_effects": [ "nausea", "poison", "badpoison", "foodpoison", "bloodworms", "paincysts", "brainworms", "tapeworm", "spores", "fungus" ],
+    "decay_messages": [ [ "The protective magic flowing through your blood is starting to wane.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 20,
+    "int_dur_factor": "1 m",
+    "base_mods": { "hunger_min": [ 1 ], "hunger_chance": [ 18, 36 ], "fatigue_min": [ 1 ], "fatigue_chance": [ 36, 12 ], "health_min": [ 1 ], "health_chance": [ 6 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "arcane_healing_side_effects",
+    "resist_effect": "talisman_warding",
+    "removes_effects": [ "bleed" ],
+    "max_duration": "1 s",
+    "base_mods": {
+      "health_min": [ -5 ],
+      "health_chance": [ 1, 2 ],
+      "pain_min": [ 5 ],
+      "pain_chance": [ 10, 20 ],
+      "vomit_chance": [ 100, 200 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "arcana_suppression",
+    "name": [ "Suppressed Fire" ],
+    "desc": [ "Reduces hunger and thirst gain, hinders stamina regen." ],
+    "resist_effect": "talisman_warding",
+    "remove_message": "The warmth within your body flares up as the suppression effect fades.",
+    "blocks_effects": [ "nausea", "poison", "badpoison", "foodpoison", "bloodworms", "paincysts", "brainworms", "tapeworm", "spores", "fungus" ],
+    "decay_messages": [ [ "The magic suppressing your inner fire is waning.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 120,
+    "int_dur_factor": "1 m",
+    "base_mods": { "hunger_min": [ -1 ], "hunger_tick": [ 300 ], "thirst_min": [ -1 ], "thirst_tick": [ 300 ], "health_min": [ -1 ], "health_tick": [ 600 ], "stamina_min": [ -1 ], "stamina_tick": [ 10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "sent_to_hermit",
+    "//": "This marks a player as having been led to The Hermit via a quest chain, no name or description since this one is player-side.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_inquire_denied",
+    "//": "This marks a player as having asking The Hermit for personal information and failed the roll, no name or description since this one is player-side.  Intended duration 3 hours."
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_earned_trust_1",
+    "//": "This marks a player as having talked The Hermit into revealing general familiarity with the arcane.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_earned_trust_2",
+    "//": "This marks a player as having talked The Hermit into revealing their affiliation with the Keepers of The Oath, opening up quests.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_stage_1",
+    "name": [ "Quest Stage 1" ],
+    "desc": [
+      "AI tag marking The Hermit's quest progression, changing dialogue.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_quest_backdoor",
+    "//": "This marks a player as having talked The Hermit into helping an illiterate character complete the ritual.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_has_sanguine_codex",
+    "name": [ "Has Sanguine Codex" ],
+    "desc": [
+      "AI tag marking The Hermit's progress through the ritual.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_has_blood_essence",
+    "name": [ "Has Blood Essence" ],
+    "desc": [
+      "AI tag marking The Hermit's progress through the ritual.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_has_salt",
+    "name": [ "Has Salt" ],
+    "desc": [
+      "AI tag marking The Hermit's progress through the ritual.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_stage_2",
+    "name": [ "Quest Stage 2" ],
+    "desc": [
+      "AI tag marking The Hermit's quest progression, changing dialogue.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_stage_3",
+    "name": [ "Quest Stage 3" ],
+    "desc": [
+      "AI tag marking The Hermit's quest progression, changing dialogue.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "hermit_stage_4",
+    "name": [ "Quest Stage 4" ],
+    "desc": [
+      "AI tag marking The Hermit's quest progression, changing dialogue.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "rural_church_aware",
+    "//": "Effect for both players and NPCs, to filter out whether the rural church has already spawned vs new players asking about the structure, and used by The Deacon to change dialogue after he's heard back from Sofia.  Intended to be permanent.  No name or description since players will get it too."
+  },
+  {
+    "type": "effect_type",
+    "id": "already_asked_deacon",
+    "//": "Effect for players, filters out dialouge in The Deacon's talk topic, once the player has already been directed to the rural church.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "sofia_deacon_message",
+    "//": "Effect for players, transmits mission info from Sofia to the Deacon.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "sofia_motive_explained",
+    "//": "Effect for both players and NPCs, for Sofia it filters out sanguinist and Keeper players that have explained their motivation for visiting the holdout.  Also used for Johnathan to filter out some bug-proofing dialogue."
+  },
+  {
+    "type": "effect_type",
+    "id": "cf_mission_1",
+    "//": "Effect for players, marks them as being trustworthy and known to Sofia's camp.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "cf_mission_receipt",
+    "//": "Effect for both players and NPCs, changes dialogue for both the Evac Merchant and Sofia.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "cf_mission_3_recruited",
+    "//": "Effect for players, indicates that they asked one of the guards to assist in a hunt.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "cf_mission_3_recruited_2",
+    "//": "Effect for players, indicates that they asked another guard to assist in a hunt.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "cf_mission_3",
+    "name": [ "Mission Marker" ],
+    "desc": [
+      "AI tag marking that Sofia has attracted the first wave of allies to the rural church.  Also used to indicate to Jonathan that their third mission has been completed.  Intended to be permanent.  This is a bug if you have it."
+    ]
+  },
+  {
+    "type": "effect_type",
+    "id": "cf_sofia_notes_given",
+    "//": "Effect for players, indicates that Sofia has already given the player a copy of Apprentice's Notes.  Intended to be permanent."
+  },
+  {
+    "type": "effect_type",
+    "id": "cf_seeker_traded",
+    "//": "Effect for players, populates Matthew's initial menu with the trade option.  Intended to be permanant."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "machete",
+    "type": "TOOL",
+    "copy-from": "machete",
+    "category": "weapons",
+    "name": "machete",
+    "qualities": [ [ "AXE", 1 ] ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_KNIFE", "SHEATH_SWORD" ]
+  },
+  {
+    "id": "kukri",
+    "type": "TOOL",
+    "copy-from": "kukri",
+    "name": "kukri",
+    "qualities": [ [ "AXE", 2 ] ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_KNIFE", "SHEATH_SWORD" ]
+  },
+  {
+    "id": "hammer",
+    "type": "TOOL",
+    "copy-from": "hammer",
+    "name": "hammer",
+    "qualities": [ [ "PRY", 1 ] ],
+    "use_action": [ "CROWBAR", "HAMMER" ]
+  }
+]

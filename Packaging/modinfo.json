@@ -1,0 +1,10 @@
+    {
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "Packaging",
+        "name": "Packaging",
+        "author": "Leon",
+        "description": "Adds medium sized cardboard boxes and makeshift storage boxes. These grant reduction in volume at the price of increased weight (wrapping).",
+        "category": "items",
+        "path": ""
+    }

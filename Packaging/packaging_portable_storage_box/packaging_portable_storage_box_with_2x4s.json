@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id": "packaging_portable_storage_box_with_2x4s",
+        "symbol": "]",
+        "color": "light_gray",
+        "name": "storage box (2x4s)",
+        "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 11 2x4s.",
+        "price": 10000,
+        "material": ["wood", "steel"],
+        "weight": 17301,
+        "volume": 50
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_portable_storage_box_with_2x4s",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 10000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_portable_storage_box", 1 ]
+            ],
+            [
+                [ "2x4",                            11 ]
+            ]
+        ]
+    }
+]

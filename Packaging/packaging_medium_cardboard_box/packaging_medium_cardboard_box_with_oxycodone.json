@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_oxycodone",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (oxycodone)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 3000 units of oxycodone.",
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 3400,
+        "volume" : 12
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_oxycodone",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "oxycodone",                      3000 ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+{
+    "method": "json",
+    "object": {
+        "add": [
+            {
+                "item": "clay_watercont",
+                "repeat": 1,
+                "x": 3,
+                "y": 3
+            },
+            {
+                "item": "clay_watercont",
+                "repeat": 1,
+                "x": 4,
+                "y": 3
+            },
+            {
+                "item": "clay_watercont",
+                "repeat": 1,
+                "x": 5,
+                "y": 3
+            },
+            {
+                "item": "clay_watercont",
+                "repeat": 1,
+                "x": 6,
+                "y": 3
+            }
+        ],
+        "furniture": {
+            "#": ["f_skin_wall","f_null"],
+            "+": "f_null",
+            ".": "f_null",
+            ";": ["f_skin_groundsheet","f_null"],
+            "=": ["f_smoking_rack", "f_rubble"],
+            "U": ["f_kiln_empty", "f_rubble"],
+            "^": ["f_forge_rock", "f_rubble"],
+            "d": "f_null",
+            "p": "f_null",
+            "s": ["f_skin_door","f_null"],
+            "|": "f_null"
+        },
+        "place_traps": [
+            {
+                "trap": "tr_leather_funnel",
+                "x": 3,
+                "y": 3
+            },
+            {
+                "trap": "tr_leather_funnel",
+                "x": 4,
+                "y": 3
+            },
+            {
+                "trap": "tr_leather_funnel",
+                "x": 5,
+                "y": 3
+            },
+            {
+                "trap": "tr_leather_funnel",
+                "x": 6,
+                "y": 3
+            },
+            {
+                "trap": "tr_fur_rollmat",
+                "x": 8,
+                "y": 5
+            },
+            {
+                "trap": "tr_fur_rollmat",
+                "x": 14,
+                "y": 7
+            },
+            {
+                "trap": "tr_fur_rollmat",
+                "x": 6,
+                "y": 8
+            },
+            {
+                "trap": "tr_fur_rollmat",
+                "x": 16,
+                "y": 15
+            },
+            {
+                "trap": "tr_fur_rollmat",
+                "x": 9,
+                "y": 16
+            },
+            {
+                "trap": "tr_fur_rollmat",
+                "x": 5,
+                "y": 18
+            },
+            {
+                "trap": "tr_fur_rollmat",
+                "x": 17,
+                "y": 19
+            }
+        ],
+        "rows": [
+            ",,,,,,,,,,,,,,,,,,,,,,,,",
+            ",,,,,,,,,,,,,,,,,,,,,,,,",
+            ",,||||||||++++a|||||||,,",
+            ",,|...........p.ddddd|,,",
+            ",,|....###......ddddd|,,",
+            ",,|....#;s......ddddd|,,",
+            ",,|U...###...###ddddd|,,",
+            ",,|^.###.....#;#ddddd|,,",
+            ",,|=.#;#.....#s#ddddd|,,",
+            ",,ap.#s#.............|,,",
+            ",,+..................+,,",
+            ",,+..................+,,",
+            ",,+..................+,,",
+            ",,+..................+,,",
+            ",,|............#s#..pa,,",
+            ",,|.....###....#;#...|,,",
+            ",,|.....#;s....###...|,,",
+            ",,|.#s#.###..........|,,",
+            ",,|.#;#.........###..|,,",
+            ",,|.###.........s;#..|,,",
+            ",,|......p......###..|,,",
+            ",,|||||||a++++||||||||,,",
+            ",,,,,,,,,,,,,,,,,,,,,,,,",
+            ",,,,,,,,,,,,,,,,,,,,,,,,"
+        ],
+        "terrain": {
+            "#": [ "t_grass", "t_dirt" ],
+            "+": "t_palisade_gate",
+            "a": "t_palisade",
+            ".": [ "t_grass", "t_dirt"],
+            ",": [ "t_grass", "t_dirt","t_tree_young","t_tree" ],
+            ";": [ "t_grass", "t_dirt" ],
+            "=": [ "t_grass", "t_dirt" ],
+            "U": [ "t_grass", "t_dirt" ],
+            "^": [ "t_grass", "t_dirt" ],
+            "d": [ "t_dirtmound", "t_dirt" ],
+            "p": "t_palisade_pulley",
+            "s": [ "t_grass", "t_dirt" ],
+            "|": [ "t_wall_log", "t_wall_log_chipped", "t_wall_log_broken", "t_dirt" ]
+        }
+    },
+    "om_terrain": ["forest_thick"],
+    "type": "mapgen",
+    "weight": 1
+}

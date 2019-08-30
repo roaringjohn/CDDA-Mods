@@ -1,0 +1,9 @@
+   {
+       "type": "MOD_INFO",
+       "category": "items",
+       "ident": "eps_cbm",
+       "name": "Large capacity storage CBMs",
+       "dependencies": ["dda"],
+       "description": "Adds a large capacity storage device CBM.",
+       "path": ""
+   }

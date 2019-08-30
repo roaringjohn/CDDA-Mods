@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "gunslingermod",
+    "name": "Gunslinger of Eld",
+    "authors": [ "Kettle Swordfang" ],
+    "description": "The last of the order of gunslingers, the highest authority in All-World.",
+    "category": "none",
+    "dependencies": [ "dda" ]
+  }
+]
+

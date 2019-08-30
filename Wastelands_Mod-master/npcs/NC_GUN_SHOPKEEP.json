@@ -1,0 +1,29 @@
+[
+  {
+    "type" : "item_group",
+    "id" : "NC_GUN_SHOPKEEP_extra",
+    "items":[
+      ["rucksack", 100]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_GUN_SHOPKEEP_coat",
+    "items":[
+      ["trenchcoat", 50],
+      ["kevlar", 50]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_GUN_SHOPKEEP_misc",
+    "items":[
+		["kane_revolver", 5],
+		["kane_lonestar", 10],
+		["baker_blaster", 5],
+		["baker_scattergun", 15],
+		["mitchell_pistol", 15],
+		["mitchell_thunderbolt", 10],
+		["o'neil_quickshot", 5],
+		["o'neil_spitfire", 3]
+    ]
+  }
+]

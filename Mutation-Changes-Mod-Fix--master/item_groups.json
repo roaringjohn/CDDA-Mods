@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "mut_lab",
+    "items": [ [ "iv_mutagen_tortoise", 2 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "chem_home",
+    "items": [ [ "mutagen", 2 ], [ "purifier", 2 ] ]
+  }
+]

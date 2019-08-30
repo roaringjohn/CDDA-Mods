@@ -1,0 +1,10 @@
+{
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "tekitoumap",
+        "name": "Tekitou Map",
+        "description": "Tekitou map",
+        "path": "",
+        "dependencies": ["More_Survival_Tools","makeshift"],
+		"author": ""
+    }

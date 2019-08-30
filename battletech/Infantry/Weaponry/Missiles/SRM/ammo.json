@@ -1,0 +1,31 @@
+[
+  {
+    "type": "AMMO",
+    "id": "srm_missile",
+    "price": 150000,
+    "name": "SRM",
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "Clanners can't block this!",
+    "material": [ "steel", "powder" ],
+    "volume": 5,
+    "weight": 3300,
+    "bashing": 1,
+    "ammo_type": "srm",
+    "damage": 800,
+    "pierce": 225,
+    "range": 100,
+    "dispersion": 0,
+    "recoil": 6000,
+    "count": 1,
+    "use_action": {
+      "type": "explosion",
+      "sound_volume": 0,
+      "sound_msg": "Tick.",
+      "no_deactivate_msg": "Boom, too late.",
+      "explosion": { "power": 2000, "shrapnel": 212 }
+    },
+    "effects": [ "COOKOFF", "EXPLOSIVE", "NEVER_MISFIRES" ],
+    "flags": [ "BOMB" ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "packaging_medium_cardboard_box_with_seed_carrot",
+        "symbol": "]",
+        "color": "brown",
+        "name" : "larger cardboard box (carrot seeds)",
+        "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 1500 units carrot seeds.",
+        "volume" : 12,
+        "price": 200,
+        "material": ["paper"],
+        "weight" : 1900
+    },
+    {
+        "type" : "recipe",
+        "result": "packaging_medium_cardboard_box_with_seed_carrot",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "fabrication",
+        "difficulty": 0,
+        "time": 4000,
+        "reversible": true,
+        "autolearn": true,
+        "components": [
+            [
+                [ "packaging_medium_cardboard_box", 1 ]
+            ],
+            [
+                [ "seed_carrot",                    1500 ]
+            ]
+        ]
+    }
+]

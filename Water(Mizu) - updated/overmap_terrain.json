@@ -1,0 +1,44 @@
+[
+    {
+        "type" : "overmap_terrain",
+	    "copy-from" : "field",
+        "id" : "field",
+        "name" : "field",
+        "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 80 }
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_field_bm",
+        "name" : "field",
+        "sym" : 46,
+        "color" : "brown",
+        "see_cost" : 2,
+        "spawns" : { "group": "GROUP_FOREST", "population": [0, 1], "chance": 80 }
+    },{
+        "type" : "overmap_terrain",
+        "id" : "hunter_tent_bm",
+        "name" : "forest",
+        "sym" : 70,
+        "color" : "green",
+        "see_cost" : 5,
+        "extras" : "field",
+        "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 80 }
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_field_mizu",
+        "name" : "field",
+        "sym" : 46,
+        "color" : "brown",
+        "see_cost" : 2,
+        "spawns" : { "group": "GROUP_FOREST", "population": [0, 1], "chance": 80 }
+    },{
+        "type" : "overmap_terrain",
+        "id" : "hunter_tent_mizu",
+        "name" : "forest",
+        "sym" : 70,
+        "color" : "green",
+        "see_cost" : 5,
+        "extras" : "field",
+        "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 80 }
+    }
+]
+

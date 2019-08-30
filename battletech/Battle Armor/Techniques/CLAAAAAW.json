@@ -1,0 +1,69 @@
+[
+  {
+    "type": "technique",
+    "id": "tec_CRUSHER",
+    "name": "Crusher",
+    "min_unarmed": 5,
+    "unarmed_allowed": true,
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 1.6 ] ],
+    "messages": [ "You grab and crush %s's limb", "<npcname> grabs and crushes %s's limb" ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_POWER_PUNCH",
+    "name": "Power Punch",
+    "min_unarmed": 1,
+    "unarmed_allowed": true,
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 2.3 ] ],
+    "messages": [ "You smash %s's limb", "<npcname> smashes %s's limb" ]
+  },
+  {
+    "type": "martial_art",
+    "id": "move_strike",
+    "name": "Strike",
+    "description": "Sport of the true gentleman, modern boxing has evolved from the prizefights of the Victorian era.",
+    "arm_block": 3,
+    "leg_block": 99,
+    "static_buffs": [
+      {
+        "id": "strike_static",
+        "name": "Strike",
+        "description": "PER increases unarmed power, STR reduces block damage.",
+        "unarmed_allowed": true,
+        "min_unarmed": 6,
+        "max_stacks": 1,
+        "flat_bonuses": [ [ "damage", "bash", "per", 0.4 ], [ "block", "str", 0.5 ] ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "strike_move_buff",
+        "name": "Footwork",
+        "description": "Gain extra damage while moving.",
+        "unarmed_allowed": true,
+        "min_unarmed": 4,
+        "buff_duration": 2,
+        "max_stacks": 2,
+        "bonus_damage": 1
+      }
+    ],
+    "ondodge_buffs": [
+      {
+        "id": "strike_striker",
+        "name": "Striker",
+        "description": "Break them.",
+        "min_unarmed": 7,
+        "unarmed_allowed": true,
+        "max_stacks": 3,
+        "buff_duration": 3,
+        "mult_bonuses": [ [ "damage", "bash", 3 ] ]
+      }
+    ],
+    "techniques": [ "tec_CRUSHER", "tec_POWER_PUNCH" ],
+    "initiate": [ "You stand ready.", "%s stands ready." ]
+  }
+]
+
+

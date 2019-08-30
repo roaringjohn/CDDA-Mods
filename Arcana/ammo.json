@@ -1,0 +1,59 @@
+[
+  {
+    "id": "essence",
+    "type": "AMMO",
+    "category": "other",
+    "name": "essence",
+    "name_plural": "essence",
+    "description": "A strange glowing mote of wispy vapor.  It gives off a soothing warmth and feels surprisingly solid, almost alive even.",
+    "material": "essencemat",
+    "symbol": "=",
+    "color": "blue",
+    "count": 1,
+    "ammo_type": "essence_type",
+    "effects": [ "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "essence_blood",
+    "type": "AMMO",
+    "category": "other",
+    "name": "blood essence",
+    "name_plural": "blood essence",
+    "description": "A strange glowing mote of wispy vapor, drained from a living creature.",
+    "material": "essencemat",
+    "symbol": "=",
+    "color": "red",
+    "count": 1,
+    "ammo_type": "essence_blood_type",
+    "effects": [ "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "essence_dull",
+    "type": "AMMO",
+    "category": "other",
+    "name": "dull essence",
+    "name_plural": "dull essence",
+    "description": "A dark, powdery bit of strange essence, formed from destructively \"consecrating\" a magic item.",
+    "material": "essencemat",
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 1,
+    "ammo_type": "essence_dull_type",
+    "effects": [ "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "essence_pure",
+    "type": "AMMO",
+    "category": "other",
+    "name": "crystallized essence",
+    "name_plural": "crystallized essence",
+    "description": "A tiny sliver of brilliant crystal, formed from otherworldly essence to fuel extremely powerful magic.",
+    "price": 0,
+    "material": "essencemat",
+    "symbol": "=",
+    "color": "cyan",
+    "count": 1,
+    "ammo_type": "essence_pure_type",
+    "effects": [ "NEVER_MISFIRES" ]
+  }
+]

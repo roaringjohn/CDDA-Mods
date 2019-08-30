@@ -1,0 +1,185 @@
+[
+  {
+    "type": "mutation",
+    "id": "hermit_earned_trust_1",
+    "name": "Hermit Trust 1",
+    "points": 0,
+    "description": "Trait used in place of effect becuase giving permanent effects via NPCtalk was broken.  Will eventually be deleted as it's since been fixed.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "hermit_earned_trust_2",
+    "name": "Hermit Trust 2",
+    "points": 0,
+    "description": "Trait used in place of effect becuase giving permanent effects via NPCtalk was broken.  Will eventually be deleted as it's since been fixed.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "hermit_stage_1",
+    "name": "Hermit Quest Stage 1",
+    "points": 0,
+    "description": "Trait used in place of effect becuase giving permanent effects via NPCtalk was broken.  Will eventually be deleted as it's since been fixed.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "hermit_stage_2",
+    "name": "Hermit Quest Stage 2",
+    "points": 0,
+    "description": "Trait used in place of effect becuase giving permanent effects via NPCtalk was broken.  Will eventually be deleted as it's since been fixed.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "hermit_stage_3",
+    "name": "Hermit Quest Stage 3",
+    "points": 0,
+    "description": "Trait used in place of effect becuase giving permanent effects via NPCtalk was broken.  Will eventually be deleted as it's since been fixed.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "hermit_stage_4",
+    "name": "Hermit Quest Stage 4",
+    "points": 0,
+    "description": "Trait used in place of effect becuase giving permanent effects via NPCtalk was broken.  Will eventually be deleted as it's since been fixed.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID2",
+    "name": "Chaos Gift: Acid Spray",
+    "points": 3,
+    "description": "Unknown forces have granted you the power to conjure a mote of energy, that can create sprays of acid.  Activate to focus your power, draining fatigue.",
+    "valid": false,
+    "purifiable": false,
+    "active": true,
+    "cost": 36,
+    "fatigue": true,
+    "spawn_item": {
+      "type": "spell_acidspray",
+      "message": "You focus a fragment of your mind into a magical sign.  Use it from your inventory."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY2",
+    "name": "Raptor Gift: Clarity of Blood",
+    "points": 4,
+    "description": "Unknown forces have granted you the power to conjure a mote of energy that can protect against parasites and the Mycus.  Activate to focus your power, draining fatigue.",
+    "valid": false,
+    "purifiable": false,
+    "active": true,
+    "cost": 48,
+    "fatigue": true,
+    "spawn_item": {
+      "type": "spell_clarity",
+      "message": "You focus a fragment of your mind into a magical sign.  Use it from your inventory."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL2",
+    "name": "Prime Gift: Healing",
+    "points": 5,
+    "description": "Unknown forces have granted you the power to conjure a mote of energy, that can heal the body.  Activate to focus your power, draining fatigue.",
+    "valid": false,
+    "purifiable": false,
+    "active": true,
+    "cost": 60,
+    "fatigue": true,
+    "spawn_item": {
+      "type": "spell_heal",
+      "message": "You focus a fragment of your mind into a magical sign.  Use it from your inventory."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS2",
+    "name": "Fey Gift: Overgrowth",
+    "points": 3,
+    "description": "Unknown forces have granted you the power to conjure a mote of energy, that can cause plants to spring up from nothingness.  Activate to focus your power, draining fatigue.",
+    "valid": false,
+    "purifiable": false,
+    "active": true,
+    "cost": 36,
+    "fatigue": true,
+    "spawn_item": {
+      "type": "spell_plants",
+      "message": "You focus a fragment of your mind into a magical sign.  Use it from your inventory."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUMMONSHADOWSNAKE",
+    "name": "Arcana: Summon Shadow Snake",
+    "//": "Only zero points because it's a profession-specific spell, fatigue cost is calculated as though it has a cost of 4.",
+    "points": 0,
+    "description": "Powers from beyond have granted you the power to conjure a mote of energy, that can summon a shadow snake.  Activate to focus your power, draining fatigue.",
+    "valid": false,
+    "purifiable": false,
+    "active": true,
+    "cost": 60,
+    "fatigue": true,
+    "spawn_item": {
+      "type": "spell_summonshadowsnake",
+      "message": "You focus a fragment of your mind into a magical sign.  Use it from your inventory."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUMMONSHADOW",
+    "name": "Arcana: Summon Shadow",
+    "//": "Only zero points because it's a profession-specific spell, fatigue cost is calculated as though it has a cost of 5.",
+    "points": 0,
+    "description": "Powers from beyond have granted you the power to conjure a mote of energy, that can summon a shadow.  Activate to focus your power, draining fatigue.",
+    "valid": false,
+    "purifiable": false,
+    "active": true,
+    "cost": 75,
+    "fatigue": true,
+    "spawn_item": {
+      "type": "spell_summonshadow",
+      "message": "You focus a fragment of your mind into a magical sign.  Use it from your inventory."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUMMONYUGG",
+    "name": "Arcana: Summon Yugg",
+    "points": 7,
+    "description": "Powers from beyond have granted you the power to conjure a mote of energy, that can summon a yugg.  Activate to focus your power, draining fatigue.",
+    "valid": false,
+    "purifiable": false,
+    "active": true,
+    "cost": 105,
+    "fatigue": true,
+    "spawn_item": {
+      "type": "spell_summonyugg",
+      "message": "You focus a fragment of your mind into a magical sign.  Use it from your inventory."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUMMONJABBERWOCK",
+    "name": "Sanguine Mark: Summon Jabberwock",
+    "points": 6,
+    "description": "Inhuman power has granted you the ability to summon a jabberwock.  (( Remember to bind the \"spellcasting\" key! ))",
+    "valid": false,
+    "purifiable": false
+  }
+]
