@@ -5,7 +5,7 @@
     "name": "Armor Up! PA Utilities",
     "authors": "darktoes",
     "maintainers": "DanteTorn",
-    "description": "Sheathes, holsters and scabbards for power armor. -Updated for 1 second turns.-",
+    "description": "Sheathes, holsters and scabbards for power armor.",
     "category": "items",
     "dependencies": [ "dda" ]
   }
