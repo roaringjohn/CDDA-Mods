@@ -4,7 +4,8 @@
     "ident": "ArmUpSurvEx",
     "name": "Armor Up! Survivor Expansion",
     "authors": "darktoes",
-    "description": "A few extra bits of Survivor-grade armor.",
+    "maintainers": "DanteTorn",
+    "description": "A few extra bits of Survivor-grade armor. -Updated for 1 second turns.-",
     "category": "items",
     "dependencies": [ "dda" ]
   }
