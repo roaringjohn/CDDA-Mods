@@ -1,133 +1,152 @@
 [
-    {
-        "type" : "vehicle",
-        "id" : "bt_ac/2",
-        "name" : "AC/2 Tester",
-        "blueprint" : [
-            ["ooooooo"]
-        ],
-        "parts" : [
-            {"x": 0, "y": 0, "part": "frame_cross"},
-            {"x": 0, "y": 0, "part": "turret_mount"},
-            {"x": 0, "y": 0, "part": "ac2"},
-            {"x": 0, "y": 0, "part": "controls"},
-            {"x": 0, "y": 0, "part": "tank"},
-            {"x": 0, "y": 0, "part": "reclining_seat"},
-            {"x": 0, "y": 0, "part": "wheel_steerable"},
-            {"x": 0, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "frame_cross"},
-            {"x": -1, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "wheel_steerable"},
-            {"x": -1, "y": 0, "part": "battery_car"},
-            {"x": -1, "y": 0, "part": "alternator_truck"},
-            {"x": 0, "y": 0, "part": "primitive_armor_ton"}
-        ],
-        "items" : [
-            {"x": 0, "y": 0, "chance": 40, "items": [ "shell_ac2" ]}
+  {
+    "type": "vehicle",
+    "id": "bt_ac/2",
+    "name": "AC/2 Tester",
+    "blueprint": [ [ "oo" ] ],
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame_cross",
+          "turret_mount",
+          "ac2",
+          "controls",
+          "tank",
+          "reclining_seat",
+          "wheel_mount_medium_steerable",
+          "wheel_wide",
+          "engine_v12",
+          "primitive_armor_ton"
         ]
-    },{
-        "type" : "vehicle",
-        "id" : "bt_rac/2",
-        "name" : "RAC/2 Tester",
-        "blueprint" : [
-            ["ooooooo"]
-        ],
-        "parts" : [
-            {"x": 0, "y": 0, "part": "frame_cross"},
-            {"x": 0, "y": 0, "part": "turret_mount"},
-            {"x": 0, "y": 0, "part": "rac2"},
-            {"x": 0, "y": 0, "part": "controls"},
-            {"x": 0, "y": 0, "part": "tank"},
-            {"x": 0, "y": 0, "part": "reclining_seat"},
-            {"x": 0, "y": 0, "part": "wheel_steerable"},
-            {"x": 0, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "frame_cross"},
-            {"x": -1, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "wheel_steerable"},
-            {"x": -1, "y": 0, "part": "battery_car"},
-            {"x": -1, "y": 0, "part": "alternator_truck"},
-            {"x": 0, "y": 0, "part": "primitive_armor_ton"}
-        ],
-        "items" : [
-            {"x": 0, "y": 0, "chance": 40, "items": [ "shell_ac2" ]}
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "engine_v12", "wheel_mount_medium_steerable", "wheel_wide", "battery_car", "alternator_truck" ]
+      }
+    ],
+    "items": [ { "x": 0, "y": 0, "chance": 40, "items": [ "shell_ac2", "shell_ac2" ] } ]
+  },
+  {
+    "type": "vehicle",
+    "id": "bt_rac/2",
+    "name": "RAC/2 Tester",
+    "blueprint": [ [ "oo" ] ],
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame_cross",
+          "turret_mount",
+          "rac2",
+          "controls",
+          "tank",
+          "reclining_seat",
+          "wheel_mount_medium_steerable",
+          "wheel_wide",
+          "engine_v12",
+          "primitive_armor_ton"
         ]
-    },{
-        "type" : "vehicle",
-        "id" : "bt_ac/5",
-        "name" : "AC/5 Tester",
-        "blueprint" : [
-            ["ooooooo"]
-        ],
-        "parts" : [
-            {"x": 0, "y": 0, "part": "frame_cross"},
-            {"x": 0, "y": 0, "part": "turret_mount"},
-            {"x": 0, "y": 0, "part": "ac5"},
-            {"x": 0, "y": 0, "part": "controls"},
-            {"x": 0, "y": 0, "part": "tank"},
-            {"x": 0, "y": 0, "part": "reclining_seat"},
-            {"x": 0, "y": 0, "part": "wheel_steerable"},
-            {"x": 0, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "frame_cross"},
-            {"x": -1, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "wheel_steerable"},
-            {"x": -1, "y": 0, "part": "battery_car"},
-            {"x": -1, "y": 0, "part": "alternator_truck"},
-            {"x": 0, "y": 0, "part": "primitive_armor_ton"}
-        ],
-        "items" : [
-            {"x": 0, "y": 0, "chance": 40, "items": [ "shell_ac5" ]}
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "engine_v12", "wheel_mount_medium_steerable", "wheel_wide", "battery_car", "alternator_truck" ]
+      }
+    ],
+    "items": [ { "x": 0, "y": 0, "chance": 80, "items": [ "shell_ac2", "shell_ac2" ] } ]
+  },
+  {
+    "type": "vehicle",
+    "id": "bt_ac/5",
+    "name": "AC/5 Tester",
+    "blueprint": [ [ "ooooooo" ] ],
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame_cross",
+          "turret_mount",
+          "ac5",
+          "controls",
+          "tank",
+          "reclining_seat",
+          "wheel_mount_medium_steerable",
+          "wheel_wide",
+          "engine_v12",
+          "primitive_armor_ton"
         ]
-    },{
-        "type" : "vehicle",
-        "id" : "bt_ac/10",
-        "name" : "AC/10 Tester",
-        "blueprint" : [
-            ["ooooooo"]
-        ],
-        "parts" : [
-            {"x": 0, "y": 0, "part": "frame_cross"},
-            {"x": 0, "y": 0, "part": "turret_mount"},
-            {"x": 0, "y": 0, "part": "ac10"},
-            {"x": 0, "y": 0, "part": "controls"},
-            {"x": 0, "y": 0, "part": "tank"},
-            {"x": 0, "y": 0, "part": "reclining_seat"},
-            {"x": 0, "y": 0, "part": "wheel_steerable"},
-            {"x": 0, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "frame_cross"},
-            {"x": -1, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "wheel_steerable"},
-            {"x": -1, "y": 0, "part": "battery_car"},
-            {"x": -1, "y": 0, "part": "alternator_truck"},
-            {"x": 0, "y": 0, "part": "primitive_armor_ton"}
-        ],
-        "items" : [
-            {"x": 0, "y": 0, "chance": 40, "items": [ "shell_ac10" ]}
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "engine_v12", "wheel_mount_medium_steerable", "wheel_wide", "battery_car", "alternator_truck" ]
+      }
+    ],
+    "items": [ { "x": 0, "y": 0, "chance": 40, "items": [ "shell_ac5", "shell_ac5" ] } ]
+  },
+  {
+    "type": "vehicle",
+    "id": "bt_ac/10",
+    "name": "AC/10 Tester",
+    "blueprint": [ [ "ooooooo" ] ],
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame_cross",
+          "turret_mount",
+          "ac10",
+          "controls",
+          "tank",
+          "reclining_seat",
+          "wheel_mount_medium_steerable",
+          "wheel_wide",
+          "engine_v12",
+          "primitive_armor_ton"
         ]
-    },{
-        "type" : "vehicle",
-        "id" : "bt_ac/20",
-        "name" : "AC/20 Tester",
-        "blueprint" : [
-            ["ooooooo"]
-        ],
-        "parts" : [
-            {"x": 0, "y": 0, "part": "frame_cross"},
-            {"x": 0, "y": 0, "part": "turret_mount"},
-            {"x": 0, "y": 0, "part": "ac20"},
-            {"x": 0, "y": 0, "part": "controls"},
-            {"x": 0, "y": 0, "part": "tank"},
-            {"x": 0, "y": 0, "part": "reclining_seat"},
-            {"x": 0, "y": 0, "part": "wheel_steerable"},
-            {"x": 0, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "frame_cross"},
-            {"x": -1, "y": 0, "part": "engine_v12"},
-            {"x": -1, "y": 0, "part": "wheel_steerable"},
-            {"x": -1, "y": 0, "part": "battery_car"},
-            {"x": -1, "y": 0, "part": "alternator_truck"},
-            {"x": 0, "y": 0, "part": "primitive_armor_ton"}
-        ],
-        "items" : [
-            {"x": 0, "y": 0, "chance": 40, "items": [ "shell_ac20" ]}
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "engine_v12", "wheel_mount_medium_steerable", "wheel_wide", "battery_car", "alternator_truck" ]
+      }
+    ],
+    "items": [ { "x": 0, "y": 0, "chance": 40, "items": [ "shell_ac10", "shell_ac10" ] } ]
+  },
+  {
+    "type": "vehicle",
+    "id": "bt_ac/20",
+    "name": "AC/20 Tester",
+    "blueprint": [ [ "ooooooo" ] ],
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame_cross",
+          "turret_mount",
+          "ac20",
+          "controls",
+          "tank",
+          "reclining_seat",
+          "wheel_mount_medium_steerable",
+          "wheel_wide",
+          "engine_v12",
+          "primitive_armor_ton"
         ]
-    }
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "engine_v12", "wheel_mount_medium_steerable", "wheel_wide", "battery_car", "alternator_truck" ]
+      }
+    ],
+    "items": [ { "x": 0, "y": 0, "chance": 40, "items": [ "shell_ac20", "shell_ac20" ] } ]
+  }
 ]
