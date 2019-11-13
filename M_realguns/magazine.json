@@ -39,5 +39,5 @@
     "ammo_type": [ "38" ],
     "capacity": 6,
     "flags": [ "SPEEDLOADER" ]
-  },
+  }
 ]
