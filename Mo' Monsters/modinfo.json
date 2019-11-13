@@ -8,7 +8,7 @@
       "description": "Adds more monsters for you to kill!",
       "category": "creatures",
       "dependencies": [ "dda" ],
-      "obsolete": "false"
+      "obsolete": false
     }
   ]
   
