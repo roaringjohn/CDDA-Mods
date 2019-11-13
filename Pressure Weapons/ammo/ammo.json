@@ -41,7 +41,7 @@
         "dispersion": 0,
         "recoil": 20,
         "count" : 3,
-        "loudness": "0",
+        "loudness": 0,
         "effects" : [ "RECOVER_35", "BOLT" ]
     },
     {
@@ -64,7 +64,7 @@
         "dispersion": 0,
         "recoil": 20,
         "count" : 3,
-        "loudness": "0",
+        "loudness": 0,
         "effects": [ "RECOVER_35", "BOLT" ]
     }
 ]
