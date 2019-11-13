@@ -17,7 +17,7 @@
     "dispersion": 360,
     "durability": 8,
     "clip_size": 7,
-    "magazines": [ [ "38", [ "38_speedloader" ] ] ]
+    "magazines": [ [ "38", [ "38_speedloader6" ] ] ]
   },
   {
     "id": "m6_asw",
