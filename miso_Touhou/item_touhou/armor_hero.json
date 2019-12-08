@@ -238,7 +238,7 @@
     "material_thickness": 4,
     "environmental_protection": 2,
     "flags": [ "OVERSIZE", "FANCY", "POCKETS", "WATERPROOF", "COLLAR", "RAINPROOF", "OUTER" ]
-  }.
+  },
    {
     "id": "sumireko_hat",
     "type": "ARMOR",
