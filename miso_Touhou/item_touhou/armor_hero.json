@@ -182,8 +182,8 @@
   {
     "id": "sumireko_vest",
     "type": "ARMOR",
-    "name": "vest",
-    "name_plural": "vest",
+    "name": "plaid vest",
+    "name_plural": "plaid vests",
     "description": "It is the vest of the pea coat form. The violet colored plaid attracts attention.",
     "weight": 671,
     "volume": 2,
@@ -202,8 +202,8 @@
   {
     "id": "sumireko_skirt",
     "type": "ARMOR",
-    "name": "skirt",
-    "name_plural": "skirts",
+    "name": "plaid skirt",
+    "name_plural": "plaid skirts",
     "description": "A slightly longer pleated skirt. The violet colored plaid attracts attention.",
     "weight": 683,
     "volume": 2,
@@ -222,9 +222,9 @@
   {
     "id": "sumireko_cloth",
     "type": "ARMOR",
-    "name": "coat",
-    "name_plural": "coats",
-    "description": "It is a black coat that wraps the whole body. The lining is red and the rune letters are constantly flowing with a strange glow.",
+    "name": "runic cloak",
+    "name_plural": "runic cloaks",
+    "description": "It is a black cloak that wraps the whole body. It has a large collar, and a red interior inscribed with pinkish-white runes. The runes don't seem to do anything, but they sure do look cool!",
     "weight": 1250,
     "volume": 10,
     "price": 12000,
@@ -237,6 +237,27 @@
     "warmth": 35,
     "material_thickness": 4,
     "environmental_protection": 2,
-    "flags": [ "VARSIZE", "FANCY", "POCKETS", "WATERPROOF", "COLLAR", "RAINPROOF", "OUTER" ]
+    "flags": [ "OVERSIZE", "FANCY", "POCKETS", "WATERPROOF", "COLLAR", "RAINPROOF", "OUTER" ]
+  }.
+   {
+    "id": "sumireko_hat",
+    "type": "ARMOR",
+    "name": "Psychic's Hat",
+    "name_plural": "Psychic's Hats",
+    "description": "A black hat that's too short to be a top hat, but too round to be a fedora. It has a white bow in the center. Kinda looks like something a magician would wear.",
+    "weight": 100,
+    "volume": 2,
+    "price": 20000,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "HEAD" ],
+    "coverage": 100,
+    "encumbrance": 14,
+    "storage": 4,
+    "warmth": 15,
+    "material_thickness": 2,
+    "environmental_protection": 1,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "OVERSIZE", "SUPER_FANCY" ]
   }
 ]
