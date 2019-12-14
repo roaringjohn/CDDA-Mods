@@ -642,17 +642,7 @@
 		"armor_cut": 1,
 		"armor_bash": 2,
 		"harvest": "meatslug",
-		"starting_ammo": [
-			{
-				"leechblood": 1000
-			},
-			{
-				"leechsharptooth": 100
-			},
-			{
-				"leechtooth": 100
-			}
-		],
+		"starting_ammo": { "leechblood": 1000, "leechsharptooth": 100, "leechtooth": 100 },
 		"upgrades": {
 			"half_life": 12,
 			"into_group": "GROUP_LEECH_UPGRADE"
