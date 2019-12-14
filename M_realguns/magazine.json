@@ -24,5 +24,20 @@
     "description": "A 9-round magazine for the M1991A1 .38 Super pistol.",
     "ammo_type": "38super",
     "capacity": 9
+  },
+  {
+    "id": "38_speedloader6",
+    "type": "MAGAZINE",
+    "name": ".38 6-round speedloader",
+    "description": "This speedloader can hold 6 rounds of .38 Special and quickly reload a compatible revolver such as the Model 10.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 900,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "38" ],
+    "capacity": 6,
+    "flags": [ "SPEEDLOADER" ]
   }
 ]
