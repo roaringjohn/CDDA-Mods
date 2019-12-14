@@ -10,9 +10,11 @@
       { "x": 0, "y": 0, "part": "foot_pedals" },
       
       { "x": 1, "y": 0, "part": "hdframe_vertical" },
-      { "x": 1, "y": 0, "part": "wheel_armor_steerable" },
+      { "x": 1, "y": 0, "part": "wheel_mount_heavy_steerable"},
+      { "x": 1, "y": 0, "part": "wheel_armor" },
 
       { "x": -1, "y": 0, "part": "hdframe_vertical" },
+      { "x": -1, "y": 0, "part": "wheel_mount_medium"},
       { "x": -1, "y": 0, "part": "wheel_wide" },
       { "x": -1, "y": 0, "part": "cargo_space" }
     ]
@@ -35,9 +37,11 @@
       { "x": 1, "y": 0, "part": "battery_motorbike" },
 
       { "x": 2, "y": 0, "part": "hdframe_vertical" },
-      { "x": 2, "y": 0, "part": "wheel_armor_steerable" },
+      { "x": 2, "y": 0, "part": "wheel_mount_heavy_steerable"},
+	  { "x": 2, "y": 0, "part": "wheel_armor" },
 
       { "x": -1, "y": 0, "part": "hdframe_vertical" },
+	  { "x": -1, "y": 0, "part": "wheel_mount_medium"},
       { "x": -1, "y": 0, "part": "wheel_wide" },
       { "x": -1, "y": 0, "part": "muffler" },
       { "x": -1, "y": 0, "part": "cargo_space" }
@@ -61,9 +65,11 @@
       { "x": 1, "y": 0, "part": "battery_car" },
 
       { "x": 2, "y": 0, "part": "hdframe_vertical" },
-      { "x": 2, "y": 0, "part": "wheel_armor_steerable" },
+      { "x": 2, "y": 0, "part": "wheel_mount_heavy_steerable"},
+      { "x": 2, "y": 0, "part": "wheel_armor" },
 
       { "x": -1, "y": 0, "part": "hdframe_vertical" },
+      { "x": -1, "y": 0, "part": "wheel_mount_medium"},
       { "x": -1, "y": 0, "part": "wheel_wide" },
       { "x": -1, "y": 0, "part": "muffler" },
       { "x": -1, "y": 0, "part": "cargo_space" }
