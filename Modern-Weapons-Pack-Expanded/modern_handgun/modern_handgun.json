@@ -83,7 +83,7 @@
         [ "44", [ "deaglemag" ] ],
         [ "357_mag", [ "357_mag" ] ],
         [ "45", [ "m1911mag", "m1911bigmag" ] ],
-        [ "38", [ "taurus38mag" ] ]
+        [ "38", [ "taurus_spectrum_mag" ] ]
     ]
   },
   {
