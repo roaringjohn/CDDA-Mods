@@ -36,58 +36,6 @@
     "flags": [ "VARSIZE", "SKINTIGHT" ]
   },
   {
-    "id": "linuxtshirt",
-    "type": "ARMOR",
-    "name": "Linux t-shirt",
-    "description": "A t-shirt with a picture of the Tux mascot on it.  Underneath it says \"You wouldn't buy a car with the hood welded shut.\"",
-    "weight": 110,
-    "volume": 2,
-    "price": 2000,
-    "material": [ "cotton" ],
-    "symbol": "[",
-    "color": "dark_gray",
-    "covers": [ "TORSO" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "warmth": 5,
-    "material_thickness": 1,
-    "snippet_category": [
-      {
-        "id": "tux",
-        "text": "A t-shirt with a picture of Tux, the Linux mascot!  It says \"You wouldn't buy a car with the hood welded shut.\""
-      },
-      {
-        "id": "ubuntusmartass",
-        "text": "A t-shirt with the Ubuntu logo on it, underneath it says \"Ubuntu is a South African word for 'I can't configure Debian'\""
-      },
-      {
-        "id": "arch",
-        "text": "A t-shirt with the Arch Linux logo on it, underneath it says \"Keep it Simple Stupid\""
-      },
-      {
-        "id": "ubuntu",
-        "text": "A t-shirt with the Ubuntu logo on it, underneath it says \"Linux for human beings\""
-      },
-      {
-        "id": "mint",
-        "text": "A t-shirt with the Linux Mint logo on it, underneath it says \"From freedom came elegance\""
-      },
-      {
-        "id": "fedora",
-        "text": "A t-shirt with the Fedora logo on it, underneath it says \"Freedom. Friends. Features. First.\""
-      },
-      {
-        "id": "redhat",
-        "text": "A t-shirt with Red Hat's logo on it, underneath it says \"The World's Open Source Leader\""
-      },
-      {
-        "id": "debian",
-        "text": "A t-shirt with the Debian logo on it, underneath it says \"The Universal Operating System\""
-      }
-    ],
-    "flags": [ "VARSIZE", "SKINTIGHT" ]
-  },
-  {
     "id": "technician_shirt_blue",
     "type": "ARMOR",
     "name": "blue work t-shirt",
@@ -159,29 +107,6 @@
     "coverage": 90,
     "warmth": 5,
     "material_thickness": 1,
-    "flags": [ "VARSIZE", "SKINTIGHT" ]
-  },
-  {
-    "id": "tshirt_text",
-    "type": "ARMOR",
-    "name": "t-shirt",
-    "description": "A short-sleeved cotton shirt.",
-    "weight": 110,
-    "volume": 2,
-    "price": 800,
-    "material": [ "cotton" ],
-    "symbol": "[",
-    "color": "white",
-    "covers": [ "TORSO" ],
-    "coverage": 90,
-    "warmth": 5,
-    "material_thickness": 1,
-    "snippet_category": [
-      {
-        "id": "allyourbase",
-        "text": "A short-sleeved cotton shirt with the text \"chown -R us ~your/base\" printed on the front."
-      }
-    ],
     "flags": [ "VARSIZE", "SKINTIGHT" ]
   }
 ]
