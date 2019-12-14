@@ -1,0 +1,164 @@
+[
+	{
+		"//": "Talking to this npc requires you to complete the first 2 npc mission providers: the commando and the trader.",
+		"id": "TALK_VAMP_UNDERSEEKER",
+		"type": "talk_topic",
+		"dynamic_line": "...",
+		"responses": [
+			{
+				"text": "Who are you?",
+				"topic": "TALK_VAMP_UNDERSEEKER_none",
+				"condition": {
+					"and": [
+						{
+							"not": {
+								"u_has_trait": "undertradervampmark"
+							}
+						},
+						{
+							"not": {
+								"u_has_trait": "commandovampmark"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "underseekermeet"
+							}
+						}
+					]
+				}
+			},
+			{
+				"text": "Who are you?",
+				"topic": "TALK_VAMP_UNDERSEEKER_notice",
+				"condition": {
+					"and": [
+						{
+							"u_has_trait": "undertradervampmark"
+						},
+						{
+							"not": {
+								"u_has_trait": "commandovampmark"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "underseekermeet"
+							}
+						}
+					]
+				}
+			},
+			{
+				"text": "Who are you?",
+				"topic": "TALK_VAMP_UNDERSEEKER_attention",
+				"condition": {
+					"and": [
+						{
+							"u_has_trait": "undertradervampmark"
+						},
+						{
+							"u_has_trait": "commandovampmark"
+						},
+						{
+							"not": {
+								"npc_has_trait": "underseekermeet"
+							}
+						}
+					]
+				}
+			},
+			{
+				"text": "Can you tell me who you are?",
+				"topic": "TALK_VAMP_UNDERSEEKER_introduce",
+				"condition": {
+					"npc_has_trait": "underseekermeet"
+				}
+			},
+			{
+				"text": "About our journey...",
+				"topic": "TALK_MISSION_INQUIRE",
+				"condition": "has_assigned_mission"
+			},
+			{
+				"text": "Jobs to work?.",
+				"topic": "TALK_MISSION_LIST",
+				"condition": {
+					"npc_has_trait": "underseekermeet"
+				}
+			},
+			{
+				"text": "I'd be going now...",
+				"topic": "TALK_DONE"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_UNDERSEEKER_none",
+		"type": "talk_topic",
+		"dynamic_line": "...",
+		"responses": [
+			{
+				"text": "...",
+				"topic": "TALK_DONE"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_UNDERSEEKER_notice",
+		"type": "talk_topic",
+		"dynamic_line": "...?",
+		"responses": [
+			{
+				"text": "...",
+				"topic": "TALK_DONE"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_UNDERSEEKER_attention",
+		"type": "talk_topic",
+		"dynamic_line": "I see you've been working hard to help us on our problems... Nice meeting you and I apologize for ignoring you from the start I glanced on your eyes.",
+		"responses": [
+			{
+				"text": "As I was saying...",
+				"topic": "TALK_DONE",
+				"//": "Rep up by 5.",
+				"effect": [
+					{
+						"u_faction_rep": 5
+					},
+					{
+						"npc_add_trait": "underseekermeet"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_UNDERSEEKER_introduce",
+		"type": "talk_topic",
+		"dynamic_line": "I am the seeker of this cave, and my job is to scout the surrounding areas for possible threats.",
+		"responses": [
+			{
+				"text": "What kind of threats?",
+				"topic": "TALK_VAMP_UNDERSEEKER_threat"
+			},
+			{
+				"text": "Okay...",
+				"topic": "TALK_DONE"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_UNDERSEEKER_threat",
+		"type": "talk_topic",
+		"dynamic_line": "Leeches, animals and most of all, the walking corpses.",
+		"responses": [
+			{
+				"text": "Ugh, plain creatures...",
+				"topic": "TALK_VAMP_UNDERSEEKER"
+			}
+		]
+	}
+]

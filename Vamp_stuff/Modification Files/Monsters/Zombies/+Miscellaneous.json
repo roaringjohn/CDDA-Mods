@@ -1,0 +1,36 @@
+{
+ "id": "mon_zombie_succumbvampire",
+ "type": "MONSTER",
+ "name": "succumbed vampire",
+ "description": "This glorious entity has been engulfed by black, oozing liquid on its eye, and the almighty power of the nightmare is now the vessel of extermination.",
+ "default_faction": "zombie",
+ "species": ["ZOMBIE"],
+ "size": "MEDIUM",
+ "bodytype": "human",
+ "hp": 525,
+ "speed": 150,
+ "material": ["flesh"],
+ "symbol": "V",
+ "color": "dark_gray_red",
+ "aggression": 100,
+ "morale": 100,
+ "melee_skill": 10,
+ "melee_dice": 6,
+ "melee_dice_sides": 6,
+ "melee_cut": 6,
+ "dodge": 5,
+ "harvest": "exempt",
+ "armor_bash": 8,
+ "armor_cut": 9,
+ "vision_day": 50,
+ "vision_night": 20,
+ "special_attacks": [{
+   "type": "bite",
+   "cooldown": 7
+  },
+  ["GRAB", 7]
+ ],
+ "death_drops": "succumbvampire",
+ "death_function": ["DISAPPEAR"],
+ "flags": ["SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "REVIVES", "BONES"]
+}

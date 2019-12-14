@@ -1,0 +1,11 @@
+[{
+  "type": "MOD_INFO",
+  "ident": "vamp_stuff",
+  "name": "Vampiric Stuff",
+  "authors": [
+   "Axema Vales"
+  ],
+  "description": "Implements vampire NPCs, new items and locations into your world.",
+  "category": "misc_additions"
+ }
+]
