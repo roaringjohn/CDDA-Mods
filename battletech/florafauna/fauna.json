@@ -62,11 +62,7 @@
     "species": [ "HUMAN" ],
     "diff": 265,
     "volume": "2000000 ml",
-<<<<<<< HEAD
-    "weight": "720000 g",
-=======
     "weight": 720000,
->>>>>>> pr/15
     "hp": 947,
     "speed": 45,
     "material": [ "flesh" ],
@@ -109,11 +105,7 @@
     "species": [ "HUMAN" ],
     "diff": 265,
     "volume": "17290000 ml",
-<<<<<<< HEAD
-    "weight": "5705000 g",
-=======
     "weight": 5705000,
->>>>>>> pr/15
     "hp": 7329,
     "speed": 25,
     "material": [ "flesh" ],
@@ -156,11 +148,7 @@
     "species": [ "HUMAN" ],
     "diff": 265,
     "volume": "2000000 ml",
-<<<<<<< HEAD
-    "weight": "720000 g",
-=======
     "weight":  720000,
->>>>>>> pr/15
     "hp": 2040,
     "speed": 45,
     "material": [ "flesh" ],
@@ -203,11 +191,7 @@
     "species": [ "HUMAN" ],
     "diff": 265,
     "volume": "2375000 ml",
-<<<<<<< HEAD
-    "weight": "720000 g",
-=======
     "weight": 720000,
->>>>>>> pr/15
     "hp": 4025,
     "speed": 45,
     "material": [ "flesh" ],
@@ -247,11 +231,7 @@
     "species": [ "HUMAN" ],
     "diff": 265,
     "volume": "2000000 ml",
-<<<<<<< HEAD
-    "weight": "720000 g",
-=======
     "weight": 720000,
->>>>>>> pr/15
     "hp": 16099,
     "speed": 45,
     "material": [ "flesh" ],
