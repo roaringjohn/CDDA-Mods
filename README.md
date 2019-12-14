@@ -4,4 +4,4 @@ The other respository by RoaringJohn hasn't been updated to fix broken mods, so 
 Please report issues with these mods.
 
 Notes about these mods-
-Some of these may be wildly imbalanced, it's really on a case by case basis. I don't personally use all of these mods. I'll work through issues as time and motivation allows. My goal is to have every mod load without an error on loading.
+Some of these may be wildly imbalanced, it's really on a case by case basis. I don't personally use all of these mods. I'll work through issues as time and motivation allows. My goal is to have every mod load without an error on loading. It is NOT at this state yet. However many mods have been updated. Report issues as they arise and maybe one day this entire heap will work.
