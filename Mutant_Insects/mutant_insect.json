@@ -1124,7 +1124,7 @@
     "description": "A gigantic slender-bodied wasp about the size of a cow. It is armed with an evil-looking stinger and bears ominous red markings on its abdomen.",
     "bodytype": "flying insect",
     "default_faction": "wasp",
-    "diff": "3",
+    "diff": 3,
     "speed": 120,
     "attack_cost": 150,
     "symbol": "W",
