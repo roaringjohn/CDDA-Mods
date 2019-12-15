@@ -6,7 +6,7 @@
     "authors": [ "Kettle Swordfang" ],
     "description": "The last of the order of gunslingers, the highest authority in All-World.",
     "category": "none",
-    "dependencies": [ "dda" ]
+    "dependencies": [ "dda", "PK_REBALANCE" ]
   }
 ]
 
