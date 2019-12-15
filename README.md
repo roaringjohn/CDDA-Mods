@@ -17,6 +17,7 @@ Cata++, PK's, Arcana, and Nechronica have been removed from this repository beca
 All credit for the original mods goes to their creators.
 
 # Current update status
+Check issues for details
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed soonish.
 
