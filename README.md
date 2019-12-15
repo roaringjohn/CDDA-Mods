@@ -16,7 +16,7 @@ Cata++ and PK's have been removed from this repository because they are being up
 
 All credit for the original mods goes to their creators.
 
-Current update status-
+# Current update status
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed soonish.
 
@@ -24,7 +24,7 @@ Touhou has a borked vehicle but is otherwise fine, and will load. Fixed soon.
 
 eps_cbm throws an error that seems to be harmless, so it will load. If I can figure out what the problem is it'll be fixed soon.
 
-
-Some other mods, like ones removed from here (WIP)
+# Links to other mods
+(Work in progress, there'll be more here soon, really)
 
 https://github.com/YukariMindGap/Nechronica_Redux
