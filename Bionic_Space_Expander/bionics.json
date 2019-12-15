@@ -313,7 +313,7 @@
     "subtype": "distribution",
     "note" : "High-tech bionics, handy for the harried researcher.  They get access to classified toys too.",
     "items":[
-      ["bio_solar", 5],
+      ["bn_bio_solar", 5],
       ["bio_batteries", 20],
       ["bio_metabolics", 15],
       ["bio_ethanol", 5],
@@ -389,7 +389,7 @@
     "id" : "bionics_mil",
     "items":[
       ["bio_power_storage", 10],
-      ["bio_solar", 10],
+      ["bn_bio_solar", 10],
       ["bio_batteries", 10],
       ["bio_metabolics", 10],
       ["bio_ethanol", 10],
@@ -459,7 +459,7 @@
     "note" : "What the commandos get.",
     "items":[
       ["bio_power_storage_mkII", 10],
-      ["bio_solar", 15],
+      ["bn_bio_solar", 15],
       ["bio_batteries", 10],
       ["bio_metabolics", 20],
       ["bio_furnace", 15],
