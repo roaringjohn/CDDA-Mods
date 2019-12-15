@@ -19,7 +19,7 @@ All credit for the original mods goes to their creators.
 # Current update status
 Check issues for details
 
-All mods tested on build 9616, I'm going to be very busy until after the holidays so if a newer version breaks compatibility it may be a month before I can update everything myself. I'll still be able to accept pull requests however.
+All mods tested on build 9920 (or so, I forget which honestly), I'm going to be very busy until after the holidays so if a newer version breaks compatibility it may be a month before I can update everything myself. I'll still be able to accept pull requests however.
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed soonish.
 
