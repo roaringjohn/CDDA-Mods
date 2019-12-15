@@ -2,7 +2,7 @@
 CDDA Mods that aren't mainlined.
 The other respository by RoaringJohn hasn't been updated to fix broken mods, so I'm just going to update this repository instead of making pull requests to one which seems to be abandoned.
 
-Please report issues with these mods.
+Please report issues with these mods. Suggestions for additions are welcome, except for mods which are being actively maintained elsewhere.
 
 
 Notes about these mods-
