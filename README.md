@@ -12,7 +12,7 @@ Some of these may be wildly imbalanced, it's really on a case by case basis. I d
 No I don't know why the Shardstuff mod is labeled like that, I haven't gotten to testing its contents, consider it unverified.
 
 
-Cata++ and PK's have been removed from this repository because they are being updated elsewhere. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again.
+Cata++, PK's, Arcana, and Nechronica have been removed from this repository because they are being updated elsewhere. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again.
 
 All credit for the original mods goes to their creators.
 
