@@ -346,7 +346,7 @@
     "color": "red",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_40mm",
-    "starting_ammo": { "40mm_frag": 50 },
+    "starting_ammo": { "40x46mm_m433": 50 },
     "special_attacks": [
       {
         "type": "gun",
