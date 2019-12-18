@@ -34,4 +34,4 @@ https://github.com/YukariMindGap/Nechronica_Redux
 
 # Removed mods
 (For reasons other than being mainlined or maintained elsewhere)
-Disinfectant Powder, "powder_disinfectant", by Broken "Spaghetti" Admin- This mod doesn't add any way to create or obtain the disinfectant powder which is adds as an item, so it is effectively useless.
+Disinfectant Powder, "powder_disinfectant", by Broken "Spaghetti" Admin- This mod doesn't add any way to create or obtain the disinfectant powder which it adds as an item, so it is effectively useless.
