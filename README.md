@@ -19,7 +19,7 @@ All credit for the original mods goes to their creators.
 # Current update status
 Check issues for details
 
-Recent updates to the experimentals broke a LOT of things, including cannibal recipes, 40mm grenades, some old flags, and some old ways of entering numbers. MOST of these have been fixed, but there are still some known issues that should be fixed soon.
+Recent updates to the experimentals broke a LOT of things. I've got it back to the point where you can load every single mod with a few errors but still load in regardless. The remaining errors should be fixed within the week.
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed soonish.
 
