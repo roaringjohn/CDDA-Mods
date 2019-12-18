@@ -341,8 +341,7 @@
       [ [ "hoe", 1 ] ],
       [ [ "seed_tobacco", 5 ] ],
       [ [ "cigar_butt", 2 ] ],
-      [ [ "ecig", 1 ] ],
-      [ [ "sandwich_dudeluxe", 3 ] ]
+      [ [ "ecig", 1 ] ]
     ],
     "flags": [ "BLIND_EASY", "UNCRAFT_LIQUIDS_CONTAINED" ]
   },
@@ -423,7 +422,6 @@
     "components": [
       [ [ "crossbow", 1 ] ],
       [ [ "rope_makeshift_6", 1 ] ],
-      [ [ "tiotaco", 4 ] ],
       [ [ "milk_powder", 10 ] ],
       [ [ "seed_pumpkin", 5 ] ],
       [ [ "seed_celery", 5 ] ],
