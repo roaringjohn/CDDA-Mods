@@ -113,7 +113,8 @@
     "melee_dice_sides": 2,
     "melee_cut": 0,
     "armor_bash": 20,
+	"regenerates": 10,
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "ACIDPROOF", "NO_BREATHE", "PLASTIC", "REGENERATES_10" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "ACIDPROOF", "NO_BREATHE", "PLASTIC" ]
   }
 ]

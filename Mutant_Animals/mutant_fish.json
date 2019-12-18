@@ -120,8 +120,8 @@
     "attack_effs": [ { "id": "bleed", "chance": 10, "duration": 5 } ],
     "dodge": 2,
     "speed": 110,
-    "color": "red",
-    "extend": { "flags": [ "REGENERATES_10" ] }
+	"regenerates": 10,
+    "color": "red"
   },
   {
     "id": "mon_fish_mutant_accordian",

@@ -234,6 +234,7 @@
       "fake_skills" : [["gun", 3], ["shotgun", 3]],
       "move_cost" : 125,
       "targeting_cost" : 115,
+      "regen_morale": true,
       "ranges" : [
         [ 0, 6, "DEFAULT" ]
       ],
@@ -242,7 +243,7 @@
     }],
     "starting_ammo" : {"shot_scrap": 10},
     "description":"Slightly more armored than the average bandit, this survivor stands out with their break-action shotgun and satchel of shells.",
-    "flags":["REGEN_MORALE", "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
+    "flags":[ "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
     
     "anger_triggers":["HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE"],
     
@@ -298,6 +299,7 @@
       "fake_per" : 10,
       "fake_skills" : [["gun", 2], ["shotgun", 2]],
       "move_cost" : 110,
+	  "regen_morale": true,
       "targeting_cost" : 100,
       "ranges" : [[ 0, 6, "DEFAULT" ]],
       "description" : "BOOM!!",
@@ -307,7 +309,7 @@
     }],
     "starting_ammo" : {"shot_00": 15},
     "description":"Large chuncks of scrap metal drape off this bandit's duster with odd symbols painted across each. They grip their shotgun sternly, almost daring some one to test their mettle.",
-    "flags":["REGEN_MORALE", "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
+    "flags":[ "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
     
     "anger_triggers":["HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE"],
     

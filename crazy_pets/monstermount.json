@@ -86,6 +86,8 @@
     "melee_cut": 6,
     "armor_bash": 10,
     "armor_cut": 30,
+	"regenerates": 50,
+    "regen_morale": true,
     "harvest": "exempt",
     "path_settings": { "max_dist": 5 },
     "special_attacks": [ [ "PARROT", 40 ] ],
@@ -99,9 +101,7 @@
       "ACID_BLOOD",
       "ACIDPROOF",
       "NOHEAD",
-      "REGENERATES_50",
       "ABSORBS_SPLITS",
-      "REGEN_MORALE",
       "PET_MOUNTABLE",
       "NOGIB"
     ]

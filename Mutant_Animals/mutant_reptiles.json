@@ -179,6 +179,8 @@
     "armor_cut": 8,
     "vision_day": 50,
     "vision_night": 10,
+	"regenerates": 10,
+    "regen_morale": true,
     "emit_fields": [ "emit_nuclear_trail" ],
     "special_attacks": [  
       [ "SHOCKSTORM", 300 ],
@@ -195,8 +197,6 @@
       "ACIDPROOF",
       "NO_BREATHE",
       "PRIORITIZE_TARGETS",
-      "REGENERATES_10",
-      "REGEN_MORALE",
       "HEARS",
       "FIREPROOF",
       "ELECTRIC",
