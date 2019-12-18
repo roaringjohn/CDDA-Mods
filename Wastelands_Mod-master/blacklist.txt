@@ -125,7 +125,6 @@
         "57mm_casing",
         "46mm_casing",
         "762_casing",
-        "40mm_casing",
         "300_casing",
         "762R_casing",
         "reloaded_10mm",
