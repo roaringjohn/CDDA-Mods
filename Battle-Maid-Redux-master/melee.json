@@ -259,8 +259,7 @@
     "clip_size": 40,
     "loudness": 100,
     "ammo_effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES", "SHOT" ],
-    "modes": [ [ "DEFAULT", "auto", 2 ] ],
-    "relative": { "reload": -99.0 }
+    "modes": [ [ "DEFAULT", "auto", 2 ] ]
   },
   {
     "id": "battle_mop",
