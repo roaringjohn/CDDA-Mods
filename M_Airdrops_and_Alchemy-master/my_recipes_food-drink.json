@@ -73,9 +73,6 @@
         [ "meat", 1 ],
         [ "meat_cooked", 1 ],
         [ "meat_smoked", 1 ],
-        [ "human_flesh", 1 ],
-        [ "human_cooked", 1 ],
-        [ "human_smoked", 1 ],
         [ "meat_tainted", 1 ]
       ],
       [ [ "can_food", 1 ] ]

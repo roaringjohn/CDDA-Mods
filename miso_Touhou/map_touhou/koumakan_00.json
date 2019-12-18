@@ -189,8 +189,6 @@
         { "item": "blood", "repeat": 10, "x": 22, "y": 8 },
         { "item": "human_flesh_time_cooking", "repeat": 6, "x": 23, "y": 8 },
         { "item": "hstomach_time_cooking", "repeat": 8, "x": 23, "y": 8 },
-        { "item": "bone_human", "repeat": 20, "x": 23, "y": 8 },
-        { "item": "dry_hflesh", "repeat": 18, "x": 23, "y": 8 },
         { "item": "tea_raw", "repeat": 1, "x": 22, "y": 11 },
         { "item": "drawers", "repeat": 1, "x": 20, "y": 20 },
         { "item": "fairy_maid_dress", "repeat": 1, "x": 22, "y": 20 },
