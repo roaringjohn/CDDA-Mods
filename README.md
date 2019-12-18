@@ -31,3 +31,7 @@ eps_cbm throws an error that seems to be harmless, so it will load. If I can fig
 (Work in progress, there'll be more here soon, really)
 
 https://github.com/YukariMindGap/Nechronica_Redux
+
+# Removed mods
+(For reasons other than being mainlined or maintained elsewhere)
+Disinfectant Powder, "powder_disinfectant", by Broken "Spaghetti" Admin- This mod doesn't add any way to create or obtain the disinfectant powder which is adds as an item, so it is effectively useless.
