@@ -240,10 +240,10 @@
     "flags": [ "OVERSIZE", "FANCY", "POCKETS", "WATERPROOF", "COLLAR", "RAINPROOF", "OUTER" ]
   },
    {
-    "id": "sumireko_hat",
+    "id": "usami_hat",
     "type": "ARMOR",
-    "name": "Psychic's Hat",
-    "name_plural": "Psychic's Hats",
+    "name": "Occultist's Hat",
+    "name_plural": "Occultist's Hats",
     "description": "A black hat that's too short to be a top hat, but too round to be a fedora. It has a white bow in the center. Kinda looks like something a magician would wear.",
     "weight": 100,
     "volume": 2,
