@@ -7,7 +7,7 @@
     "parts": [
       { "x": 0, "y": 0, "part": "xlframe_cross" },
       { "x": 0, "y": 0, "part": "reclining_seat" },
-      { "x": 0, "y": 0, "part": "wheel_wheelchair" },
+      { "x": 0, "y": 0, "parts": [ "wheel_mount_light", "wheel_wheelchair" ] },
       { "x": 0, "y": 0, "part": "storage_battery_mount" },
       { "x": 0, "y": 0, "part": "storage_battery_removable" },
       { "x": 0, "y": 0, "part": "engine_electric_small" },
@@ -22,7 +22,7 @@
     "parts": [
       { "x": 0, "y": 0, "part": "superalloy_frame_tm" },
       { "x": 0, "y": 0, "part": "folding_seat" },
-      { "x": 0, "y": 0, "part": "wheel_wheelchair" },
+      { "x": 0, "y": 0, "parts": [ "wheel_mount_light", "wheel_wheelchair" ] },
       { "x": 0, "y": 0, "part": "hand_rims" },
       { "x": 0, "y": 0, "part": "turret_mount" },
       { "x": 0, "y": 0, "part": "mounted_m1918" }
