@@ -255,7 +255,7 @@
     "symbol": "(",
     "color": "light_blue",
     "ammo": "380_p",
-    "skill": "handgun",
+    "skill": "pistol",
     "ranged_damage": -1,
     "dispersion": 480,
     "durability": 7,
