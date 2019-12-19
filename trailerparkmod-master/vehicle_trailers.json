@@ -66,7 +66,7 @@
 			{"x": -3, "y": -3, "part": "v_curtain" },
 			
 			{"x": -3, "y": -2, "part": "hdframe_horizontal" },
-			{"x": -3, "y": -2, "part": "parts": [ "wheel_mount_medium", "wheel_wide" ] },
+			{"x": -3, "y": -2, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			{"x": -3, "y": -2, "part": "aisle_vertical" },
 			{"x": -3, "y": -2, "part": "roof" },
 			
