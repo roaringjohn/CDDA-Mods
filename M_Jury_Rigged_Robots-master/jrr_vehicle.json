@@ -46,15 +46,15 @@
             {"x": 2, "y": 1, "part": "solar_panel"},
             {"x": 2, "y": -1, "part": "frame_nw"},
             {"x": 2, "y": -1, "part": "halfboard_nw"},
-            {"x": 2, "y": -1, "part": "wheel"},
+            {"x": 2, "y": -1, "parts": [ "wheel_mount_medium_steerable", "wheel" ] },
             {"x": 2, "y": -1, "part": "headlight"},
             {"x": 2, "y": 2, "part": "frame_ne"},
             {"x": 2, "y": 2, "part": "halfboard_ne"},
-            {"x": 2, "y": 2, "part": "wheel"},
+            {"x": 2, "y": 2, "parts": [ "wheel_mount_medium_steerable", "wheel" ] },
             {"x": 2, "y": 2, "part": "headlight"},
             {"x": -1, "y": -1, "part": "frame_horizontal"},
             {"x": -1, "y": -1, "part": "halfboard_sw"},
-            {"x": -1, "y": -1, "part": "wheel"},
+            {"x": -1, "y": -1, "parts": [ "wheel_mount_medium", "wheel" ] },
             {"x": -1, "y": 0, "part": "frame_horizontal"},
             {"x": -1, "y": 0, "part": "windshield"},
             {"x": -1, "y": 0, "part": "muffler"},
@@ -62,7 +62,7 @@
             {"x": -1, "y": 1, "part": "windshield"},
             {"x": -1, "y": 2, "part": "frame_horizontal"},
             {"x": -1, "y": 2, "part": "halfboard_se"},
-            {"x": -1, "y": 2, "part": "wheel"}
+            {"x": -1, "y": 2, "parts": [ "wheel_mount_medium", "wheel" ] }
         ]
     },
 	{
@@ -112,7 +112,7 @@
             {"x": 1, "y": 3, "part": "storage_battery_removable"},
             {"x": 2, "y": -1, "part": "frame_nw"},
             {"x": 2, "y": -1, "part": "halfboard_nw"},
-            {"x": 2, "y": -1, "part": "wheel_wide"},
+            {"x": 2, "y": -1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide" ] },
             {"x": 2, "y": 0, "part": "frame_horizontal_2"},
             {"x": 2, "y": 0, "part": "halfboard_horizontal_2"},
             {"x": 2, "y": 0, "part": "headlight"},
@@ -123,7 +123,7 @@
             {"x": 2, "y": 2, "part": "headlight"},
             {"x": 2, "y": 3, "part": "frame_ne"},
             {"x": 2, "y": 3, "part": "halfboard_ne"},
-            {"x": 2, "y": 3, "part": "wheel_wide"},
+            {"x": 2, "y": 3, "parts": [ "wheel_mount_medium_steerable", "wheel_wide" ] },
             {"x": -1, "y": -1, "part": "frame_vertical"},
             {"x": -1, "y": -1, "part": "windshield"},
             {"x": -1, "y": 0, "part": "frame_horizontal_2"},
@@ -170,7 +170,7 @@
             {"x": -3, "y": 3, "part": "frame_vertical"},
             {"x": -3, "y": 3, "part": "windshield"},
             {"x": -4, "y": -1, "part": "frame_horizontal"},
-            {"x": -4, "y": -1, "part": "wheel_wide"},
+            {"x": -4, "y": -1, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
             {"x": -4, "y": -1, "part": "windshield"},
             {"x": -4, "y": 0, "part": "frame_horizontal_2"},
             {"x": -4, "y": 0, "part": "seat"},
@@ -184,7 +184,7 @@
             {"x": -4, "y": 2, "part": "solar_panel"},
             {"x": -4, "y": 2, "part": "roof"},
             {"x": -4, "y": 3, "part": "frame_horizontal"},
-            {"x": -4, "y": 3, "part": "wheel_wide"},
+            {"x": -4, "y": 3, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
             {"x": -4, "y": 3, "part": "windshield"},
             {"x": -5, "y": -1, "part": "frame_vertical"},
             {"x": -5, "y": -1, "part": "windshield"},
@@ -238,15 +238,15 @@
             {"x": 1, "y": 0, "part": "storage_battery_removable"},
             {"x": 1, "y": 0, "part": "light_red"},
             {"x": 1, "y": -1, "part": "frame_horizontal"},
-            {"x": 1, "y": -1, "part": "wheel_motorbike"},
+            {"x": 1, "y": -1, "parts": ["wheel_mount_light_steerable", "wheel_motorbike" ] },
             {"x": 1, "y": 1, "part": "frame_horizontal"},
-            {"x": 1, "y": 1, "part": "wheel_motorbike"},
+            {"x": 1, "y": 1, "parts": ["wheel_mount_light_steerable", "wheel_motorbike" ] },
             {"x": -1, "y": 0, "part": "frame_cover"},
             {"x": -1, "y": 0, "part": "light_blue"},
             {"x": -1, "y": -1, "part": "frame_horizontal"},
-            {"x": -1, "y": -1, "part": "wheel_motorbike"},
+            {"x": -1, "y": -1, "parts": ["wheel_mount_light", "wheel_motorbike" ] },
             {"x": -1, "y": 1, "part": "frame_horizontal"},
-            {"x": -1, "y": 1, "part": "wheel_motorbike"}
+            {"x": -1, "y": 1, "parts": ["wheel_mount_light", "wheel_motorbike" ] }
 		]
     }
 ]

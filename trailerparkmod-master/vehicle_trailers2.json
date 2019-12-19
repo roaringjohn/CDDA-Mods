@@ -66,7 +66,7 @@
 			{ "x": -2, "y": -1, "part": "hdframe_horizontal" },
 			{ "x": -2, "y": -1, "part": "aisle_vertical" },
 			{ "x": -2, "y": -1, "part": "roof" },
-			{ "x": -2, "y": -1, "part": "wheel_wide" },
+			{ "x": -2, "y": -1, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			
 			{ "x": -3, "y": -1, "part": "hdframe_horizontal" },
 			{ "x": -3, "y": -1, "part": "roof" },
@@ -94,12 +94,12 @@
 			{ "x": 0, "y": -2, "part": "door_opaque" },
 			
 			{ "x": 1, "y": -2, "part": "hdframe_horizontal" },
-			{ "x": 1, "y": -2, "part": "wheel_wide" },
+			{ "x": 1, "y": -2, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			{ "x": 1, "y": -2, "part": "windshield" },
 			{ "x": 1, "y": -2, "part": "v_curtain" },
 			
 			{ "x": 2, "y": -2, "part": "hdframe_horizontal" },
-			{ "x": 2, "y": -2, "part": "wheel_wide" },
+			{ "x": 2, "y": -2, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			{ "x": 2, "y": -2, "part": "windshield" },
 			{ "x": 2, "y": -2, "part": "v_curtain" },
 			
@@ -113,7 +113,7 @@
 			{ "x": -1, "y": -2, "part": "board_vertical" },
 			
 			{ "x": -2, "y": -2, "part": "hdframe_horizontal" },
-			{ "x": -2, "y": -2, "part": "wheel_wide" },
+			{ "x": -2, "y": -2, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			{ "x": -2, "y": -2, "part": "windshield" },
 			{ "x": -2, "y": -2, "part": "v_curtain" },
 			
@@ -164,7 +164,7 @@
 			{ "x": -1, "y": 2, "part": "board_vertical" },
 			
 			{ "x": -2, "y": 2, "part": "hdframe_horizontal" },
-			{ "x": -2, "y": 2, "part": "wheel_wide" },
+			{ "x": -2, "y": 2, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			{ "x": -2, "y": 2, "part": "windshield" },
 			{ "x": -2, "y": 2, "part": "v_curtain" },
 			
@@ -175,12 +175,12 @@
 			{ "x": -4, "y": 2, "part": "board_vertical" },
 			
 			{ "x": 1, "y": 2, "part": "hdframe_horizontal" },
-			{ "x": 1, "y": 2, "part": "wheel_wide" },
+			{ "x": 1, "y": 2, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			{ "x": 1, "y": 2, "part": "windshield" },
 			{ "x": 1, "y": 2, "part": "v_curtain" },
 			
 			{ "x": 2, "y": 2, "part": "hdframe_horizontal" },
-			{ "x": 2, "y": 2, "part": "wheel_wide" },
+			{ "x": 2, "y": 2, "parts": [ "wheel_mount_medium", "wheel_wide" ] },
 			{ "x": 2, "y": 2, "part": "windshield" },
 			{ "x": 2, "y": 2, "part": "v_curtain" },
 			
