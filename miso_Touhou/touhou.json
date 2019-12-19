@@ -235,7 +235,7 @@
     "CBMs": [ "bio_watch" ],
     "items": {
       "both": {
-        "items": [ "socks", "dress_shirt", "hat_fur", "boots", "tie_skinny", "backpack_leather", "tieclip", "sports_drink" ],
+        "items": [ "socks", "dress_shirt", "usami_hatr", "boots", "tie_skinny", "backpack_leather", "tieclip", "sports_drink" ],
         "entries": [ { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 } ]
       },
       "male": [ "boxer_shorts", "shorts_denim" ],
@@ -263,7 +263,7 @@
     "ident": "usami_sumireko",
     "name": {
       "male": "Expose the Esoteric! The Secret Sealing Club's First President (Female Only!)",
-      "female": "Weak School Girl"
+      "female": "Psychic School Girl"
     },
     "description": "(Sumireko Usami) Even if I go to bed or woke up, I can see a horrible reality in front of my eyes. Even if you can not recover a peaceful day, let's at least recover only cultural life.",
     "points": 3,
@@ -274,11 +274,11 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "hat_fur",
+          "usami_hat",
           "boots",
           "backpack_leather",
           "dress_shirt",
-          "sumireko_cloth",
+          "sumireko_cloak",
           "sumireko_skirt",
           "sumireko_vest",
           "gloves_liner",
@@ -287,7 +287,8 @@
         ],
         "entries": [
           { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 },
-          { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 }
+          { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 },
+          {"item": "sumireko_gun", "ammo-item": "380_p", "charges": 1 } 
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -377,7 +378,8 @@
           "oni_cookboock",
           "hyakuyasumasu_sake"
         ],
-        "entries": [ { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 } ]
+        "entries": 
+        [ { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
