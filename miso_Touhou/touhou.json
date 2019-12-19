@@ -288,7 +288,7 @@
         "entries": [
           { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 },
           { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 },
-          {"item": "sumireko_gun", "ammo-item": "380_p", "charges": 1 } 
+          {"item": "sumireko_gun", "ammo-item": "380_p", "charges": 20 } 
         ]
       },
       "male": [ "boxer_shorts" ],
