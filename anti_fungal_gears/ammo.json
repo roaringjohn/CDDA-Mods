@@ -73,7 +73,7 @@
   },
   {
     "id": "40mm_fungicidal",
-    "copy-from": "40mm_grenade",
+    "copy-from": "40x46mm_grenade",
     "type": "AMMO",
     "name": "40mm fungicidal gas grenade",
     "name_plural": "40mm fungicidal gas grenades",
