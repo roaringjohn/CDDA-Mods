@@ -254,7 +254,7 @@
     "material": [ "plastic" ],
     "symbol": "(",
     "color": "light_blue",
-    "ammo": "380_p",
+    "ammo": "380",
     "skill": "pistol",
     "ranged_damage": -1,
     "dispersion": 480,
