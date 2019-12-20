@@ -23,7 +23,7 @@ Recent updates to the experimentals broke a LOT of things. I've got it back to t
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed soonish.
 
-Touhou has a borked vehicle but is otherwise fine, and will load. Fixed soon.
+Touhou borked because of golem problems. Avoid the mod, or at least DO NOT KILL GOLEMS they will CTD you on death. Since other things could kill the golems instead I'd just avoid the mod entirely for now.
 
 eps_cbm throws an error that seems to be harmless, so it will load. If I can figure out what the problem is it'll be fixed soon.
 
