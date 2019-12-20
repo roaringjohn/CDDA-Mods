@@ -291,7 +291,7 @@
     "special_attacks": [{
       "type" : "gun",
       "cooldown" : 5,
-      "gun_type" : "surv_levershotgun",
+      "gun_type" : "winchester_1887",
       "ammo_type" : "shot_00",
       "max_ammo" : 30,
       "fake_str" : 14,

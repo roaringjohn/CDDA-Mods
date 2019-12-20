@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "taurus38mag",
+    "result": "taurus_spectrum_mag",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
