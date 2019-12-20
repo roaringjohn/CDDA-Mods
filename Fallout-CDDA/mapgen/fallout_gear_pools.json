@@ -300,10 +300,10 @@
     "items": [
       ["5mmminigunmag", 100],
 	  ["47mmminigunmag", 50],
-	  ["25mmdrummag", 25],
+	  ["25mm_grenade_drummag", 25],
 	  ["10mmgatlingmag", 25],
 	  ["10mmgatlingmagxl", 25],
-	  	  ["25mmdrummagxl", 10]
+	  	  ["25mm_grenade_drummagxl", 10]
 
     ]
   },
