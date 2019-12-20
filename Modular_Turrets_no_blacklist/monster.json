@@ -352,7 +352,7 @@
         "type": "gun",
         "cooldown": 3,
         "gun_type": "robogun_40mm",
-        "ammo_type": "40mm",
+        "ammo_type": "40x53mm",
         "fake_skills": [ [ "gun", 4 ], [ "launcher", 5 ] ],
         "fake_dex": 10,
         "no_ammo_sound": "click!",

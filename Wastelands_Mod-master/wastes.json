@@ -125,7 +125,7 @@
     "material": ["steel", "wood"],
     "flags": ["RELOAD_ONE", "NEVER_JAMS"],
     "skill": "launcher",
-    "ammo": "40mm",
+    "ammo": "40x46mm",
     "weight": 2267,
     "volume": 5,
     "bashing": 12,

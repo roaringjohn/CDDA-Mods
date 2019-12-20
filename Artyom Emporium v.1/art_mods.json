@@ -339,7 +339,7 @@
     "skill": "launcher",
     "gun_data": {
       "skill": "launcher",
-      "ammo": "40mm",
+      "ammo": "40x46mm",
       "clip_size": 1,
       "dispersion": 20,
       "aim_speed": 3,
@@ -373,7 +373,7 @@
     "skill": "launcher",
     "gun_data": {
       "skill": "launcher",
-      "ammo": "40mm",
+      "ammo": "40x46mm",
       "clip_size": 1,
       "dispersion": 15,
       "aim_speed": 3,
@@ -407,7 +407,7 @@
     "skill": "launcher",
     "gun_data": {
       "skill": "launcher",
-      "ammo": "40mm",
+      "ammo": "40x46mm",
       "clip_size": 1,
       "dispersion": 35,
       "aim_speed": 3,
@@ -473,7 +473,7 @@
     "skill": "launcher",
     "gun_data": {
       "skill": "launcher",
-      "ammo": "40mm",
+      "ammo": "40x46mm",
       "clip_size": 2,
       "dispersion": 20,
       "aim_speed": 4,
