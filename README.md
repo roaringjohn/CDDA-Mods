@@ -15,17 +15,15 @@ Cata++, PK's, Arcana, and Nechronica have been removed from this repository beca
 All credit for the original mods goes to their creators.
 
 # Current update status
-Banging my head over weird errors.
-
 Check issues for the most important details.
 
-Recent updates to the experimentals broke a LOT of things. I've got it back to the point where you can load every single mod with a few errors but still load in regardless. The remaining errors should be fixed within the week.
+Recent updates to the experimentals broke a LOT of things. Almost everything is working now, but due to the sheer number of mods and lack of time I haven't playtested everything. Hit me up with issues if you come across a bug.
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed soonish.
 
-Touhou borked because of golem problems. Avoid the mod, or at least DO NOT KILL GOLEMS they will CTD you on death. Since other things could kill the golems instead I'd just avoid the mod entirely for now.
+Touhou mod has had golems removed becasue they were broken. I'd like to fix and add them back in eventually.
 
-eps_cbm throws an error that seems to be harmless, so it will load. If I can figure out what the problem is it'll be fixed soon.
+Mightiest Heroes mod throws a version error for wolverine claws CBM. Since the item is unobtainable anyway it is low priority. The error is harmless.
 
 # Links to other mods
 (Work in progress, there'll be more here soon, really)
