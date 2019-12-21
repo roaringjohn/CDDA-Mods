@@ -10,7 +10,7 @@ Some of these may be wildly imbalanced, it's really on a case by case basis. I d
 
 
 
-Cata++, PK's, Arcana, Nonperishable Overhaul, MST_Extra, Dorf_Life and Nechronica have been removed from this repository because they are being updated elsewhere. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again. Links to their proper repositories are below.
+A bunch of mods have been removed from this repository because they are being updated elsewhere. Links to their proper repositories are below. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again.
 
 All credit for the original mods goes to their creators.
 
@@ -41,6 +41,8 @@ Nechronica https://github.com/YukariMindGap/Nechronica_Redux
 Nonperishable Overhaul https://github.com/chaosvolt/CDDA_Nonperishable_Overhaul 
 
 PK's Rebalance https://github.com/dissociativity/PKs_Rebalancing 
+
+Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
 
 
