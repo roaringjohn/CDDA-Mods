@@ -15,7 +15,7 @@ Cata++, PK's, Arcana, and Nechronica have been removed from this repository beca
 All credit for the original mods goes to their creators.
 
 # Current update status
-Check issues for the most important details.
+Check issues for the most important details. Testing performed on experimental build 10441.
 
 Recent updates to the experimentals broke a LOT of things. Almost everything is working now, but due to the sheer number of mods and lack of time I haven't playtested everything. Hit me up with issues if you come across a bug.
 
