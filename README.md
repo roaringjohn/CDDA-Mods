@@ -32,6 +32,8 @@ Arcana https://github.com/chaosvolt/cdda-arcana-mod
 
 Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
 
+MST_Extra https://github.com/chaosvolt/MST_Extra_Mod
+
 Nechronica https://github.com/YukariMindGap/Nechronica_Redux 
 
 Nonperishable Overhaul https://github.com/chaosvolt/CDDA_Nonperishable_Overhaul 
