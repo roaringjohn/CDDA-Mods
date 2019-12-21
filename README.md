@@ -28,7 +28,10 @@ Mightiest Heroes mod throws a version error for wolverine claws CBM. Since the i
 # Links to other mods
 (Work in progress, there'll be more here soon, really)
 
-https://github.com/YukariMindGap/Nechronica_Redux
+https://github.com/YukariMindGap/Nechronica_Redux Nechronica
+https://github.com/dissociativity/PKs_Rebalancing PK's Rebalance
+https://github.com/Noctifer-de-Mortem/nocts_cata_mod Cata++
+https://github.com/chaosvolt/cdda-arcana-mod Arcana
 
 # Removed mods
 (For reasons other than being mainlined or maintained elsewhere)
