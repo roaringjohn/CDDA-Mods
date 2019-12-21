@@ -20,7 +20,7 @@
   },
   {
     "type": "recipe",
-    "result": "bio_extra_power_storage_upgrade",
+    "result": "bio_extra_power_storage_mkII",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
     "skill_used": "electronics",

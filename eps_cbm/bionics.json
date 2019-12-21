@@ -28,7 +28,7 @@
     "upgraded_bionic": "bio_extra_power_storage"
   },
   {
-    "id": "bio_extra_power_storage_upgrade",
+    "id": "bio_extra_power_storage_mkII",
     "copy-from": "bionic_general",
     "bionic_id": "bio_extra_power_storage_mkII",
     "type": "BIONIC_ITEM",
