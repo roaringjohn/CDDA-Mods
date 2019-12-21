@@ -10,7 +10,7 @@ Some of these may be wildly imbalanced, it's really on a case by case basis. I d
 
 
 
-Cata++, PK's, Arcana, Nonperishable Overhaul, MST_Extra and Nechronica have been removed from this repository because they are being updated elsewhere. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again. Links to their proper repositories are below.
+Cata++, PK's, Arcana, Nonperishable Overhaul, MST_Extra, Dorf_Life and Nechronica have been removed from this repository because they are being updated elsewhere. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again. Links to their proper repositories are below.
 
 All credit for the original mods goes to their creators.
 
@@ -26,11 +26,13 @@ Touhou mod has had golems removed becasue they were broken. I'd like to fix and 
 Mightiest Heroes mod throws a version error for wolverine claws CBM. Since the item is unobtainable anyway it is low priority. The error is harmless.
 
 # Links to other mods
-(Work in progress, there'll be more here soon, really)
+Always a work in progress
 
 Arcana https://github.com/chaosvolt/cdda-arcana-mod 
 
 Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
+
+Dorf_Life https://github.com/chaosvolt/Dorf-Life-CDDA
 
 MST_Extra https://github.com/chaosvolt/MST_Extra_Mod
 
