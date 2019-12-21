@@ -10,7 +10,7 @@ Some of these may be wildly imbalanced, it's really on a case by case basis. I d
 
 
 
-Cata++, PK's, Arcana, and Nechronica have been removed from this repository because they are being updated elsewhere. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again.
+Cata++, PK's, Arcana, Nonperishable Overhaul and Nechronica have been removed from this repository because they are being updated elsewhere. If I can set up some sort of notification to update this repository when those updates occur, then maybe they shall be included again. Links to their proper repositories are below.
 
 All credit for the original mods goes to their creators.
 
@@ -28,13 +28,16 @@ Mightiest Heroes mod throws a version error for wolverine claws CBM. Since the i
 # Links to other mods
 (Work in progress, there'll be more here soon, really)
 
-https://github.com/YukariMindGap/Nechronica_Redux Nechronica
+Arcana https://github.com/chaosvolt/cdda-arcana-mod 
 
-https://github.com/dissociativity/PKs_Rebalancing PK's Rebalance
+Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
 
-https://github.com/Noctifer-de-Mortem/nocts_cata_mod Cata++
+Nechronica https://github.com/YukariMindGap/Nechronica_Redux 
 
-https://github.com/chaosvolt/cdda-arcana-mod Arcana
+Nonperishable Overhaul https://github.com/chaosvolt/CDDA_Nonperishable_Overhaul 
+
+PK's Rebalance https://github.com/dissociativity/PKs_Rebalancing 
+
 
 
 # Removed mods
