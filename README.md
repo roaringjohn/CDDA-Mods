@@ -26,7 +26,7 @@ Touhou mod has had golems removed becasue they were broken. I'd like to fix and 
 Mightiest Heroes mod throws a version error for wolverine claws CBM. Since the item is unobtainable anyway it is low priority. The error is harmless.
 
 # Links to other mods
-Always a work in progress
+These mods are being maintained by their owner or someone else who picked up the torch. Always a work in progress
 
 Arcana https://github.com/chaosvolt/cdda-arcana-mod 
 
