@@ -53,7 +53,7 @@
   },
   {
     "id": "40mm_fungus",
-    "copy-from": "40mm_grenade",
+    "copy-from": "40x46mm_grenade",
     "type": "AMMO",
     "name": "40mm fungicidal",
     "description": "A handmade 40mm grenade with a fungicide load.  It will burst in a cloud of toxic gas, deadly to fungus.",
