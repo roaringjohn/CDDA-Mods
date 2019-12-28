@@ -32,6 +32,8 @@ Advanced Gear https://github.com/Lorith/AdvancedGear-CDDA-Mod
 
 Arcana https://github.com/chaosvolt/cdda-arcana-mod 
 
+Ascension (aka Winning DDA) https://github.com/tyrael93/Ascension
+
 Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
 
 Dorf_Life https://github.com/chaosvolt/Dorf-Life-CDDA
