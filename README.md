@@ -28,7 +28,7 @@ Mightiest Heroes mod throws a version error for wolverine claws CBM. Since the i
 # Links to other mods
 These mods are being maintained by their owner or someone else who picked up the torch. Always a work in progress
 
-Advanced Gear https://github.com/Lorith/AdvancedGear-CDDA-Mod
+~~Advanced Gear https://github.com/Lorith/AdvancedGear-CDDA-Mod~~ (Listed repository currently out of date)
 
 Arcana https://github.com/chaosvolt/cdda-arcana-mod 
 
