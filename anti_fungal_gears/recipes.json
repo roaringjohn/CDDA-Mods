@@ -84,9 +84,9 @@
     "time": 3750,
     "autolearn": true,
     "charges": 1,
-    "using": [ [ "40x46mm_m1006", 1 ], [ "40x46mm_m433", 1 ], [ "40x46mm_m576", 1 ], [ "40x46mm_m651", 1 ], [ "40x46mm_buckshot_m118", 1 ], [ "40x46mm_buckshot_m199", 1 ], [ "40x46mm_slug_m118", 1 ], [ "40x46mm_slug_m199", 1 ], [ "40x46mm_flechette_m118", 1 ], [ "40x46mm_flechette_m199", 1 ]  ],
     "tools": [ [ [ "press", -1 ] ] ],
     "components": [
+	  [ [ "40x46mm_m1006", 1 ], [ "40x46mm_m433", 1 ], [ "40x46mm_m576", 1 ], [ "40x46mm_m651", 1 ], [ "40x46mm_buckshot_m118", 1 ], [ "40x46mm_buckshot_m199", 1 ], [ "40x46mm_slug_m118", 1 ], [ "40x46mm_slug_m199", 1 ], [ "40x46mm_flechette_m118", 1 ], [ "40x46mm_flechette_m199", 1 ]  ],
       [ [ "gunpowder", 40 ] ],
       [ [ "gas_fungicidal", 100 ], [ "antifungal", 10 ] ]
     ]
