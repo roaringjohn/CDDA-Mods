@@ -114,7 +114,6 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "NULL",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
@@ -253,7 +252,6 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "NULL",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
@@ -392,7 +390,6 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "NULL",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
@@ -531,7 +528,6 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "NULL",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
@@ -670,7 +666,6 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "NULL",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
@@ -809,7 +804,6 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "NULL",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
@@ -947,7 +941,6 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "NULL",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
