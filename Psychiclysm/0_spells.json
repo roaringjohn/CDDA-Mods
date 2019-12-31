@@ -10,14 +10,14 @@
     "effect": "target_attack",
     "effect_str": "fear",
     "energy_source": "HP",
-    "min_range": 20,
-    "max_range": 20,
+    "min_range": 15,
+    "max_range": 15,
     "max_level": 1,
     "difficulty": 0,
     "base_casting_time": 100,
     "base_energy_cost": 2,
-    "min_duration": 1080000,
-    "max_duration": 1080000
+    "min_duration": 36000,
+    "max_duration": 60000
   },
   {
     "id": "monspell_psychic_stress",
