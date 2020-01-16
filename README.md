@@ -38,6 +38,8 @@ Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod
 
 Dorf_Life https://github.com/chaosvolt/Dorf-Life-CDDA
 
+Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA (Still in my repository for now, but this link is more updated)
+
 MST_Extra https://github.com/chaosvolt/MST_Extra_Mod
 
 Nechronica https://github.com/YukariMindGap/Nechronica_Redux 
