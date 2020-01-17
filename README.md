@@ -42,7 +42,11 @@ Cataclysmic Modifications https://github.com/MNG-cataclysm/Cataclysmic-Modificat
 
 Dorf_Life https://github.com/chaosvolt/Dorf-Life-CDDA
 
+Engineering Essentials https://github.com/eilaattwood/EngineeringEssentials
+
 Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA (Still in my repository for now, but this link is more updated)
+
+Mining Mod https://github.com/DangerNoodle/mining-mod
 
 More Survivor Stuff https://github.com/pawnishoovy/More-Survivor-Stuff
 
@@ -57,6 +61,8 @@ Obscure Armory https://github.com/RickyVanz/Obscure-Armory
 PK's Rebalance https://github.com/dissociativity/PKs_Rebalancing 
 
 Secronom Zombies https://github.com/Axema/Secronom-Zombies
+
+Vampiric Stuff https://github.com/Axema/Vampiric-Stuff
 
 Xeno-Adapted Stuff https://github.com/MrJet2020/XEAS
 
