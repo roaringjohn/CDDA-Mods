@@ -1,93 +1,92 @@
 [
   {
-    "type" : "item_group",
-    "id" : "NC_FWLM_pants_male",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_pants_female",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_shirt_male",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_shirt_female",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_gloves",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_coat",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_shoes",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_masks",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_eyes",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_hat",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_extra",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_cutting",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_stabbing",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_pistols",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_smg",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_rifle",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_weapon_random",
-    "items":[
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "NC_FWLM_misc",
-    "items":[
-    ]
+    "type": "item_group",
+    "id": "NC_FWLM_pants_male",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_pants_female",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_shirt_male",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_shirt_female",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_gloves",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_coat",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_shoes",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_masks",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_eyes",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_hat",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_extra",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_cutting",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_stabbing",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_pistols",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_smg",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_rifle",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_weapon_random",
+    "items": [  ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_FWLM_misc",
+    "items": [  ]
   }
 ]
