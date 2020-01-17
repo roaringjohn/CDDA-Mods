@@ -36,8 +36,6 @@ Ascension (aka Winning DDA) https://github.com/tyrael93/Ascension
 
 Axe Ring Holster https://github.com/NeevAsteria/Axe-Ring-Holster-Mod
 
-Battletech
-
 Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
 
 Cataclysmic Modifications https://github.com/MNG-cataclysm/Cataclysmic-Modifications
