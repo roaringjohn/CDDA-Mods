@@ -1,9 +1,0 @@
-[
-  {
-    "type": "vehicle_part",
-    "id": "turret_mount",
-    "copy-from": "turret_mount",
-    "folded_volume": 3,
-    "flags": [ "TURRET_MOUNT", "FOLDABLE" ]
-  }
-]
