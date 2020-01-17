@@ -137,7 +137,6 @@
     "aim_speed" : 3,
     "recoil": 70,
     "durability": 6,
-    "burst": 0,
     "clip_size": 5,
     "reload": 85,
 	"loudness" : 120,

@@ -3,9 +3,9 @@
     "id": "bio_extra_power_storage",
     "type": "bionic",
     "name": "Extra Power Storage",
-    "capacity": 1000,
+    "capacity": "150 kJ",
     "occupied_bodyparts": [ [ "TORSO", 32 ] ],
-    "description": "It is a medium-sized module that increases storage capacity separately from the storage device. This module alone increases the storage capacity by 1000, but you can not use the same thing more than once."
+    "description": "It is a medium-sized module that increases storage capacity separately from the storage device. This module alone increases the storage capacity by 150 kJ, but you can not use the same thing more than once."
   },
   {
     "id": "bio_extra_power_storage",
@@ -22,13 +22,13 @@
     "id": "bio_extra_power_storage_mkII",
     "type": "bionic",
     "name": "Extra Power Storage MK.2",
-    "capacity": 4000,
+    "capacity": "400 kJ",
     "occupied_bodyparts": [ [ "TORSO", 32 ] ],
-    "description": "It is a medium-sized module that increases storage capacity separately from the storage device. Although this module alone increases storage capacity by 5000, the same thing can not be used more than once.",
+    "description": "It is a medium-sized module that increases storage capacity separately from the storage device. Although this module alone increases storage capacity by 400 kJ, the same thing can not be used more than once.",
     "upgraded_bionic": "bio_extra_power_storage"
   },
   {
-    "id": "bio_extra_power_storage_upgrade",
+    "id": "bio_extra_power_storage_mkII",
     "copy-from": "bionic_general",
     "bionic_id": "bio_extra_power_storage_mkII",
     "type": "BIONIC_ITEM",

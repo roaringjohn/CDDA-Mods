@@ -1,0 +1,25 @@
+[
+   {
+        "id" : "soapy_water",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",
+        "name" : "soapy water",
+        "name_plural" : "soapy water",
+        "description" : "Soap mixed with water, good for cleaning.",
+        "weight" : 135,
+        "volume" : 1,
+        "price" : 100,
+        "charges" : 2,
+        "symbol" : "~",
+        "color" : "white",
+        "phase" : "liquid",
+        "container" : "bottle_plastic",
+        "use_action" : {
+            "type" : "heal",
+            "limb_power" : 1,
+            "bite" : 0.25,
+            "move_cost" : 10000,
+            "long_action" : true
+        }
+   }
+]

@@ -1,6 +1,6 @@
 [
     {
-    "id": "25mmdrummag",
+    "id": "25mm_grenade_drummag",
     "type": "MAGAZINE",
     "name": "25mm drum magazine",
     "description": "A 30 round 25mm drum magazine, for use in the grenade MG.",
@@ -10,14 +10,14 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "25mm",
+    "ammo_type": "25mm_grenade",
     "capacity": 100,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
   },
   
     {
-    "id": "25mmdrummagxl",
+    "id": "25mm_grenade_drummagxl",
     "type": "MAGAZINE",
     "name": "25mm expanded drum magazine",
     "description": "A 300 round 25mm drum magazine, for use in the grenade MG. This thing can annihalate a small town before loading",
@@ -27,7 +27,7 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "25mm",
+    "ammo_type": "25mm_grenade",
     "capacity": 100,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]

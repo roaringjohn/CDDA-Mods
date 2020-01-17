@@ -677,22 +677,6 @@
   },
   {
     "type": "recipe",
-    "result": "little_maid_human_smoked",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
-    "skill_used": "fabrication",
-    "difficulty": 0,
-    "skills_required": [ "cooking", 3 ],
-    "time": "0 m",
-    "reversible": false,
-    "autolearn": false,
-    "book_learn": [ [ "cookbook_human", 4 ] ],
-    "qualities": [ { "id": "COOK", "level": 1, "amount": 1 } ],
-    "tools": [ [ [ "char_smoker", 40 ] ] ],
-    "components": [ [ [ "human_flesh", 6 ] ], [ [ "little_maid_R18", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
     "result": "summon_alchemic_golem",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -703,7 +687,7 @@
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 3, "amount": 1 }, { "id": "CUT", "level": 1, "amount": 1 } ],
     "tools": [ [ [ "hotplate", 7 ], [ "char_smoker", 7 ], [ "toolset", 7 ], [ "fire", -1 ] ] ],
-    "components": [ [ [ "human_flesh", 3 ], [ "meat_tainted", 3 ] ], [ [ "maid_point", 50 ] ] ]
+    "components": [ [ [ "meat_tainted", 3 ] ], [ [ "maid_point", 50 ] ] ]
   },
   {
     "type": "recipe",

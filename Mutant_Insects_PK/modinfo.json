@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "mutant_insects_PK",
+    "name": "Mutant Insects PK version",
+    "authors": [ "Sunshine" ],
+    "description": "Expands giant insects, eggs, larva.  Adds new types.  Insects evolve into mega-sized insects.  Some larva are tameable.  Eggs can be modified with mutagen. This version modified for compatibility with PK's rebalance. Do not use with the original mod.",
+    "category": "creatures",
+    "dependencies": [ "dda", "PK_REBALANCE" ]
+  }
+]

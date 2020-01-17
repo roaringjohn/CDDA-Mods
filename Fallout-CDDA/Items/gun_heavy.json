@@ -132,7 +132,7 @@
     "to_hit": -1,
     "bashing": 14,
     "material": "steel",
-    "ammo": "25mm",
+    "ammo": "25mm_grenade",
     "range": 30,
     "ranged_damage": 1,
     "dispersion": 180,
@@ -143,7 +143,7 @@
       [ "DEFAULT", "low auto", 3],
       [ "AUTO", "high auto", 10, "NPC_AVOID" ]
     ],
-    "magazines": [ [ "25mm", [ "25mmdrummag", "25mmdrummagxl" ] ] ],
+    "magazines": [ [ "25mm_grenade", [ "25mm_grenade_drummag", "25mm_grenade_drummagxl" ] ] ],
     "flags": [ "MOUNTED_GUN" ]
   },
   

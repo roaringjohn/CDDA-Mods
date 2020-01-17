@@ -7,7 +7,7 @@
     "symbol":"@",
     "color":"green",
     "volume": "62500 ml", 
-    "weight": "81500",
+    "weight": "81500 g",
     "material":"flesh",
     "diff":20,
     "aggression":50,
@@ -49,6 +49,7 @@
       "fake_per" : 14,
       "fake_skills" : [["gun", 4], ["rifle", 3]],
       "move_cost" : 150,
+	  "regen_morale": true,
       "targeting_cost" : 120,
       "ranges" : [[ 0, 65, "DEFAULT" ]],
       "description" : "CRACK!!",
@@ -57,7 +58,7 @@
     ],
     "starting_ammo" : {"3006":10},
     "description":"Clothed in a battered duster, this survivor grips his rifle with predatory intentions.",
-    "flags":["REGEN_MORALE", "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
+    "flags":[ "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
     
     "anger_triggers":["HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE"],
     
@@ -75,7 +76,7 @@
     "symbol":"@",
     "color":"ltgreen_green",
     "volume": "62500 ml", 
-    "weight": "81500",
+    "weight": "81500 g",
     "material":"flesh",
     "diff":30,
     "aggression":50,
@@ -111,6 +112,7 @@
       "fake_per" : 16,
       "fake_skills" : [["gun", 5], ["rifle", 5]],
       "move_cost" : 155,
+	  "regen_morale": true,
       "targeting_cost" : 200,
       "ranges" : [[ 0, 65, "DEFAULT" ]],
       "description" : "CRACK!!",
@@ -118,7 +120,7 @@
     }],
     "starting_ammo" : {"308":12},
     "description":"It's incredibly difficult to see this guillied-up survivor amoungst their surroundings. A few seconds later and it might have been too late to notice him. Maybe it already is.",
-    "flags":["REGEN_MORALE", "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "NO_BREATHE", "NIGHT_INVISIBILITY", "HUMAN", "FAT", "BONES", "PUSH_MON"],
+    "flags":[ "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "NO_BREATHE", "NIGHT_INVISIBILITY", "HUMAN", "FAT", "BONES", "PUSH_MON"],
     
     "anger_triggers":["HURT", "FRIEND_DIED", "PLAYER_CLOSE"],
     
@@ -136,7 +138,7 @@
     "symbol":"@",
     "color":"red_white",
     "volume": "62500 ml", 
-    "weight": "81500",
+    "weight": "81500 g",
     "material":"flesh",
     "diff":25,
     "aggression":60,
@@ -174,6 +176,7 @@
       "fake_per" : 16,
       "fake_skills" : [["gun", 5], ["rifle", 5]],
       "move_cost" : 100,
+	  "regen_morale": true,
       "targeting_cost" : 60,
       "burst_limit": 6,
       "ranges" : [[ 0, 36, "AUTO" ]],
@@ -184,7 +187,7 @@
     "special_when_hit":["ZAPBACK", 50],
     "starting_ammo" : {"223":150},
     "description":"Covered in head to toe in piecemeal armor, it's hard to tell that there is no mere human behind that gasmask. Clued-in by his unnatural grace and beastial posture, it is safe to assume this bandit has modified himself well beyond human limits.",
-    "flags":["REGEN_MORALE", "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "NO_BREATHE", "SMELLS", "KEENNOSE", "WARM", "SWARMS", "BASHES", "HUMAN", "FAT", "BONES", "PUSH_MON", "CBM_OP"],
+    "flags":[ "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "NO_BREATHE", "SMELLS", "KEENNOSE", "WARM", "SWARMS", "BASHES", "HUMAN", "FAT", "BONES", "PUSH_MON", "CBM_OP"],
     
     "anger_triggers":["FRIEND_DIED", "HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE"],
     

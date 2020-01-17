@@ -238,5 +238,36 @@
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
+  },
+  {
+    "id": "sumireko_gun",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": "The Liberator",
+    "name_plural": "Liberators",
+    "description": "A handgun that was created from a 3D printer. It's light-blue, giving it the appearance of a toy. But don't be fooled. Those bullets are very real. It can only hold one at a time, though.",
+    "weight": "453 g",
+    "volume": "1 L",
+    "price": 270,
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "plastic" ],
+    "symbol": "(",
+    "color": "light_blue",
+    "ammo": "380",
+    "skill": "pistol",
+    "ranged_damage": -1,
+    "dispersion": 480,
+    "durability": 7,
+    "min_cycle_recoil": 1413,
+      "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "RELOAD_ONE"]    
   }
 ]

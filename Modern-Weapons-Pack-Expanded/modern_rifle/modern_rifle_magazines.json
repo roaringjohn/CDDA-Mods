@@ -132,7 +132,7 @@
     "type": "MAGAZINE",
     "name": ".308 X-14 50 rd drum magazine",
     "description": "A 50 round drum magazine designed for .308 ammuntion, made of steel-reinforced polymer.  Compatible with M1A and M14 rifles.",
-    "weight": 1088.6,
+    "weight": "1088600 mg",
     "volume": 4,
     "price": 30000,
     "material": [ "steel" ],

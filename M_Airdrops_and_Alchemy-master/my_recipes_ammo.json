@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "40mm_casing",
+    "result": "40x46mm_m118_casing",
     "id_suffix": "my_mod",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_COMPONENTS",

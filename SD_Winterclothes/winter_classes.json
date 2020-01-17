@@ -191,7 +191,7 @@
           },
           { "item": "sw22mag", "ammo-item": "22_lr", "charges": 10 },
           { "item": "sw22mag", "ammo-item": "22_lr", "charges": 10 },
-          { "item": "22_lr", "charges": "50" },
+          { "item": "22_lr", "charges": 50 },
           { "item": "cell_phone", "charges": 100 }
         ]
       },

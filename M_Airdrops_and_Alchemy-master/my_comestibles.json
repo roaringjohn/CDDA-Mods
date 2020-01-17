@@ -133,7 +133,7 @@
     "price": 250,
     "material": "paper",
     "tool": "null",
-    "volume": 0.5,
+    "volume": "500 ml",
     "cutting": 0,
     "phase": "solid",
     "charges": 60,

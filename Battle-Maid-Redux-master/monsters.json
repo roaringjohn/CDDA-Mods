@@ -21,6 +21,8 @@
     "armor_cut": 30,
     "vision_day": 8,
     "vision_night": 8,
+	"regenerates": 50,
+    "regen_morale": true,
     "death_drops": "mon_shoggoth_maid_death_drops",
     "hp": 400,
     "harvest": "exempt",
@@ -36,8 +38,6 @@
       "SLUDGEPROOF",
       "ACIDPROOF",
       "NOHEAD",
-      "REGENERATES_50",
-      "REGEN_MORALE",
       "NOGIB",
       "FLIES"
     ],
@@ -105,10 +105,12 @@
     "harvest": "exempt",
     "death_drops": "mon_little_maid_death_drops",
     "hp": 80,
+	"regenerates": 10,
+    "regen_morale": true,
     "death_function": [ "MELT" ],
     "special_attacks": [ [ "PARROT", 40 ], [ "IMPALE", 25 ] ],
     "description": "A small maid summoned from a different world. Although difficult to have a conversation with, it seems she had longed to be summoned.",
-    "flags": [ "SEES", "SMELLS", "HEARS", "SWIMS", "WARM", "REGENERATES_10", "REGEN_MORALE", "NOGIB" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "SWIMS", "WARM", "NOGIB" ],
     "anger_triggers": [ "FRIEND_ATTACKED" ]
   },
   {

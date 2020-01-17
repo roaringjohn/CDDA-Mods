@@ -25,6 +25,7 @@
     "vision_day": 16,
     "vision_night": 16,
     "dodge": 5,
+	"regenerates_in_dark": true,
     "revert_to_itype": "bot_nosferatu_meirin",
     "special_attacks": [
       {
@@ -51,7 +52,6 @@
       "BONES",
       "HARDTOSHOOT",
       "PATH_AVOID_DANGER_2",
-      "REGENERATES_IN_DARK",
       "FLIES"
     ]
   },
@@ -80,6 +80,7 @@
     "vision_day": 16,
     "vision_night": 16,
     "armor_electric": 3,
+	"regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_maid",
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
@@ -91,7 +92,6 @@
       "ANIMAL",
       "PATH_AVOID_DANGER_1",
       "HIT_AND_RUN",
-      "REGENERATES_IN_DARK",
       "KEENNOSE",
       "FLIES"
     ]
@@ -118,12 +118,13 @@
     "revert_to_itype": "bot_hobgoblin",
     "vision_day": 16,
     "vision_night": 16,
+	"regenerates_in_dark": true,
     "anger_triggers": [  ],
     "death_drops": "mon_hobgoblin",
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "REGENERATES_IN_DARK", "PATH_AVOID_DANGER_1", "SUNDEATH" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "SUNDEATH" ]
   },
   {
     "id": "mon_nosferatu_patchouli_knowledge",
@@ -148,6 +149,7 @@
     "revert_to_itype": "bot_nosferatu_patchouli_knowledge",
     "vision_day": 16,
     "vision_night": 16,
+	"regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_patchouli_knowledge",
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "special_attacks": [ [ "PARROT", 200 ] ],
@@ -160,7 +162,6 @@
       "IMMOBILE",
       "HARDTOSHOOT",
       "PATH_AVOID_DANGER_2",
-      "REGENERATES_IN_DARK",
       "FLIES",
       "SUNDEATH"
     ]
@@ -191,6 +192,7 @@
     "revert_to_itype": "bot_nosferatu_patchouli_knowledge2",
     "vision_day": 20,
     "vision_night": 20,
+	"regenerates_in_dark": true,
     "special_attacks": [
       {
         "type": "gun",
@@ -215,7 +217,6 @@
       "HARDTOSHOOT",
       "NO_BREATHE",
       "PUSH_MON",
-      "REGENERATES_IN_DARK",
       "HIT_AND_RUN"
     ]
   },
@@ -246,10 +247,11 @@
     "armor_electric": 6,
     "vision_day": 16,
     "vision_night": 16,
+	"regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_little_devil",
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "STALK", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "FLIES", "REGENERATES_IN_DARK", "SUNDEATH" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "FLIES", "SUNDEATH" ]
   },
   {
     "id": "mon_nosferatu_izayoi_sakuya",
@@ -289,6 +291,7 @@
     "armor_electric": 2,
     "vision_day": 20,
     "vision_night": 20,
+	"regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_izayoi_sakuya",
     "anger_triggers": [ "HURT", "STALK", "PLAYER_CLOSE" ],
     "death_function": [ "BROKEN" ],
@@ -300,7 +303,6 @@
       "FLIES",
       "BLEED",
       "HARDTOSHOOT",
-      "REGENERATES_IN_DARK",
       "HIT_AND_RUN",
       "SUNDEATH"
     ]
@@ -333,6 +335,7 @@
     "armor_electric": 6,
     "vision_day": 16,
     "vision_night": 16,
+	"regenerates_in_dark": true,
     "special_attacks": [
       {
         "id": "scratch",
@@ -357,7 +360,6 @@
       "HARDTOSHOOT",
       "NO_BREATHE",
       "PUSH_MON",
-      "REGENERATES_IN_DARK",
       "SUNDEATH"
     ]
   },
@@ -390,6 +392,7 @@
     "armor_electric": 6,
     "vision_day": 16,
     "vision_night": 16,
+	"regenerates_in_dark": true,
     "special_attacks": [
       {
         "type": "gun",
@@ -422,7 +425,6 @@
       "HARDTOSHOOT",
       "NO_BREATHE",
       "PUSH_MON",
-      "REGENERATES_IN_DARK",
       "SUNDEATH"
     ]
   }

@@ -103,8 +103,7 @@
         ["spear_knife", 30],
         ["mac_10", 10],
         ["crossbow", 15],
-        ["clip", 10],
-        ["spare_mag", 15],
+        ["mac10mag", 10],
         ["pipebomb", 10],
         ["molotov", 10],
         ["matchbomb", 10],
@@ -207,7 +206,7 @@
         ["frame", 20],
         ["hdframe", 10],
         ["metal_tank", 10],
-        ["metal_tank_small", 15],
+        ["jerrycan", 15],
         ["metal_tank_little", 10],
         ["water_faucet", 10],
         ["wire", 50],
@@ -355,7 +354,6 @@
         ["cable", 60],
         ["vac_sealer", 10],
         ["cell_phone", 50],
-        ["pda", 20],
         ["eink_tablet_pc", 15],
         ["mobile_memory_card", 40],
         ["camera", 15],
@@ -391,7 +389,7 @@
 		["223", 15],
 		["556", 5],
 		["556_incendiary", 5],
-		["40mm_frag", 5],
+		["40x46mm_m433", 5],
 		["40mm_incendiary", 3]
     ]
   }

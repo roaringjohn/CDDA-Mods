@@ -6,6 +6,6 @@
     "authors": [ "Rod995" ],
     "description": "WIP Mod to, hopefully, add *everything* from the Battletech universe.",
     "category": "items",
-    "dependencies": [ "dda" ]
+    "dependencies": [ "dda", "blazemod", "Tanks" ]
   }
 ]

@@ -410,7 +410,7 @@
     "difficulty": 0,
     "durability": 5000,
     "description": "A mass of nanites programmed to locate mechanical power systems and interface with them to provide mechanical power.",
-    "noise_factor": 0.01,
+    "noise_factor": 3,
     "damage_modifier": 80,
     "folded_volume": 8,
     "requirements": {

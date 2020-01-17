@@ -173,7 +173,7 @@
     "ammo": 60,
     "magazine": 60,
     "items":[
-      ["surv_levershotgun", 8],
+      ["winchester_1887", 8],
       ["m1014", 8],
       ["shotgun_d", 10],
       ["mossberg_500", 9]
