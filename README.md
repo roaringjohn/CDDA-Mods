@@ -34,11 +34,17 @@ Arcana https://github.com/chaosvolt/cdda-arcana-mod
 
 Ascension (aka Winning DDA) https://github.com/tyrael93/Ascension
 
+Axe Ring Holster https://github.com/NeevAsteria/Axe-Ring-Holster-Mod
+
 Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
+
+Cataclysmic Modifications https://github.com/MNG-cataclysm/Cataclysmic-Modifications
 
 Dorf_Life https://github.com/chaosvolt/Dorf-Life-CDDA
 
 Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA (Still in my repository for now, but this link is more updated)
+
+More Survivor Stuff https://github.com/pawnishoovy/More-Survivor-Stuff
 
 MST_Extra https://github.com/chaosvolt/MST_Extra_Mod
 
@@ -46,7 +52,13 @@ Nechronica https://github.com/YukariMindGap/Nechronica_Redux
 
 Nonperishable Overhaul https://github.com/chaosvolt/CDDA_Nonperishable_Overhaul 
 
+Obscure Armory https://github.com/RickyVanz/Obscure-Armory
+
 PK's Rebalance https://github.com/dissociativity/PKs_Rebalancing 
+
+Secronom Zombies https://github.com/Axema/Secronom-Zombies
+
+Xeno-Adapted Stuff https://github.com/MrJet2020/XEAS
 
 Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
