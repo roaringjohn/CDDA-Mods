@@ -1,0 +1,272 @@
+[
+	{
+		"description": "Your proof of immortality. You invested your whole life on a countless battles with immensive power, and all your experiences has paid off until now. The living nightmare of the dark days, is now a scavenger of the Cataclysm.",
+		"id": "VAMP",
+		"name": "Vampire",
+		"points": 0,
+		"profession": true,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "isolatedtestsdone",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "isolatedvampmark",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underguard1talkedintroduce",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underguard1talkedintroduceagain",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underguard1talkeddirection",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underguard2talkedcommand",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underguard2talkedcata",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underguard2talkedjob",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underguard3fear",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "commandotalkedhim",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "commandotalkedgun",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "commandotalkedworld",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "commandotalkedgunshop",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "commandotestdone",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "commandovampmark",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "undertradertalkedhim",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "undertradertalkedhappened",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "undertradertestsdone",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "undertradervampmark",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekermeet",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wvgssupp",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wvgsgun",
+		"name": "Marked of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wastehumanjshoptalkedtohere",
+		"name": "Marked of the Human",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wastehumanjshoptalkedtohereagain",
+		"name": "Marked of the Human",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wastehumanjshoptalkedjoblol",
+		"name": "Marked of the Human",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wastehumanassociatemark",
+		"name": "Marked of the Human",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	}
+]

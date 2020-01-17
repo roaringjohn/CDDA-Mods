@@ -1,0 +1,127 @@
+[
+	{
+		"id": "TALK_VAMP_WASTEGUARD2_justcome",
+		"//": "Picky wasteland guard infront of the hub door.",
+		"type": "talk_topic",
+		"dynamic_line": "Just come in.",
+		"responses": [
+			{
+				"text": "Let's talk for a moment.",
+				"topic": "TALK_VAMP_WASTEGUARD2_ohrelly"
+			},
+			{
+				"text": "Okay. Bye.",
+				"topic": "TALK_DONE"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_WASTEGUARD2_ohrelly",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"u_has_trait": "commandovampmark",
+			"yes": {
+				"u_has_trait": "undertradervampmark",
+				"yes": "I guess you're important. What is it?",
+				"no": "No..."
+			},
+			"no": "No!"
+		},
+		"responses": [
+			{
+				"text": "Who are you?",
+				"topic": "TALK_VAMP_WASTEGUARD2_whoisyou",
+				"condition": {
+					"and": [
+						{
+							"u_has_trait": "undertradervampmark"
+						},
+						{
+							"u_has_trait": "commandovampmark"
+						}
+					]
+				}
+			},
+			{
+				"text": "Where am I?",
+				"topic": "TALK_VAMP_WASTEGUARD2_whereisme",
+				"condition": {
+					"and": [
+						{
+							"u_has_trait": "undertradervampmark"
+						},
+						{
+							"u_has_trait": "commandovampmark"
+						}
+					]
+				}
+			},
+			{
+				"text": "How's the life here?",
+				"topic": "TALK_VAMP_WASTEGUARD2_youliving",
+				"condition": {
+					"and": [
+						{
+							"u_has_trait": "undertradervampmark"
+						},
+						{
+							"u_has_trait": "commandovampmark"
+						}
+					]
+				}
+			},
+			{
+				"text": "I better get going...",
+				"topic": "TALK_DONE"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_WASTEGUARD2_whereisme",
+		"type": "talk_topic",
+		"dynamic_line": "You're at the wasteland outskirts... I know you've been told about this place, so please stop asking!",
+		"responses": [
+			{
+				"text": "Geez, too much anger...",
+				"topic": "TALK_DONE"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_WASTEGUARD2_whoisyou",
+		"type": "talk_topic",
+		"dynamic_line": "Nah, I'm just a guard here doing my job. If you want to know more, seek the guard in the kitchen.",
+		"responses": [
+			{
+				"text": "Okay, I'm going...",
+				"topic": "TALK_VAMP_WASTEGUARD2_ohrelly"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_WASTEGUARD2_youliving",
+		"type": "talk_topic",
+		"dynamic_line": "We've got some cows here as our food providers and a water nearby for humans to quench their thirst.",
+		"responses": [
+			{
+				"text": "I mean what are you vampires drinking?",
+				"topic": "TALK_VAMP_WASTEGUARD2_drunk"
+			},
+			{
+				"text": "Okay...",
+				"topic": "TALK_VAMP_WASTEGUARD2_ohrelly"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_WASTEGUARD2_drunk",
+		"type": "talk_topic",
+		"dynamic_line": "Blood, ofcourse! We drink blood from the cows as our substitute of human's. Don't worry about the refugees here, we tend to protect them as ordered.",
+		"responses": [
+			{
+				"text": "Oh, okay...",
+				"topic": "TALK_VAMP_WASTEGUARD2_ohrelly"
+			}
+		]
+	}
+]

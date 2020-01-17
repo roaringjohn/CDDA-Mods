@@ -1,0 +1,87 @@
+Vampiric Stuff v1.4 - Axema Vales (author)
+
+https://discourse.cataclysmdda.org - CDDA official website
+
+
+
+  ~ THE MOD ADDS VAMPIRES TO YOUR WORLD, ALONG WITH NEW LOCATIONS TO EXPLORE, QUESTS TO COMPLETE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
+
+  * After several additions on contents like the Arcana trading mechanics and various fixes to mapgen errors, the v1.3 ended well to improve the mod further more. The v1.4 remains unplanned.
+  * Despite its structural density, ghost towns seem to blend in the forest pretty well...
+
+
+
+	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes...)
+	
+#  TILESETS (frequent)
+
++  ADDED A NEW MELEE WEAPON (fanged falchion)
++  EXPANDED CONDITIONAL DIALOGUES (even more talky stuff and some avoidance of dialogue line loops)
+
+-  MISSION IMPROVEMENTS (an even better flow of progression with some missions)
+-  FIXED MAJOR MISSION BUG (accepting the first quest ends into the final rewards)
+-  LOCATION SPAWN TWEAKS (major reduction of overmap generation)
+
+
+
+	=>PAST UPDATES<=
+
+--> V1.3: ARCANA EXTENSION <--
+
++  ADDED A NEW VAMPIRIC GUN (very cheap pistol)
++  ADDED GHOST TOWNS (hidden in the forest, lies the villages from the past. An outline for bigger projects)
++  ADDED NEW MAPGENS (reworked old crypts with a new layout)
++? ADDED NEW NPC (arcane seeker, a vampire NPC that collects item from the Arcana mod)
++? ADDED NEW MAPGEN (for the wasteland outskirts as its basement)
++? NOW FEATURES A TRADING MECHANICS (gather tokens as currency in exchange of exclusive items)
++? TRADEABLE ITEMS EXPANDED (essences, monster trophies and almost all non-generated artifacts)
+
+-  NPC MISSION FIXES (quest bugs fixed, especially for item retrievals)
+
+
+
+--> V1.2: MAJOR FIXES <--
+
++  ADDED NEW NPC (underground seeker, the scout of the cove)
++  ADDED SOME MISSIONS
+
+~  ITEM DATA REWORKS (various item price fixes, weight and volume tweaks in certain items)
+~  ARMOR DATA FIXES (blood hoods will now protect vampires from sunlight, encumbrance changes)
+~  WEAPON DATA FIXES (large decrease on damage)
+~  TWEAKED NPC STATS (large decrease on skills, reduction of natural stats)
+
+-  NPC GEAR FIXES (reorganized npc clothing and minor bug fixes)
+-  NPC MISSION REMOVALS (non-loric quests erased)
+-  REWORKS ON NPC MISSIONS (large fixes and some changes for most quests)
+-  NPC DIALOGUE FIXES (statement recorrections and some removal/changes)
+-  UNUSED CREATURES REMOVAL (trashed non-loric entities)
+-  ISOLATED SPAWNRATE FIXED (only the leeches spawn at the swamps)
+-  FIXED STRUCTURAL ISSUES (static overmaps fixed)
+-  LOCATION SPAWN FIXES (structures spawn as independent, in which it has no affixed city name)
+
+
+
+--> V1.1: <--
+
++  NEW ARMOR SETS (blood and blood infused, recipes also included)
++  A NEW MELEE WEAPON (knuckle biters)
++  NEW RANGE WEAPONS AND AMMUNITION (blood-projecting and modified human gun types)
++  ADDED REINFORCED WEAPONS (simple requirement)
++  ADDED NEW LOCATIONS (blood hole, random graveyards)
++  ADDED MAIN LOCATION (wasteland outskirts, a large location acts like the vampire cove)
++  MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
+
+~  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques and are regained after reinforcement)
+
+-  MONSTER TWEAKS (greatly reduced monster stats)
+-  FIXED A MAP (vampire cove is even larger now)
+-  MAPGEN FIXED (slightly increased the chance to see structures)
+-  FIXED NPCS (they are now wearing blood armors, few got vampiric guns)
+-  FIXED NPC STATS (greatly reduced stat)
+-  CHANGED VAMPIRE FACTION LORE (no more hate, they want humans to survive)
+
+
+
+--> V1.0: <--
+
++  INTRODUCED VAMPIRIC STUFF
